@@ -1,30 +1,90 @@
 {
   "topic": "Science News",
-  "updatedAt": null,
+  "updatedAt": "2026-10-08T17:39:49.749Z",
   "articles": [
     {
-      "title": "Sample story 1: your news bot will replace this",
-      "link": "https://www.snexplores.org/",
-      "published": "2026-10-01T09:00:00.000Z",
-      "snippet": "This is placeholder text. In Project 2 your bot starts filling this page with real news from your feed.",
-      "summary": null,
-      "sample": true
+      "title": "These clues might point to life on other worlds",
+      "link": "https://www.snexplores.org/article/clues-life-venus-mars",
+      "published": "2026-10-08T10:30:00.000Z",
+      "snippet": "Gases and color on distant planets may trace to activity by extraterrestrial life. If so, those E.T.s are likely tiny, one-celled beings.",
+      "summary": null
     },
     {
-      "title": "Sample story 2: change the design in AI Studio",
-      "link": "https://aistudio.google.com/",
-      "published": "2026-09-30T09:00:00.000Z",
-      "snippet": "Ask AI Studio to restyle these cards. The words come from public/news.json, not from the design.",
-      "summary": null,
-      "sample": true
+      "title": "Some germs ride a superhighway at the edge of space",
+      "link": "https://www.snexplores.org/article/life-stratosphere-edge-of-space",
+      "published": "2026-10-08T10:30:00.000Z",
+      "snippet": "Some microbes common on Earth’s surface lead a secret double life. Soaring higher than jumbo jets, they carry clues about disease spread and alien life.",
+      "summary": null
     },
     {
-      "title": "Sample story 3: this file is the website's memory",
-      "link": "https://github.com/",
-      "published": "2026-09-29T09:00:00.000Z",
-      "snippet": "Open public/news.json in your repo to see exactly what the website is showing.",
-      "summary": null,
-      "sample": true
+      "title": "Experiment: Discover the science behind afterimages",
+      "link": "https://www.snexplores.org/article/vision-eyes-see-color-afterimages",
+      "published": "2026-10-07T10:30:00.000Z",
+      "snippet": "By observing afterimages, you can learn how different cone cells in the retina respond to various colors.",
+      "summary": null
+    },
+    {
+      "title": "Physicists may have finally glimpsed elusive dark matter",
+      "link": "https://www.snexplores.org/article/lz-find-glimpse-dark-matter",
+      "published": "2026-10-07T10:30:00.000Z",
+      "snippet": "For decades scientists have been trying to detect this invisible substance that fills the cosmos. The LZ experiment may have finally spied it.",
+      "summary": null
+    },
+    {
+      "title": "Let’s learn about origami-inspired science",
+      "link": "https://www.snexplores.org/article/lets-learn-about-origami-inspired-science",
+      "published": "2026-10-06T10:30:00.000Z",
+      "snippet": "The Japanese art of paper folding has inspired new designs for lightweight and shapeshifting technology.",
+      "summary": null
+    },
+    {
+      "title": "2026’s El Niño is record-breaking — and it’s not done yet",
+      "link": "https://www.snexplores.org/article/record-breaking-2026-el-nino",
+      "published": "2026-10-05T10:30:00.000Z",
+      "snippet": "Within the ocean region where El Niños form, daily sea-surface temperatures are already more extreme than at any point in recorded history.",
+      "summary": null
+    },
+    {
+      "title": "Scientists Say: Pyrolysis",
+      "link": "https://www.snexplores.org/article/scientists-say-pyrolysis-definition-pronunciation",
+      "published": "2026-10-05T10:30:00.000Z",
+      "snippet": "This oxygen-free “burning” reaction explains why charcoal can burn, but typical campfire soot cannot.",
+      "summary": null
+    },
+    {
+      "title": "Among naked mole-rats, a royal’s scent keeps the peace",
+      "link": "https://www.snexplores.org/article/naked-mole-rat-queen-smell",
+      "published": "2026-10-02T10:30:00.000Z",
+      "snippet": "The special scent made only by breeding queens keeps the commoners in her colony from fighting or reproducing.",
+      "summary": null
+    },
+    {
+      "title": "Farting fish and tooting manatees — how some animals use gas",
+      "link": "https://www.snexplores.org/article/animal-farting-fish-manatee-gas",
+      "published": "2026-10-01T10:30:00.000Z",
+      "snippet": "Humans think farts are funny — but some animals rely on farts for flotation, communication and more.",
+      "summary": null
+    },
+    {
+      "title": "Burps and farts: Why the body is such a gas",
+      "link": "https://www.snexplores.org/article/burps-farts-body-gas",
+      "published": "2026-10-01T10:30:00.000Z",
+      "snippet": "People make a lot of gas, and it’s got to come out one end or the other. Understanding those farts and burps could tell us a lot about our health.",
+      "summary": null
+    },
+    {
+      "title": "Analyze This: Even as Earth’s oceans warm, one spot has gone cold",
+      "link": "https://www.snexplores.org/article/cold-spot-atlantic-ocean-amoc",
+      "published": "2026-09-30T10:30:00.000Z",
+      "snippet": "A cold blob of water in the North Atlantic suggests that an important ocean current is weakening.",
+      "summary": null
+    },
+    {
+      "title": "Cuddling helps apes keep the peace",
+      "link": "https://www.snexplores.org/article/cuddling-apes-chimps-bonobos-peace",
+      "published": "2026-09-29T10:30:00.000Z",
+      "snippet": "Humans could learn from chimpanzees and bonobos. When things get tense, these apes turn to group members for hugs, touches and other physical comfort.",
+      "summary": null
     }
   ]
 }
