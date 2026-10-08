@@ -4,8 +4,8 @@ name: Update and publish site
 
 on:
   # PROJECT 2: switch on the timer by deleting the # at the start of the next two lines.
-  # schedule:
-  #   - cron: "17 */3 * * *"   # every 3 hours, at 17 minutes past (UTC). GitHub may start it a little late.
+  schedule:
+    - cron: "17 */3 * * *"   # every 3 hours, at 17 minutes past (UTC). GitHub may start it a little late.
   workflow_dispatch:          # adds the "Run workflow" button on the Actions tab
   push:
     branches: [main]
