@@ -26,7 +26,7 @@ let problems = 0;
 //           to       return savedLinks.has(article.link);
 // ===================================================================
 function alreadySaved(article, savedLinks) {
-  return false;
+  return savedLinks.has(article.link);
 }
 
 // ---------- 1. Read the feed ----------
