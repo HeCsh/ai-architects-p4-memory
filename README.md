@@ -1,8 +1,8 @@
-# AI Architects · Project 1: Your site, live
+# AI Architects · Project 4: Teach it memory (checkpoint)
 
-**Starter template.** Learners click **Use this template > Create a new repository**, keep it Public, and get their own copy.
+Finished state of Projects 1-4. The bot remembers which stories it has already saved (`alreadySaved` in `scripts/update-news.mjs`), so nothing repeats. Use this repo as the catch-up checkpoint for anyone who fell behind.
 
-In this project the news bot is switched off (`"newsBot": false`), so the site shows three sample stories. Learners pick a topic, design the site in Google AI Studio, and publish it on GitHub Pages.
+**Needs a secret:** `GEMINI_API_KEY` under Settings > Secrets and variables > Actions.
 
 ## How this repo works
 
