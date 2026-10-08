@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My News Site</title>
+  <!-- Backup website. Use this only if the AI Studio site will not build.
+       It reads news.json, exactly like the AI Studio site should. -->
+  <style>
+    :root { --bg:#0f172a; --card:#1e293b; --ink:#f1f5f9; --quiet:#94a3b8; --accent:#38bdf8; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family: system-ui, sans-serif; background:var(--bg); color:var(--ink); }
+    header { padding:32px 16px 8px; max-width:1100px; margin:auto; }
+    h1 { margin:0; font-size:2rem; }
+    #updated { color:var(--quiet); font-size:.9rem; margin-top:6px; }
+    main { display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:16px; padding:16px; max-width:1100px; margin:auto; }
+    article { background:var(--card); border-radius:12px; padding:16px; display:flex; flex-direction:column; gap:8px; }
+    article h2 { font-size:1.05rem; margin:0; }
+    article a { color:var(--accent); text-decoration:none; }
+    article p { margin:0; color:var(--ink); line-height:1.45; font-size:.95rem; }
+    .meta { color:var(--quiet); font-size:.8rem; }
+    .tag { font-size:.7rem; color:var(--bg); background:var(--accent); border-radius:99px; padding:2px 8px; align-self:flex-start; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 id="topic">My News Site</h1>
+    <div id="updated">Loading news...</div>
+  </header>
+  <main id="cards"></main>
+  <script>
+    fetch('./news.json', { cache: 'no-store' })
+      .then(r => { if (!r.ok) throw new Error('news.json not found'); return r.json(); })
+      .then(data => {
+        document.getElementById('topic').textContent = data.topic;
+        document.title = data.topic;
+        document.getElementById('updated').textContent = data.updatedAt
+          ? 'Updated by my news bot: ' + new Date(data.updatedAt).toLocaleString()
+          : 'Waiting for the news bot to run for the first time.';
+        const cards = document.getElementById('cards');
+        for (const a of data.articles) {
+          const el = document.createElement('article');
+          const h = document.createElement('h2'); const link = document.createElement('a');
+          link.href = a.link; link.target = '_blank'; link.rel = 'noopener'; link.textContent = a.title; h.append(link);
+          const meta = document.createElement('div'); meta.className = 'meta';
+          meta.textContent = a.published ? new Date(a.published).toLocaleDateString() : '';
+          const p = document.createElement('p'); p.textContent = a.summary || a.snippet || '';
+          el.append(h, meta);
+          if (a.summary) { const t = document.createElement('span'); t.className = 'tag'; t.textContent = 'AI summary'; el.append(t); }
+          el.append(p);
+          cards.append(el);
+        }
+      })
+      .catch(err => { document.getElementById('updated').textContent = 'Could not load the news: ' + err.message; });
+  </script>
+</body>
+</html>

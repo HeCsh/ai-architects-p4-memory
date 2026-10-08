@@ -1,0 +1,90 @@
+# AI Architects: fetch the news, save it, publish the website.
+# Runs on a timer, when you press "Run workflow", and whenever you save a change to main.
+name: Update and publish site
+
+on:
+  # PROJECT 2: switch on the timer by deleting the # at the start of the next two lines.
+  # schedule:
+  #   - cron: "17 */3 * * *"   # every 3 hours, at 17 minutes past (UTC). GitHub may start it a little late.
+  workflow_dispatch:          # adds the "Run workflow" button on the Actions tab
+  push:
+    branches: [main]
+
+permissions:
+  contents: write   # lets the bot save news.json back to the repo
+  pages: write      # lets the bot publish to GitHub Pages
+  id-token: write   # required by GitHub Pages
+
+concurrency:
+  group: update-site
+  cancel-in-progress: false
+
+jobs:
+  update-and-publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Get the code
+        uses: actions/checkout@v6
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: 22
+
+      - name: Fetch the news (and AI summaries)
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: node scripts/update-news.mjs
+
+      - name: Save news.json to the repo
+        if: ${{ !cancelled() }}
+        run: |
+          git config user.name "news-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/news.json
+          if git diff --cached --quiet; then
+            echo "No news changes to save."
+          else
+            git commit -m "Bot: update news"
+            git pull --rebase
+            git push
+          fi
+
+      - name: Build the website
+        if: ${{ !cancelled() }}
+        run: |
+          set -euo pipefail
+          if [ -f package.json ] && node -e "const p=require('./package.json'); process.exit(p.scripts && p.scripts.build ? 0 : 1)"; then
+            echo "Found a build script (AI Studio project). Building it."
+            npm install --no-audit --no-fund
+            npm run build -- --base=./
+            if [ -f dist/index.html ]; then OUT=dist
+            elif [ -f dist/client/index.html ]; then OUT=dist/client
+            else echo "::error::Build finished but no dist/index.html was made. See the troubleshooting guide."; exit 1; fi
+            [ -f "$OUT/news.json" ] || cp public/news.json "$OUT/news.json"
+          else
+            echo "No build script. Publishing the files as they are."
+            mkdir -p _site
+            tar --exclude=./.git --exclude=./.github --exclude=./_site --exclude=./scripts --exclude=./test -cf - . | tar -xf - -C _site
+            cp public/news.json _site/news.json
+            OUT=_site
+          fi
+          echo "SITE_DIR=$OUT" >> "$GITHUB_ENV"
+
+      - name: Prepare GitHub Pages
+        if: ${{ !cancelled() }}
+        uses: actions/configure-pages@v5
+
+      - name: Upload the website
+        if: ${{ !cancelled() }}
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: ${{ env.SITE_DIR }}
+
+      - name: Publish the website
+        if: ${{ !cancelled() }}
+        id: deployment
+        uses: actions/deploy-pages@v4

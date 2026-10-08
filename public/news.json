@@ -1,0 +1,30 @@
+{
+  "topic": "Science News",
+  "updatedAt": null,
+  "articles": [
+    {
+      "title": "Sample story 1: your news bot will replace this",
+      "link": "https://www.snexplores.org/",
+      "published": "2026-10-01T09:00:00.000Z",
+      "snippet": "This is placeholder text. In Project 2 your bot starts filling this page with real news from your feed.",
+      "summary": null,
+      "sample": true
+    },
+    {
+      "title": "Sample story 2: change the design in AI Studio",
+      "link": "https://aistudio.google.com/",
+      "published": "2026-09-30T09:00:00.000Z",
+      "snippet": "Ask AI Studio to restyle these cards. The words come from public/news.json, not from the design.",
+      "summary": null,
+      "sample": true
+    },
+    {
+      "title": "Sample story 3: this file is the website's memory",
+      "link": "https://github.com/",
+      "published": "2026-09-29T09:00:00.000Z",
+      "snippet": "Open public/news.json in your repo to see exactly what the website is showing.",
+      "summary": null,
+      "sample": true
+    }
+  ]
+}

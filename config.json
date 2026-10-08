@@ -1,0 +1,9 @@
+{
+  "topic": "Science News",
+  "newsBot": false,
+  "feedUrl": "https://www.snexplores.org/feed",
+  "maxArticles": 12,
+  "aiSummaries": false,
+  "model": "gemini-3.5-flash-lite",
+  "summaryPrompt": "Summarise this news article in 2 short sentences for a 13-year-old reader. Use only facts that are in the text below. If the text is too short to summarise, repeat its main point in one sentence. Plain text only: no headings, no bullet points, no emojis."
+}
