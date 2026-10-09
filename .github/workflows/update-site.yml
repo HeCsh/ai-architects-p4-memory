@@ -57,18 +57,17 @@ jobs:
         if: ${{ !cancelled() }}
         run: |
           set -euo pipefail
-          if [ -f package.json ] && node -e "const p=require('./package.json'); process.exit(p.scripts && p.scripts.build ? 0 : 1)"; then
-            echo "Found a build script (AI Studio project). Building it."
+          if [ -f package.json ] && grep -q '"vite"' package.json; then
+            echo "Found a Vite project (AI Studio). Building it."
             npm install --no-audit --no-fund
-            npm run build -- --base=./
-            if [ -f dist/index.html ]; then OUT=dist
-            elif [ -f dist/client/index.html ]; then OUT=dist/client
-            else echo "::error::Build finished but no dist/index.html was made. See the troubleshooting guide."; exit 1; fi
+            npx vite build --base=./
+            OUT=dist
+            [ -f dist/index.html ] || { echo "::error::Build finished but no dist/index.html was made. See the troubleshooting guide."; exit 1; }
             [ -f "$OUT/news.json" ] || cp public/news.json "$OUT/news.json"
           else
-            echo "No build script. Publishing the files as they are."
+            echo "Publishing the website files as they are."
             mkdir -p _site
-            tar --exclude=./.git --exclude=./.github --exclude=./_site --exclude=./scripts --exclude=./test -cf - . | tar -xf - -C _site
+            tar --exclude=./.git --exclude=./.github --exclude=./_site --exclude=./scripts --exclude=./test --exclude=./node_modules -cf - . | tar -xf - -C _site
             cp public/news.json _site/news.json
             OUT=_site
           fi
