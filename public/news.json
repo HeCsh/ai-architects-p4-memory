@@ -1,7 +1,14 @@
 {
   "topic": "Science News",
-  "updatedAt": "2026-10-09T06:58:12.391Z",
+  "updatedAt": "2026-10-09T13:28:20.241Z",
   "articles": [
+    {
+      "title": "Anger or fear? Dogs may be able to read it on your face",
+      "link": "https://www.snexplores.org/article/dogs-read-anger-fear-emotion-human-faces",
+      "published": "2026-10-09T10:30:00.000Z",
+      "snippet": "Brain scans offer the first evidence that dogs can read certain human facial expressions.",
+      "summary": null
+    },
     {
       "title": "These clues might point to life on other worlds",
       "link": "https://www.snexplores.org/article/clues-life-venus-mars",
@@ -77,13 +84,6 @@
       "link": "https://www.snexplores.org/article/cold-spot-atlantic-ocean-amoc",
       "published": "2026-09-30T10:30:00.000Z",
       "snippet": "A cold blob of water in the North Atlantic suggests that an important ocean current is weakening.",
-      "summary": null
-    },
-    {
-      "title": "Cuddling helps apes keep the peace",
-      "link": "https://www.snexplores.org/article/cuddling-apes-chimps-bonobos-peace",
-      "published": "2026-09-29T10:30:00.000Z",
-      "snippet": "Humans could learn from chimpanzees and bonobos. When things get tense, these apes turn to group members for hugs, touches and other physical comfort.",
       "summary": null
     }
   ]
