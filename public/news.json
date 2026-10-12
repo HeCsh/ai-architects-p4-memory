@@ -1,7 +1,28 @@
 {
   "topic": "Science News",
-  "updatedAt": "2026-10-12T00:36:34.889Z",
+  "updatedAt": "2026-10-12T10:59:03.663Z",
   "articles": [
+    {
+      "title": "And the science Nobels for 2026 go to …",
+      "link": "https://www.snexplores.org/article/science-nobel-prizes-2026",
+      "published": "2026-10-12T10:30:00.000Z",
+      "snippet": "Top prizes went for an icy window into the cosmos, a light switch for the brain and solving the mystery of mirror image molecules.",
+      "summary": null
+    },
+    {
+      "title": "Scientists Say: Theropod",
+      "link": "https://www.snexplores.org/article/scientists-say-theropod-definition-pronunciation",
+      "published": "2026-10-12T10:30:00.000Z",
+      "snippet": "This group of dinosaurs once included Tyrannosaurus rex . Today, they include birds.",
+      "summary": null
+    },
+    {
+      "title": "Could Spider-Man really turn off his superpowers?",
+      "link": "https://www.snexplores.org/article/spider-man-rna-turn-off-superpowers",
+      "published": "2026-10-12T10:30:00.000Z",
+      "snippet": "In Spider-Man: Brand New Day, Peter Parker devises a superpower inhibitor based on real RNA therapies.",
+      "summary": null
+    },
     {
       "title": "Anger or fear? Dogs may be able to read it on your face",
       "link": "https://www.snexplores.org/article/dogs-read-anger-fear-emotion-human-faces",
@@ -63,27 +84,6 @@
       "link": "https://www.snexplores.org/article/naked-mole-rat-queen-smell",
       "published": "2026-10-02T10:30:00.000Z",
       "snippet": "The special scent made only by breeding queens keeps the commoners in her colony from fighting or reproducing.",
-      "summary": null
-    },
-    {
-      "title": "Farting fish and tooting manatees — how some animals use gas",
-      "link": "https://www.snexplores.org/article/animal-farting-fish-manatee-gas",
-      "published": "2026-10-01T10:30:00.000Z",
-      "snippet": "Humans think farts are funny — but some animals rely on farts for flotation, communication and more.",
-      "summary": null
-    },
-    {
-      "title": "Burps and farts: Why the body is such a gas",
-      "link": "https://www.snexplores.org/article/burps-farts-body-gas",
-      "published": "2026-10-01T10:30:00.000Z",
-      "snippet": "People make a lot of gas, and it’s got to come out one end or the other. Understanding those farts and burps could tell us a lot about our health.",
-      "summary": null
-    },
-    {
-      "title": "Analyze This: Even as Earth’s oceans warm, one spot has gone cold",
-      "link": "https://www.snexplores.org/article/cold-spot-atlantic-ocean-amoc",
-      "published": "2026-09-30T10:30:00.000Z",
-      "snippet": "A cold blob of water in the North Atlantic suggests that an important ocean current is weakening.",
       "summary": null
     }
   ]
