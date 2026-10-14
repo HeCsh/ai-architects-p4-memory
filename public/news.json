@@ -1,7 +1,14 @@
 {
   "topic": "Science News",
-  "updatedAt": "2026-10-14T04:59:44.120Z",
+  "updatedAt": "2026-10-14T12:00:34.115Z",
   "articles": [
+    {
+      "title": "Bees may survive a swim by heading for the dark [COMIC]",
+      "link": "https://www.snexplores.org/article/bees-swim-toward-dark-comic",
+      "published": "2026-10-14T10:30:00.000Z",
+      "snippet": "Researchers recently learned that bees can swim. New findings show that bees paddle toward shade and dark to reach shore.",
+      "summary": null
+    },
     {
       "title": "Is AI making us dumber? Depends how it’s used",
       "link": "https://www.snexplores.org/article/ai-making-us-dumber-learn-lose-skills",
@@ -77,13 +84,6 @@
       "link": "https://www.snexplores.org/article/record-breaking-2026-el-nino",
       "published": "2026-10-05T10:30:00.000Z",
       "snippet": "Within the ocean region where El Niños form, daily sea-surface temperatures are already more extreme than at any point in recorded history.",
-      "summary": null
-    },
-    {
-      "title": "Scientists Say: Pyrolysis",
-      "link": "https://www.snexplores.org/article/scientists-say-pyrolysis-definition-pronunciation",
-      "published": "2026-10-05T10:30:00.000Z",
-      "snippet": "This oxygen-free “burning” reaction explains why charcoal can burn, but typical campfire soot cannot.",
       "summary": null
     }
   ]
