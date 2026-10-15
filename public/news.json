@@ -1,7 +1,14 @@
 {
   "topic": "Science News",
-  "updatedAt": "2026-10-15T04:48:12.023Z",
+  "updatedAt": "2026-10-15T11:37:15.755Z",
   "articles": [
+    {
+      "title": "Calls of the wild offer sound guidance for protecting animals",
+      "link": "https://www.snexplores.org/article/bioacoustic-animal-sounds-conservation",
+      "published": "2026-10-15T10:30:00.000Z",
+      "snippet": "The wild world is full of roars, whoops and songs. Scientists are using such sounds to guide efforts to help save species at threat of extinction.",
+      "summary": null
+    },
     {
       "title": "Bees may survive a swim by heading for the dark [COMIC]",
       "link": "https://www.snexplores.org/article/bees-swim-toward-dark-comic",
@@ -77,13 +84,6 @@
       "link": "https://www.snexplores.org/article/lets-learn-about-origami-inspired-science",
       "published": "2026-10-06T10:30:00.000Z",
       "snippet": "The Japanese art of paper folding has inspired new designs for lightweight and shapeshifting technology.",
-      "summary": null
-    },
-    {
-      "title": "Scientists Say: Pyrolysis",
-      "link": "https://www.snexplores.org/article/scientists-say-pyrolysis-definition-pronunciation",
-      "published": "2026-10-05T10:30:00.000Z",
-      "snippet": "This oxygen-free “burning” reaction explains why charcoal can burn, but typical campfire soot cannot.",
       "summary": null
     }
   ]
