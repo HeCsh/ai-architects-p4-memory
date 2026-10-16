@@ -1,7 +1,14 @@
 {
   "topic": "Science News",
-  "updatedAt": "2026-10-16T04:38:29.188Z",
+  "updatedAt": "2026-10-16T11:31:41.142Z",
   "articles": [
+    {
+      "title": "In the heat, this Death Valley shrub air conditions its leaves",
+      "link": "https://www.snexplores.org/article/extreme-heat-plant-cools-leaves",
+      "published": "2026-10-16T10:30:00.000Z",
+      "snippet": "Leaves of the Arizona honeysweet can turn on evaporative cooling to keep the plant up to 13 degrees C (23 degrees F) cooler than the surrounding air.",
+      "summary": null
+    },
     {
       "title": "Calls of the wild offer sound guidance for protecting animals",
       "link": "https://www.snexplores.org/article/bioacoustic-animal-sounds-conservation",
@@ -77,13 +84,6 @@
       "link": "https://www.snexplores.org/article/lz-find-glimpse-dark-matter",
       "published": "2026-10-07T10:30:00.000Z",
       "snippet": "For decades scientists have been trying to detect this invisible substance that fills the cosmos. The LZ experiment may have finally spied it.",
-      "summary": null
-    },
-    {
-      "title": "Let’s learn about origami-inspired science",
-      "link": "https://www.snexplores.org/article/lets-learn-about-origami-inspired-science",
-      "published": "2026-10-06T10:30:00.000Z",
-      "snippet": "The Japanese art of paper folding has inspired new designs for lightweight and shapeshifting technology.",
       "summary": null
     }
   ]
