@@ -1,7 +1,21 @@
 {
   "topic": "Science News",
-  "updatedAt": "2026-10-20T08:38:25.895Z",
+  "updatedAt": "2026-10-20T14:21:06.647Z",
   "articles": [
+    {
+      "title": "Sliding down surfaces can make rainwater corrosive",
+      "link": "https://www.snexplores.org/article/sliding-rainwater-charge-corrosive",
+      "published": "2026-10-20T10:30:00.000Z",
+      "snippet": "Water droplets can take on an electric charge when they slide across objects. Charged rain may start to eat through bridges, cars and more, new data show.",
+      "summary": null
+    },
+    {
+      "title": "Let’s learn about hydrogels",
+      "link": "https://www.snexplores.org/article/lets-learn-about-hydrogels",
+      "published": "2026-10-20T10:30:00.000Z",
+      "snippet": "These polymer-based materials can sop up a lot of water — making them useful for a wide array of tasks.",
+      "summary": null
+    },
     {
       "title": "Newfound clouds of missing ‘ordinary’ matter sit outside galaxies",
       "link": "https://www.snexplores.org/article/missing-matter-clouds-outside-galaxies",
@@ -70,20 +84,6 @@
       "link": "https://www.snexplores.org/article/dogs-read-anger-fear-emotion-human-faces",
       "published": "2026-10-09T10:30:00.000Z",
       "snippet": "Brain scans offer the first evidence that dogs can read certain human facial expressions.",
-      "summary": null
-    },
-    {
-      "title": "These clues might point to life on other worlds",
-      "link": "https://www.snexplores.org/article/clues-life-venus-mars",
-      "published": "2026-10-08T10:30:00.000Z",
-      "snippet": "Gases and color on distant planets may trace to activity by extraterrestrial life. If so, those E.T.s are likely tiny, one-celled beings.",
-      "summary": null
-    },
-    {
-      "title": "Some germs ride a superhighway at the edge of space",
-      "link": "https://www.snexplores.org/article/life-stratosphere-edge-of-space",
-      "published": "2026-10-08T10:30:00.000Z",
-      "snippet": "Some microbes common on Earth’s surface lead a secret double life. Soaring higher than jumbo jets, they carry clues about disease spread and alien life.",
       "summary": null
     }
   ]
