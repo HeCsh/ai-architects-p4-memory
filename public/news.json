@@ -1,7 +1,14 @@
 {
   "topic": "Science News",
-  "updatedAt": "2026-10-21T11:57:43.996Z",
+  "updatedAt": "2026-10-21T17:17:37.509Z",
   "articles": [
+    {
+      "title": "Explainer: What is an equation?",
+      "link": "https://www.snexplores.org/article/what-is-math-equation",
+      "published": "2026-10-21T10:30:00.000Z",
+      "snippet": "A mathematical statement, it tells us two expressions are in balance, or equal. So it can help us calculate unknowns from what we already know.",
+      "summary": null
+    },
     {
       "title": "Sliding down surfaces can make rainwater corrosive",
       "link": "https://www.snexplores.org/article/sliding-rainwater-charge-corrosive",
@@ -77,13 +84,6 @@
       "link": "https://www.snexplores.org/article/spider-man-rna-turn-off-superpowers",
       "published": "2026-10-12T10:30:00.000Z",
       "snippet": "In Spider-Man: Brand New Day, Peter Parker devises a superpower inhibitor based on real RNA therapies.",
-      "summary": null
-    },
-    {
-      "title": "Anger or fear? Dogs may be able to read it on your face",
-      "link": "https://www.snexplores.org/article/dogs-read-anger-fear-emotion-human-faces",
-      "published": "2026-10-09T10:30:00.000Z",
-      "snippet": "Brain scans offer the first evidence that dogs can read certain human facial expressions.",
       "summary": null
     }
   ]
