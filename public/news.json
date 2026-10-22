@@ -1,6 +1,6 @@
 {
   "topic": "Science News",
-  "updatedAt": "2026-10-22T11:59:57.101Z",
+  "updatedAt": "2026-10-22T17:15:50.486Z",
   "articles": [
     {
       "title": "Circular cities go ‘green’ by reusing things over and over again",
@@ -73,17 +73,17 @@
       "summary": null
     },
     {
+      "title": "Could Spider-Man really turn off his superpowers?",
+      "link": "https://www.snexplores.org/article/spider-man-rna-turn-off-superpowers",
+      "published": "2026-10-12T10:30:00.000Z",
+      "snippet": "In Spider-Man: Brand New Day, Peter Parker devises a superpower inhibitor based on real RNA therapies.",
+      "summary": null
+    },
+    {
       "title": "And the science Nobels for 2026 go to …",
       "link": "https://www.snexplores.org/article/science-nobel-prizes-2026",
       "published": "2026-10-12T10:30:00.000Z",
       "snippet": "Top prizes went for an icy window into the cosmos, a light switch for the brain and solving the mystery of mirror image molecules.",
-      "summary": null
-    },
-    {
-      "title": "Scientists Say: Theropod",
-      "link": "https://www.snexplores.org/article/scientists-say-theropod-definition-pronunciation",
-      "published": "2026-10-12T10:30:00.000Z",
-      "snippet": "This group of dinosaurs once included Tyrannosaurus rex . Today, they include birds.",
       "summary": null
     }
   ]
