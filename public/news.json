@@ -1,7 +1,21 @@
 {
   "topic": "Science News",
-  "updatedAt": "2026-10-26T04:54:56.726Z",
+  "updatedAt": "2026-10-26T13:12:13.994Z",
   "articles": [
+    {
+      "title": "Feeling nervous? Work that system to calm it down",
+      "link": "https://www.snexplores.org/article/regulate-nervous-system-calm-stress",
+      "published": "2026-10-26T10:30:00.000Z",
+      "snippet": "Scientists are exploring new ways to regain control of stressed-out nervous systems, including humming, tapping on the skin and cooling the face.",
+      "summary": null
+    },
+    {
+      "title": "Scientists Say: Sanguivore",
+      "link": "https://www.snexplores.org/article/scientists-say-sanguivore-definition-pronunciation",
+      "published": "2026-10-26T10:30:00.000Z",
+      "snippet": "Blood-drinkers evolved tricks for making use of this widespread but tricky-to-digest food source.",
+      "summary": null
+    },
     {
       "title": "Your skin’s chemistry may affect which mosquitoes you attract",
       "link": "https://www.snexplores.org/article/skin-chemistry-attract-mosquito-bites",
@@ -70,20 +84,6 @@
       "link": "https://www.snexplores.org/article/bees-swim-toward-dark-comic",
       "published": "2026-10-14T10:30:00.000Z",
       "snippet": "Researchers recently learned that bees can swim. New findings show that bees paddle toward shade and dark to reach shore.",
-      "summary": null
-    },
-    {
-      "title": "Is AI making us dumber? Depends how it’s used",
-      "link": "https://www.snexplores.org/article/ai-making-us-dumber-learn-lose-skills",
-      "published": "2026-10-13T10:30:00.000Z",
-      "snippet": "AI can weaken learning when it replaces effort. But tools that offer guidance rather than answers can help people hone their skills.",
-      "summary": null
-    },
-    {
-      "title": "And the science Nobels for 2026 go to …",
-      "link": "https://www.snexplores.org/article/science-nobel-prizes-2026",
-      "published": "2026-10-12T10:30:00.000Z",
-      "snippet": "Top prizes went for an icy window into the cosmos, a light switch for the brain and solving the mystery of mirror image molecules.",
       "summary": null
     }
   ]
