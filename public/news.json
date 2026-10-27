@@ -1,7 +1,23 @@
 {
   "topic": "Science News",
-  "updatedAt": "2026-10-27T09:06:19.084Z",
+  "updatedAt": "2026-10-27T15:24:14.253Z",
   "articles": [
+    {
+      "title": "Farm plants may help fight infections, teen finds",
+      "link": "https://www.snexplores.org/article/farm-plants-fight-bacteria-jic",
+      "published": "2026-10-27T10:30:00.000Z",
+      "snippet": "This middle-school student’s homegrown solutions may point to new ways to take down bacteria.",
+      "summary": null,
+      "source": "Science News"
+    },
+    {
+      "title": "This ‘anti-vampiric’ grave was double guarded against the undead",
+      "link": "https://www.snexplores.org/article/anti-vampire-grave-undead-burial",
+      "published": "2026-10-27T10:30:00.000Z",
+      "snippet": "A sickle across the throat and a padlock on her toe were meant to keep a 17th-century teen girl from resurrecting from the grave.",
+      "summary": null,
+      "source": "Science News"
+    },
     {
       "title": "Feeling nervous? Work that system to calm it down",
       "link": "https://www.snexplores.org/article/regulate-nervous-system-calm-stress",
@@ -70,20 +86,6 @@
       "link": "https://www.snexplores.org/article/extreme-heat-plant-cools-leaves",
       "published": "2026-10-16T10:30:00.000Z",
       "snippet": "Leaves of the Arizona honeysweet can turn on evaporative cooling to keep the plant up to 13 degrees C (23 degrees F) cooler than the surrounding air.",
-      "summary": null
-    },
-    {
-      "title": "Calls of the wild offer sound guidance for protecting animals",
-      "link": "https://www.snexplores.org/article/bioacoustic-animal-sounds-conservation",
-      "published": "2026-10-15T10:30:00.000Z",
-      "snippet": "The wild world is full of roars, whoops and songs. Scientists are using such sounds to guide efforts to help save species at threat of extinction.",
-      "summary": null
-    },
-    {
-      "title": "Bees may survive a swim by heading for the dark [COMIC]",
-      "link": "https://www.snexplores.org/article/bees-swim-toward-dark-comic",
-      "published": "2026-10-14T10:30:00.000Z",
-      "snippet": "Researchers recently learned that bees can swim. New findings show that bees paddle toward shade and dark to reach shore.",
       "summary": null
     }
   ]
