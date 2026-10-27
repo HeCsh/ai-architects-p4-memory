@@ -160,19 +160,10 @@
           <button id="clear-search" class="hidden absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600 text-xs font-bold p-1">✕</button>
         </div>
 
-        <!-- Topic Filter Buttons -->
-        <div class="flex items-center gap-1.5 overflow-x-auto pb-1 sm:pb-0 custom-scroll shrink-0">
+        <!-- One button per website in config.json. Built from the news itself. -->
+        <div id="source-filters" class="flex items-center gap-1.5 overflow-x-auto pb-1 sm:pb-0 custom-scroll shrink-0">
           <button data-filter="all" class="filter-btn active-filter px-3.5 py-1.5 rounded-lg text-xs font-bold transition-all whitespace-nowrap bg-sky-600 text-white shadow-sm">
             All Stories
-          </button>
-          <button data-filter="space" class="filter-btn px-3.5 py-1.5 rounded-lg text-xs font-bold transition-all whitespace-nowrap bg-white text-slate-700 hover:bg-slate-100 border border-slate-200">
-            Space & Planets
-          </button>
-          <button data-filter="biology" class="filter-btn px-3.5 py-1.5 rounded-lg text-xs font-bold transition-all whitespace-nowrap bg-white text-slate-700 hover:bg-slate-100 border border-slate-200">
-            Life & Microbes
-          </button>
-          <button data-filter="physics" class="filter-btn px-3.5 py-1.5 rounded-lg text-xs font-bold transition-all whitespace-nowrap bg-white text-slate-700 hover:bg-slate-100 border border-slate-200">
-            Physics & Experiments
           </button>
         </div>
 
@@ -306,7 +297,9 @@
     const clearSearchBtn = document.getElementById('clear-search');
     const resultsCountEl = document.getElementById('results-count');
     const filterResetHint = document.getElementById('filter-reset-hint');
-    const filterButtons = document.querySelectorAll('.filter-btn');
+    // Looked up fresh each time, because a button is added per website once
+    // the news has loaded.
+    const filterButtons = () => document.querySelectorAll('.filter-btn');
     const fontSizeBtn = document.getElementById('font-size-btn');
     const fontSizeLabel = document.getElementById('font-size-label');
     const retryBtn = document.getElementById('retry-btn');
@@ -407,24 +400,31 @@
       });
     }
 
+    // One button per website the bot pulled from, in the order they appear
+    // in config.json. Add a website there and its button turns up here.
+    function buildSourceButtons(articles) {
+      const bar = document.getElementById('source-filters');
+      if (!bar) return;
+      const names = [];
+      for (const a of articles) {
+        if (a.source && !names.includes(a.source)) names.push(a.source);
+      }
+      if (names.length < 2) return; // one website only: nothing to choose between
+      for (const name of names) {
+        const btn = document.createElement('button');
+        btn.setAttribute('data-filter', name);
+        btn.className = 'filter-btn px-3.5 py-1.5 rounded-lg text-xs font-bold transition-all whitespace-nowrap bg-white text-slate-700 hover:bg-slate-100 border border-slate-200';
+        btn.textContent = name;
+        bar.appendChild(btn);
+      }
+    }
+
     // Filter logic
     function matchesFilter(article) {
       const fullText = (article.title + ' ' + (article.summary || '') + ' ' + (article.snippet || '')).toLowerCase();
-      
-      // Keyword topic filter
-      if (currentFilter === 'space') {
-        const spaceKeywords = ['space', 'mars', 'venus', 'planet', 'cosmo', 'star', 'alien', 'extraterrestrial', 'dark matter', 'astronomy', 'rocket', 'galaxy'];
-        const hasSpace = spaceKeywords.some(k => fullText.includes(k));
-        if (!hasSpace) return false;
-      } else if (currentFilter === 'biology') {
-        const bioKeywords = ['microbe', 'germ', 'life', 'organism', 'cell', 'bacteria', 'retina', 'eye', 'vision', 'being', 'cone cell'];
-        const hasBio = bioKeywords.some(k => fullText.includes(k));
-        if (!hasBio) return false;
-      } else if (currentFilter === 'physics') {
-        const physKeywords = ['matter', 'physic', 'experiment', 'afterimage', 'light', 'gas', 'substance', 'color'];
-        const hasPhys = physKeywords.some(k => fullText.includes(k));
-        if (!hasPhys) return false;
-      }
+
+      // Which website the story came from
+      if (currentFilter !== 'all' && article.source !== currentFilter) return false;
 
       // Search query filter
       if (searchQuery.trim()) {
@@ -489,6 +489,14 @@
         }
 
         metaRow.appendChild(leftMeta);
+
+        // Which website this story came from
+        if (a.source) {
+          const sourceTag = document.createElement('span');
+          sourceTag.className = "shrink-0 ml-2 px-2 py-0.5 rounded-md bg-slate-100 text-slate-600 text-[11px] font-bold";
+          sourceTag.textContent = a.source;
+          metaRow.appendChild(sourceTag);
+        }
 
         // Story card body
         const bodyContent = document.createElement('div');
@@ -584,6 +592,7 @@
           articlesData = Array.isArray(data.articles) ? data.articles : [];
           statCountEl.textContent = articlesData.length;
 
+          buildSourceButtons(articlesData);
           renderCards();
         })
         .catch(err => {
@@ -595,19 +604,21 @@
         });
     }
 
-    // Topic filter button clicks
-    filterButtons.forEach(btn => {
-      btn.addEventListener('click', () => {
-        filterButtons.forEach(b => {
-          b.classList.remove('bg-sky-600', 'text-white', 'shadow-sm', 'active-filter');
-          b.classList.add('bg-white', 'text-slate-700', 'hover:bg-slate-100', 'border', 'border-slate-200');
-        });
-        btn.classList.remove('bg-white', 'text-slate-700', 'hover:bg-slate-100', 'border', 'border-slate-200');
-        btn.classList.add('bg-sky-600', 'text-white', 'shadow-sm', 'active-filter');
+    // Website filter clicks. The listener sits on the row rather than on each
+    // button, so buttons added after the news loads work straight away.
+    document.getElementById('source-filters').addEventListener('click', (e) => {
+      const btn = e.target.closest('.filter-btn');
+      if (!btn) return;
 
-        currentFilter = btn.getAttribute('data-filter') || 'all';
-        renderCards();
+      filterButtons().forEach(b => {
+        b.classList.remove('bg-sky-600', 'text-white', 'shadow-sm', 'active-filter');
+        b.classList.add('bg-white', 'text-slate-700', 'hover:bg-slate-100', 'border', 'border-slate-200');
       });
+      btn.classList.remove('bg-white', 'text-slate-700', 'hover:bg-slate-100', 'border', 'border-slate-200');
+      btn.classList.add('bg-sky-600', 'text-white', 'shadow-sm', 'active-filter');
+
+      currentFilter = btn.getAttribute('data-filter') || 'all';
+      renderCards();
     });
 
     // Search input handler
@@ -633,7 +644,7 @@
       searchQuery = '';
       clearSearchBtn.classList.add('hidden');
       currentFilter = 'all';
-      filterButtons.forEach((b, i) => {
+      filterButtons().forEach((b, i) => {
         if (i === 0) {
           b.classList.remove('bg-white', 'text-slate-700', 'border');
           b.classList.add('bg-sky-600', 'text-white', 'shadow-sm', 'active-filter');
