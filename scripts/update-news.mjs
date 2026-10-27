@@ -19,14 +19,29 @@ const config = JSON.parse(await readFile(CONFIG_PATH, 'utf8'));
 let problems = 0;
 
 // ===================================================================
-// CLASS 4: MEMORY
-// Right now the bot has no memory. It thinks every article is new,
-// every single time it runs, so the same stories pile up.
-// Your fix: change   return false;
-//           to       return savedLinks.has(article.link);
+// CLASS 4: MEMORY  (finished version)
+// The bot checks every article against the ones already saved, so the
+// same story never gets added twice.
 // ===================================================================
+
+// Two links can point at the same story and still look different, because
+// feeds stick tracking tags on the end:
+//     .../penguins          and     .../penguins?utm_source=rss
+// Cutting off everything after ? or # makes both look the same, so the
+// bot spots them as one story.
+function sameStory(link) {
+  try {
+    const tidy = new URL(link);
+    tidy.search = '';
+    tidy.hash = '';
+    return tidy.toString().replace(/\/$/, '');
+  } catch {
+    return link; // not a proper address: compare it as-is
+  }
+}
+
 function alreadySaved(article, savedLinks) {
-  return savedLinks.has(article.link);
+  return savedLinks.has(sameStory(article.link));
 }
 
 // ---------- 1. Read the feed ----------
@@ -123,7 +138,7 @@ async function main() {
   let saved = { topic: config.topic, updatedAt: null, articles: [] };
   try { saved = JSON.parse(await readFile(NEWS_PATH, 'utf8')); } catch { /* first run: nothing saved yet */ }
   saved.articles = saved.articles.filter((a) => !a.sample); // sample stories from Project 1 go away
-  const savedLinks = new Set(saved.articles.map((a) => a.link));
+  const savedLinks = new Set(saved.articles.map((a) => sameStory(a.link)));
 
   let fresh;
   try {
@@ -139,7 +154,16 @@ async function main() {
     process.exit(1);
   }
 
-  const newOnes = fresh.filter((a) => !alreadySaved(a, savedLinks));
+  // Feeds sometimes list the same story twice in one go, so every story the
+  // bot accepts is added to savedLinks straight away. Without that line the
+  // bot would take both copies in a single run and the story would appear
+  // twice on the website.
+  const newOnes = [];
+  for (const article of fresh) {
+    if (alreadySaved(article, savedLinks)) continue;
+    savedLinks.add(sameStory(article.link));
+    newOnes.push(article);
+  }
   console.log(`Feed has ${fresh.length} articles. ${newOnes.length} counted as new.`);
 
   let articles = [...newOnes, ...saved.articles]
