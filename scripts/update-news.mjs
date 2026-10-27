@@ -44,14 +44,30 @@ function alreadySaved(article, savedLinks) {
   return savedLinks.has(sameStory(article.link));
 }
 
-// ---------- 1. Read the feed ----------
-async function getFeedText() {
+// ---------- 1. Read the feeds ----------
+
+// The websites to pull from live in config.json. Add as many as you like:
+//   "sources": [
+//     { "name": "Space", "feedUrl": "https://www.nasa.gov/news-release/feed/" }
+//   ]
+// Older copies of this project had a single "feedUrl" instead. That still works.
+function sourcesFromConfig() {
+  if (Array.isArray(config.sources) && config.sources.length) {
+    return config.sources
+      .filter((s) => s && s.feedUrl)
+      .map((s, i) => ({ name: s.name || `Source ${i + 1}`, feedUrl: s.feedUrl }));
+  }
+  if (config.feedUrl) return [{ name: config.topic || 'News', feedUrl: config.feedUrl }];
+  return [];
+}
+
+async function getFeedText(feedUrl) {
   if (FEED_FILE) return readFile(FEED_FILE, 'utf8');
-  const res = await fetch(config.feedUrl, {
+  const res = await fetch(feedUrl, {
     headers: { 'user-agent': 'ai-architects-news-bot' },
     signal: AbortSignal.timeout(20000),
   });
-  if (!res.ok) throw new Error(`The feed answered with error ${res.status}. Check feedUrl in config.json.`);
+  if (!res.ok) throw new Error(`The feed answered with error ${res.status}. Check the address in config.json.`);
   return res.text();
 }
 
@@ -140,18 +156,37 @@ async function main() {
   saved.articles = saved.articles.filter((a) => !a.sample); // sample stories from Project 1 go away
   const savedLinks = new Set(saved.articles.map((a) => sameStory(a.link)));
 
-  let fresh;
-  try {
-    fresh = parseFeed(await getFeedText());
-  } catch (err) {
-    console.error(`::error::Could not read the feed: ${err.message}`);
+  const sources = sourcesFromConfig();
+  if (sources.length === 0) {
+    console.error('::error::No websites to pull from. Add a "sources" list to config.json.');
+    console.error('Your website was NOT changed.');
+    process.exit(1);
+  }
+
+  // Each website is read in turn. One broken website must not stop the others,
+  // so a failure here is a warning and the bot carries on down the list.
+  const fresh = [];
+  const broken = [];
+  for (const source of sources) {
+    try {
+      const items = parseFeed(await getFeedText(source.feedUrl));
+      for (const item of items) item.source = source.name;
+      fresh.push(...items);
+      console.log(`${source.name}: ${items.length} articles.`);
+    } catch (err) {
+      broken.push(source.name);
+      console.error(`::warning::Could not read ${source.name} (${source.feedUrl}): ${err.message}`);
+    }
+    if (FEED_FILE) break; // teacher testing: one saved feed stands in for the lot
+  }
+
+  if (fresh.length === 0) {
+    console.error('::error::None of the websites in config.json gave us any articles.');
     console.error('Your website was NOT changed, so it still shows the last good news.');
     process.exit(1);
   }
-  if (fresh.length === 0) {
-    console.error('::error::The feed had no articles in it. Is feedUrl really an RSS or Atom feed?');
-    console.error('Your website was NOT changed.');
-    process.exit(1);
+  if (broken.length) {
+    console.log(`Carried on without: ${broken.join(', ')}.`);
   }
 
   // Feeds sometimes list the same story twice in one go, so every story the
@@ -164,7 +199,7 @@ async function main() {
     savedLinks.add(sameStory(article.link));
     newOnes.push(article);
   }
-  console.log(`Feed has ${fresh.length} articles. ${newOnes.length} counted as new.`);
+  console.log(`${fresh.length} articles across ${sources.length - broken.length} website(s). ${newOnes.length} counted as new.`);
 
   let articles = [...newOnes, ...saved.articles]
     .sort((a, b) => (b.published || '').localeCompare(a.published || ''))
