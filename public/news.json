@@ -1,7 +1,15 @@
 {
   "topic": "Science News",
-  "updatedAt": "2026-10-29T10:05:36.184Z",
+  "updatedAt": "2026-10-29T18:31:09.095Z",
   "articles": [
+    {
+      "title": "These 5 quirks reveal how AI doesn’t think like we do",
+      "link": "https://www.snexplores.org/article/5-quirks-how-ai-thinks",
+      "published": "2026-10-29T10:30:00.000Z",
+      "snippet": "The differences between human and AI learning and reasoning lead to some strange bot behaviors.",
+      "summary": null,
+      "source": "Science News"
+    },
     {
       "title": "An avalanche inspired this forecaster to keep others safe",
       "link": "https://www.snexplores.org/article/avalanche-forecaster-snow-science",
@@ -80,13 +88,6 @@
       "link": "https://www.snexplores.org/article/missing-matter-clouds-outside-galaxies",
       "published": "2026-10-19T10:30:00.000Z",
       "snippet": "Dark matter isn’t the universe’s only “missing” matter. Distant bursts of radio waves have now turned up vast, faint gas clouds surrounding galaxies.",
-      "summary": null
-    },
-    {
-      "title": "Scientists Say: Blood Falls",
-      "link": "https://www.snexplores.org/article/scientists-say-blood-falls-definition-pronunciation",
-      "published": "2026-10-19T10:30:00.000Z",
-      "snippet": "This five-story-tall waterfall in Antarctica gets its blood-red color from the same reaction that creates rust.",
       "summary": null
     }
   ]
