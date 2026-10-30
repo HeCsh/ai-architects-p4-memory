@@ -1,7 +1,15 @@
 {
   "topic": "Science News",
-  "updatedAt": "2026-10-30T10:08:39.705Z",
+  "updatedAt": "2026-10-30T18:07:07.362Z",
   "articles": [
+    {
+      "title": "Giant sea spiders emit eerie glow deep below the ocean waves",
+      "link": "https://www.snexplores.org/article/giant-sea-spiders-emit-eerie-glow",
+      "published": "2026-10-30T10:30:00.000Z",
+      "snippet": "Scientists captured the lanky-legged specimens during an expedition to a deep trench near Australia.",
+      "summary": null,
+      "source": "Science News"
+    },
     {
       "title": "These 5 quirks reveal how AI doesn’t think like we do",
       "link": "https://www.snexplores.org/article/5-quirks-how-ai-thinks",
@@ -82,14 +90,6 @@
       "published": "2026-10-20T10:30:00.000Z",
       "snippet": "These polymer-based materials can sop up a lot of water — making them useful for a wide array of tasks.",
       "summary": null
-    },
-    {
-      "title": "Newfound clouds of missing ‘ordinary’ matter sit outside galaxies",
-      "link": "https://www.snexplores.org/article/missing-matter-clouds-outside-galaxies",
-      "published": "2026-10-19T10:30:00.000Z",
-      "snippet": "Dark matter isn’t the universe’s only “missing” matter. Distant bursts of radio waves have now turned up vast, faint gas clouds surrounding galaxies.",
-      "summary": null,
-      "source": "Science News"
     }
   ]
 }
