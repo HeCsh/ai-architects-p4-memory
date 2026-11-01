@@ -1,7 +1,47 @@
 {
   "topic": "Science News",
-  "updatedAt": "2026-11-01T00:10:55.025Z",
+  "updatedAt": "2026-11-01T05:43:42.357Z",
   "articles": [
+    {
+      "title": "APOD: 2026 November 1 – Colors of the Moon",
+      "link": "https://science.nasa.gov/image-article/apod-2026-november-1-colors-of-the-moon/",
+      "published": "2026-11-01T04:05:00.000Z",
+      "snippet": "APOD Science APOD APOD: 2026 November 1 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Colors of the […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "APOD: 2026 October 31 – Night on a Spooky Planet",
+      "link": "https://science.nasa.gov/image-article/apod-2026-october-31-night-on-a-spooky-planet/",
+      "published": "2026-10-31T04:05:00.000Z",
+      "snippet": "APOD Science APOD APOD: 2026 October 31 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Night on a […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "NASA Releases MAX POWER Key Events for Media, Participants",
+      "link": "https://www.nasa.gov/news-release/nasa-releases-max-power-key-events-for-media-participants/",
+      "published": "2026-10-30T19:31:02.000Z",
+      "snippet": "America’s newest aerospace expo and air show – MAX POWER – is fast approaching, and NASA has announced key events beginning Friday, Nov. 6, and running through Sunday, Nov. 8, hosted on and near the agency’s Kennedy Space Center in Florida. Through multiple park experiences at MAX POWER, NASA and a variety of external collaborators […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "NASA's James Webb Space Telescope Captures Eerie Cat's Head",
+      "link": "https://www.nasa.gov/image-article/nasas-james-webb-space-telescope-captures-eerie-cats-head/",
+      "published": "2026-10-30T15:56:26.000Z",
+      "snippet": "Intricate structures within the Cat's Head Nebula are illuminated in this mid-infrared view from NASA’s James Webb Space Telescope released on Oct. 29, 2026. The distinctive “cat’s head” shape of the nebula was likely sculpted over time by the intense ultraviolet radiation and winds from massive stars in the Carina Nebula. As this stellar feedback […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "NASA Explores Potential Commercial Servicing for Hubble Telescope",
+      "link": "https://science.nasa.gov/missions/hubble/nasa-explores-potential-commercial-servicing-for-hubble-telescope/",
+      "published": "2026-10-30T14:51:21.000Z",
+      "snippet": "NASA issued a Request for Information Oct. 29 to learn more about industry capabilities for in-space servicing to support the agency’s Hubble Space Telescope.",
+      "summary": null,
+      "source": "Space"
+    },
     {
       "title": "Giant sea spiders emit eerie glow deep below the ocean waves",
       "link": "https://www.snexplores.org/article/giant-sea-spiders-emit-eerie-glow",
@@ -11,85 +51,52 @@
       "source": "Science News"
     },
     {
+      "title": "November’s Night Sky Notes: Light-Day Away",
+      "link": "https://science.nasa.gov/solar-system/skywatching/night-sky-network/novembers-night-sky-notes-light-day-away/",
+      "published": "2026-10-30T10:00:00.000Z",
+      "snippet": "Twin Travelers In 1977, NASA launched twin spacecraft Voyager 1 and 2, taking advantage of a once-every-175-year planetary alignment of the four largest planets in our solar system: Jupiter, Saturn, Uranus, and Neptune. Using six gravity assists between them, this Grand Tour gave us up-close views of the gas and ice giants, including several moons. […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "APOD: 2026 October 30 – Haunting the Cepheus Flare",
+      "link": "https://science.nasa.gov/image-article/apod-2026-october-30-haunting-the-cepheus-flare/",
+      "published": "2026-10-30T04:05:00.000Z",
+      "snippet": "APOD Science APOD APOD: 2026 October 30 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Haunting the Cepheus […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "Vega Island Frozen in Fright",
+      "link": "https://science.nasa.gov/earth/earth-observatory/vega-island-frozen-in-fright/",
+      "published": "2026-10-30T04:01:00.000Z",
+      "snippet": "The sight of an icy skull-like visage on the Antarctic island could make one’s blood run cold.",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "Map Showing Potential Origins of Martian Meteorite Teghaza 001",
+      "link": "https://science.nasa.gov/photojournal/map-showing-potential-origins-of-martian-meteorite-teghaza-001/",
+      "published": "2026-10-30T00:07:39.000Z",
+      "snippet": "Description This global map of Mars shows 13 locations that match the mineralogy and chemistry of Teghaza 001, one of the most ancient Martian meteorites ever found on Earth. While scientists can never know for sure where a Martian meteorite originated, Teghaza 001 includes clues that link it to highlands in the southern hemisphere of […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "Slice of Martian Meteorite Teghaza 001",
+      "link": "https://science.nasa.gov/photojournal/slice-of-martian-meteorite-teghaza-001/",
+      "published": "2026-10-29T23:32:35.000Z",
+      "snippet": "Description This slice of Teghaza 001, one of the most ancient Martian meteorites ever found on Earth, was used to determine the age of the rock. Reflected light images like these serve as a scientist’s road map, helping them find minerals of interest to analyze by different instruments. Figure A is the same image with […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
       "title": "These 5 quirks reveal how AI doesn’t think like we do",
       "link": "https://www.snexplores.org/article/5-quirks-how-ai-thinks",
       "published": "2026-10-29T10:30:00.000Z",
       "snippet": "The differences between human and AI learning and reasoning lead to some strange bot behaviors.",
       "summary": null,
       "source": "Science News"
-    },
-    {
-      "title": "An avalanche inspired this forecaster to keep others safe",
-      "link": "https://www.snexplores.org/article/avalanche-forecaster-snow-science",
-      "published": "2026-10-28T10:30:00.000Z",
-      "snippet": "Chris Dickson combines tech and field observations to make avalanche forecasts.",
-      "summary": null,
-      "source": "Science News"
-    },
-    {
-      "title": "Farm plants may help fight infections, teen finds",
-      "link": "https://www.snexplores.org/article/farm-plants-fight-bacteria-jic",
-      "published": "2026-10-27T10:30:00.000Z",
-      "snippet": "This middle-school student’s homegrown solutions may point to new ways to take down bacteria.",
-      "summary": null,
-      "source": "Science News"
-    },
-    {
-      "title": "This ‘anti-vampiric’ grave was double guarded against the undead",
-      "link": "https://www.snexplores.org/article/anti-vampire-grave-undead-burial",
-      "published": "2026-10-27T10:30:00.000Z",
-      "snippet": "A sickle across the throat and a padlock on her toe were meant to keep a 17th-century teen girl from resurrecting from the grave.",
-      "summary": null,
-      "source": "Science News"
-    },
-    {
-      "title": "Feeling nervous? Work that system to calm it down",
-      "link": "https://www.snexplores.org/article/regulate-nervous-system-calm-stress",
-      "published": "2026-10-26T10:30:00.000Z",
-      "snippet": "Scientists are exploring new ways to regain control of stressed-out nervous systems, including humming, tapping on the skin and cooling the face.",
-      "summary": null
-    },
-    {
-      "title": "Scientists Say: Sanguivore",
-      "link": "https://www.snexplores.org/article/scientists-say-sanguivore-definition-pronunciation",
-      "published": "2026-10-26T10:30:00.000Z",
-      "snippet": "Blood-drinkers evolved tricks for making use of this widespread but tricky-to-digest food source.",
-      "summary": null
-    },
-    {
-      "title": "Your skin’s chemistry may affect which mosquitoes you attract",
-      "link": "https://www.snexplores.org/article/skin-chemistry-attract-mosquito-bites",
-      "published": "2026-10-23T10:30:00.000Z",
-      "snippet": "Three species picked their favorite human targets based on skin odor and bacteria. The findings could lead to the design of better repellents.",
-      "summary": null
-    },
-    {
-      "title": "Circular cities go ‘green’ by reusing things over and over again",
-      "link": "https://www.snexplores.org/article/circular-cities-go-green-reuse-recycle",
-      "published": "2026-10-22T10:30:00.000Z",
-      "snippet": "To cut their wastes to nearly zero, circular cities are launching projects to repair, reuse and recycle virtually everything.",
-      "summary": null
-    },
-    {
-      "title": "Explainer: What is an equation?",
-      "link": "https://www.snexplores.org/article/what-is-math-equation",
-      "published": "2026-10-21T10:30:00.000Z",
-      "snippet": "A mathematical statement, it tells us two expressions are in balance, or equal. So it can help us calculate unknowns from what we already know.",
-      "summary": null
-    },
-    {
-      "title": "Sliding down surfaces can make rainwater corrosive",
-      "link": "https://www.snexplores.org/article/sliding-rainwater-charge-corrosive",
-      "published": "2026-10-20T10:30:00.000Z",
-      "snippet": "Water droplets can take on an electric charge when they slide across objects. Charged rain may start to eat through bridges, cars and more, new data show.",
-      "summary": null
-    },
-    {
-      "title": "Let’s learn about hydrogels",
-      "link": "https://www.snexplores.org/article/lets-learn-about-hydrogels",
-      "published": "2026-10-20T10:30:00.000Z",
-      "snippet": "These polymer-based materials can sop up a lot of water — making them useful for a wide array of tasks.",
-      "summary": null
     }
   ]
 }
