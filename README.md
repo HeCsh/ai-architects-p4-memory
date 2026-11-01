@@ -18,6 +18,8 @@ Use this repo as the catch-up checkpoint for anyone who fell behind.
 | `config.json` | The settings learners change: topic, the list of websites to pull from, AI on or off, the summary prompt. |
 | `scripts/update-news.mjs` | The news bot. Reads the feed, asks Gemini for summaries, saves `news.json`. |
 | `.github/workflows/update-site.yml` | The timer. GitHub Actions runs the bot, then publishes the site to GitHub Pages. |
+| `scripts/add-source.mjs` | Answers the Add a news website box. Finds the feed, checks it, writes it into `config.json`. |
+| `.github/workflows/add-source.yml` | Runs that script whenever someone uses the box. |
 
 ## One-time setup for a new copy
 
@@ -28,7 +30,13 @@ Use this repo as the catch-up checkpoint for anyone who fell behind.
 
 ## Choose which websites to pull from
 
-Open `config.json`. The `sources` list is the control panel. Every website in it gets read on every run.
+**The easy way, from your own site.** Press **Add a news website** next to the filter buttons, paste the ordinary address of a news site, and press **Add it**. A page opens asking you to confirm; press the green button on it. Within a few minutes the website appears on your site as a new filter button.
+
+You do not need the feed address. Paste `www.nasa.gov` and the robot finds the feed behind it, checks it works, and names the button from the feed itself. If a site has no feed, it says so and nothing changes.
+
+Only the owner of a copy can add websites to it. A visitor pressing the button cannot change your site.
+
+**The other way, by hand.** Open `config.json`. The `sources` list is the control panel. Every website in it gets read on every run.
 
 ```json
 "sources": [
