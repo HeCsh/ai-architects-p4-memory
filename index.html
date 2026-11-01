@@ -167,6 +167,15 @@
           </button>
         </div>
 
+        <!-- Opens config.json in the GitHub editor so a learner can add a website
+             without leaving their own site. The address is filled in by the script
+             below, so this works in every learner's copy with nothing to change. -->
+        <a id="add-source" href="#" target="_blank" rel="noopener"
+           class="shrink-0 inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg text-xs font-bold whitespace-nowrap border border-dashed border-slate-300 text-slate-600 bg-white hover:bg-slate-50 hover:text-slate-900 hover:border-slate-400 transition-all"
+           title="Add a news website to this site">
+          <span aria-hidden="true">+</span> Add a news website
+        </a>
+
       </div>
 
     </div>
@@ -419,6 +428,24 @@
       }
     }
 
+    // Work out where this site lives so the "Add a news website" button opens
+    // the right config.json. A published site sits at
+    //   https://NAME.github.io/REPO/
+    // and its settings file sits at
+    //   https://github.com/NAME/REPO/edit/main/config.json
+    // Nobody has to type their own address: the page reads it from the browser.
+    function pointAddSourceAtThisRepo() {
+      const link = document.getElementById('add-source');
+      if (!link) return;
+      const owner = location.hostname.replace('.github.io', '');
+      const repo = location.pathname.split('/').filter(Boolean)[0];
+      if (!location.hostname.endsWith('github.io') || !owner || !repo) {
+        link.remove(); // opened from a file or somewhere else: no repo to point at
+        return;
+      }
+      link.href = `https://github.com/${owner}/${repo}/edit/main/config.json`;
+    }
+
     // Filter logic
     function matchesFilter(article) {
       const fullText = (article.title + ' ' + (article.summary || '') + ' ' + (article.snippet || '')).toLowerCase();
@@ -593,6 +620,7 @@
           statCountEl.textContent = articlesData.length;
 
           buildSourceButtons(articlesData);
+          pointAddSourceAtThisRepo();
           renderCards();
         })
         .catch(err => {
