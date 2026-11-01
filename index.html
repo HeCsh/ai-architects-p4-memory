@@ -167,15 +167,33 @@
           </button>
         </div>
 
-        <!-- Opens config.json in the GitHub editor so a learner can add a website
-             without leaving their own site. The address is filled in by the script
-             below, so this works in every learner's copy with nothing to change. -->
-        <a id="add-source" href="#" target="_blank" rel="noopener"
-           class="shrink-0 inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg text-xs font-bold whitespace-nowrap border border-dashed border-slate-300 text-slate-600 bg-white hover:bg-slate-50 hover:text-slate-900 hover:border-slate-400 transition-all"
-           title="Add a news website to this site">
+        <!-- Opens the box below. Hidden unless this is a published site. -->
+        <button id="add-source-toggle" type="button"
+           class="shrink-0 inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg text-xs font-bold whitespace-nowrap border border-dashed border-slate-300 text-slate-600 bg-white hover:bg-slate-50 hover:text-slate-900 hover:border-slate-400 transition-all">
           <span aria-hidden="true">+</span> Add a news website
-        </a>
+        </button>
 
+      </div>
+
+      <!-- Paste a web address here and the news bot starts reading it.
+           Nothing is typed into a code file: the address is sent to the robot,
+           which finds the feed, checks it works, and adds it to config.json. -->
+      <div id="add-source-panel" class="hidden mt-3 p-4 rounded-xl border border-slate-200 bg-slate-50">
+        <label for="add-source-input" class="block text-xs font-bold text-slate-700 mb-2">
+          Paste a news website address
+        </label>
+        <div class="flex flex-col sm:flex-row gap-2">
+          <input id="add-source-input" type="url" inputmode="url" autocomplete="off"
+                 placeholder="https://www.nasa.gov"
+                 class="flex-1 px-3 py-2 bg-white border border-slate-200 rounded-lg text-sm text-slate-800 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-sky-500 focus:border-sky-500">
+          <button id="add-source-send" type="button"
+                  class="px-4 py-2 rounded-lg text-sm font-bold bg-sky-600 text-white hover:bg-sky-700 transition-all whitespace-nowrap">
+            Add it
+          </button>
+        </div>
+        <p id="add-source-note" class="mt-2 text-xs text-slate-500 leading-relaxed">
+          Paste the ordinary address of a news website. The robot works out the rest.
+        </p>
       </div>
 
     </div>
@@ -428,22 +446,80 @@
       }
     }
 
-    // Work out where this site lives so the "Add a news website" button opens
-    // the right config.json. A published site sits at
-    //   https://NAME.github.io/REPO/
-    // and its settings file sits at
-    //   https://github.com/NAME/REPO/edit/main/config.json
-    // Nobody has to type their own address: the page reads it from the browser.
-    function pointAddSourceAtThisRepo() {
-      const link = document.getElementById('add-source');
-      if (!link) return;
+    // ---------- Add a news website ----------
+    //
+    // This page is just files, so it cannot save anything by itself. What it
+    // can do is send the address to the robot that looks after the site. The
+    // robot finds the feed, checks it works, and writes it into config.json.
+    //
+    // The page works out where to send it from its own address. A published
+    // site sits at https://NAME.github.io/REPO/ , so the robot that looks
+    // after it is at github.com/NAME/REPO. Nothing to fill in by hand, and it
+    // is correct in every learner's copy.
+    function setUpAddSource() {
+      const toggle = document.getElementById('add-source-toggle');
+      const panel = document.getElementById('add-source-panel');
+      const input = document.getElementById('add-source-input');
+      const send = document.getElementById('add-source-send');
+      const note = document.getElementById('add-source-note');
+      if (!toggle || !panel || !input || !send || !note) return;
+
       const owner = location.hostname.replace('.github.io', '');
       const repo = location.pathname.split('/').filter(Boolean)[0];
       if (!location.hostname.endsWith('github.io') || !owner || !repo) {
-        link.remove(); // opened from a file or somewhere else: no repo to point at
+        toggle.remove(); // opened from a file: there is no site to add to
+        panel.remove();
         return;
       }
-      link.href = `https://github.com/${owner}/${repo}/edit/main/config.json`;
+
+      toggle.addEventListener('click', () => {
+        panel.classList.toggle('hidden');
+        if (!panel.classList.contains('hidden')) input.focus();
+      });
+
+      const submit = () => {
+        let address = input.value.trim();
+        if (!address) {
+          note.textContent = 'Type a web address first.';
+          note.className = 'mt-2 text-xs text-rose-600 font-semibold leading-relaxed';
+          return;
+        }
+        if (!/^https?:\/\//i.test(address)) address = 'https://' + address;
+
+        // A real web address has a name like news.example.com: letters,
+        // numbers and dashes, with at least one dot in it. Browsers are
+        // surprisingly happy to accept nonsense here, so this checks properly
+        // rather than trusting the browser.
+        let host = '';
+        try {
+          host = new URL(address).hostname;
+        } catch { /* handled just below */ }
+        const looksReal = /^[a-z0-9]([a-z0-9-]*[a-z0-9])?(\.[a-z0-9]([a-z0-9-]*[a-z0-9])?)+$/i.test(host);
+        if (!looksReal) {
+          note.textContent = 'That does not look like a web address. It should look like www.nasa.gov';
+          note.className = 'mt-2 text-xs text-rose-600 font-semibold leading-relaxed';
+          return;
+        }
+
+        // The request carries the address. A robot reads it within a minute.
+        const title = encodeURIComponent('Add news website: ' + address);
+        const body = encodeURIComponent(
+          'Sent from the Add a news website box.\n\n' +
+          'The robot will reply here when it has finished.'
+        );
+        window.open(
+          `https://github.com/${owner}/${repo}/issues/new?title=${title}&body=${body}`,
+          '_blank', 'noopener'
+        );
+
+        input.value = '';
+        note.textContent = 'Sent. Press the green button on the page that just opened, '
+          + 'and the website appears here within a few minutes.';
+        note.className = 'mt-2 text-xs text-emerald-700 font-semibold leading-relaxed';
+      };
+
+      send.addEventListener('click', submit);
+      input.addEventListener('keydown', (e) => { if (e.key === 'Enter') submit(); });
     }
 
     // Filter logic
@@ -620,7 +696,6 @@
           statCountEl.textContent = articlesData.length;
 
           buildSourceButtons(articlesData);
-          pointAddSourceAtThisRepo();
           renderCards();
         })
         .catch(err => {
@@ -630,6 +705,11 @@
           errorMessage.textContent = err.message || 'Could not load news.json';
           updatedEl.textContent = 'Could not load updates';
         });
+
+      // Outside the news request on purpose: a learner whose news failed to
+      // load still needs the box, because a broken website is exactly when
+      // they want to add a different one.
+      setUpAddSource();
     }
 
     // Website filter clicks. The listener sits on the row rather than on each

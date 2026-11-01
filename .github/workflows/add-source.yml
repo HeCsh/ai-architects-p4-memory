@@ -1,0 +1,79 @@
+# Answers the "Add a news website" box on the learner's own site.
+#
+# The box opens a request with the web address in the title. This reads it,
+# finds the feed, checks it works, writes it into config.json, then replies and
+# closes the request. The learner never opens a code file.
+name: Add a news website
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: add-source
+  cancel-in-progress: false
+
+jobs:
+  add:
+    # Only requests made by the box, and only from whoever owns this copy.
+    # A stranger opening a request cannot change someone else's site.
+    if: |
+      startsWith(github.event.issue.title, 'Add news website:') &&
+      github.event.issue.user.login == github.repository_owner
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get the code
+        uses: actions/checkout@v6
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: 22
+
+      - name: Read the address and add it
+        id: add
+        continue-on-error: true
+        env:
+          SOURCE_URL: ${{ github.event.issue.title }}
+        run: |
+          # The title looks like "Add news website: https://example.com"
+          ADDRESS="${SOURCE_URL#Add news website:}"
+          node scripts/add-source.mjs "$(echo "$ADDRESS" | xargs)"
+
+      - name: Save the change
+        if: steps.add.outputs.result == 'added'
+        run: |
+          git config user.name "news-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add config.json
+          if git diff --cached --quiet; then
+            echo "Nothing changed."
+          else
+            git commit -m "Add news website from request #${{ github.event.issue.number }}"
+            git pull --rebase
+            git push
+          fi
+
+      - name: Reply and close
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const ok = ${{ steps.add.outputs.result == 'added' }};
+            const message = `${{ steps.add.outputs.message }}`
+              || 'Something went wrong. Check the Actions tab for details.';
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: ok ? `Done. ${message}` : `That did not work.\n\n${message}`,
+            });
+            await github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              state: 'closed',
+            });
