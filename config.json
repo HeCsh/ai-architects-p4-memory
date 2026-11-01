@@ -1,7 +1,10 @@
 {
   "topic": "Science News",
   "newsBot": true,
-  "feedUrl": "https://www.snexplores.org/feed",
+  "sources": [
+    { "name": "Science", "feedUrl": "https://www.snexplores.org/feed" },
+    { "name": "Space", "feedUrl": "https://www.nasa.gov/news-release/feed/" }
+  ],
   "maxArticles": 12,
   "aiSummaries": true,
   "model": "gemini-3.5-flash-lite",
