@@ -1,7 +1,71 @@
 {
   "topic": "Science News",
-  "updatedAt": "2026-11-02T11:19:32.977Z",
+  "updatedAt": "2026-11-02T21:44:36.458Z",
   "articles": [
+    {
+      "title": "Happy 65 Years: NASA’s Johnson Space Center Then and Now",
+      "link": "https://www.nasa.gov/centers-and-facilities/johnson/happy-65-years-nasas-johnson-space-center-then-and-now/",
+      "published": "2026-11-02T21:35:59.000Z",
+      "snippet": "Sixty-five years ago, a bold vision took root in Houston: a NASA center dedicated to human spaceflight. Since its founding, NASA’s Johnson Space Center has helped lead the nation’s human spaceflight program, supporting missions from Project Mercury through Artemis. Today, Johnson serves as NASA’s Center of Excellence for Human Spaceflight, and its workforce is helping […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "TB 26-09 Measured Hammer-Tap Inputs",
+      "link": "https://www.nasa.gov/centers-and-facilities/nesc/tb-26-09-measured-hammer-tap-inputs/",
+      "published": "2026-11-02T20:47:41.000Z",
+      "snippet": "For more information, contact Joel W. Sills, Langley Research Center, joel.w.sills@nasa.gov. Download the PDF version An instrumented hammer test does not require an idealized single half-sine waveform. When the complete force and response are measured accurately, crest ripples and separated contacts remain known inputs. Force shape changes excitation, but does not inherently invalidate the...",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "NASA's CHAPEA Crew \"Returns\" to Earth",
+      "link": "https://www.nasa.gov/image-article/nasas-chapea-crew-returns-to-earth/",
+      "published": "2026-11-02T18:50:42.000Z",
+      "snippet": "The four-member Crew Health and Performance Exploration Analog (CHAPEA) crew poses outside for the first time in more than a year following the end of their simulated Mars journey on Oct. 31, 2026. Crew members Matthew Montgomery (left), James Spicer (middle left), Ross Elder (middle right), and Ellen Ellis (right) spent more than a year […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "What’s Up: November 2026 Skywatching Tips from NASA",
+      "link": "https://science.nasa.gov/solar-system/skywatching/whats-up-november-2026-skywatching-tips-from-nasa/",
+      "published": "2026-11-02T18:19:58.000Z",
+      "snippet": "Meteor Showers, a Spacecraft Milestone, and a Supermoon Catch Taurid and Leonid meteors, spot Mars near Jupiter, celebrate Voyager 1’s light-day milestone, and watch November’s supermoon. Skywatching Highlights Transcript A month of meteor showers … a close pairing of Mars and Jupiter … and a supermoon! That’s What’s Up for November. November offers a buffet […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "NASA Invites Media to Northrop Grumman CRS-25 Station Resupply Launch",
+      "link": "https://www.nasa.gov/news-release/nasa-invites-media-to-northrop-grumman-crs-25-station-resupply-launch/",
+      "published": "2026-11-02T17:33:22.000Z",
+      "snippet": "Media accreditation is open for the next launch to deliver NASA science investigations, supplies, and equipment to the International Space Station. A Northrop Grumman Cygnus XL spacecraft will launch in November to the orbital laboratory on a SpaceX Falcon 9 rocket for NASA. The mission is known as NASA’s Northrop Grumman Commercial Resupply Services 25, […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "NASA’s Hubble Uncovers Case of Missing Oxygen in Nearby Dwarf Galaxies",
+      "link": "https://science.nasa.gov/missions/hubble/nasas-hubble-uncovers-case-of-missing-oxygen-in-nearby-dwarf-galaxies/",
+      "published": "2026-11-02T15:00:39.000Z",
+      "snippet": "NASA’s Hubble studied 37 nearby dwarf galaxies and found that much of the oxygen they expected to see is missing.",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "Scientists Say: Fibonacci sequence",
+      "link": "https://www.snexplores.org/article/scientists-say-fibonacci-sequence-definition-pronunciation",
+      "published": "2026-11-02T11:30:00.000Z",
+      "snippet": "This elegant mathematical pattern appears in sunflower petals, pine cones and more.",
+      "summary": null,
+      "source": "Science"
+    },
+    {
+      "title": "Toys inspired this moon rover’s unique design",
+      "link": "https://www.snexplores.org/article/toy-inspired-mini-moon-rover",
+      "published": "2026-11-02T11:30:00.000Z",
+      "snippet": "After transforming from a ball into a wheeled robot, this small rover crawled along the lunar surface, taking photos.",
+      "summary": null,
+      "source": "Science"
+    },
     {
       "title": "APOD: 2026 November 2 – A Long Cloud on Mars",
       "link": "https://science.nasa.gov/image-article/apod-2026-november-2-a-long-cloud-on-mars/",
@@ -31,70 +95,6 @@
       "link": "https://science.nasa.gov/image-article/apod-2026-october-31-night-on-a-spooky-planet/",
       "published": "2026-10-31T04:05:00.000Z",
       "snippet": "APOD Science APOD APOD: 2026 October 31 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Night on a […]",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "NASA Releases MAX POWER Key Events for Media, Participants",
-      "link": "https://www.nasa.gov/news-release/nasa-releases-max-power-key-events-for-media-participants/",
-      "published": "2026-10-30T19:31:02.000Z",
-      "snippet": "America’s newest aerospace expo and air show – MAX POWER – is fast approaching, and NASA has announced key events beginning Friday, Nov. 6, and running through Sunday, Nov. 8, hosted on and near the agency’s Kennedy Space Center in Florida. Through multiple park experiences at MAX POWER, NASA and a variety of external collaborators […]",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "NASA's James Webb Space Telescope Captures Eerie Cat's Head",
-      "link": "https://www.nasa.gov/image-article/nasas-james-webb-space-telescope-captures-eerie-cats-head/",
-      "published": "2026-10-30T15:56:26.000Z",
-      "snippet": "Intricate structures within the Cat's Head Nebula are illuminated in this mid-infrared view from NASA’s James Webb Space Telescope released on Oct. 29, 2026. The distinctive “cat’s head” shape of the nebula was likely sculpted over time by the intense ultraviolet radiation and winds from massive stars in the Carina Nebula. As this stellar feedback […]",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "NASA Explores Potential Commercial Servicing for Hubble Telescope",
-      "link": "https://science.nasa.gov/missions/hubble/nasa-explores-potential-commercial-servicing-for-hubble-telescope/",
-      "published": "2026-10-30T14:51:21.000Z",
-      "snippet": "NASA issued a Request for Information Oct. 29 to learn more about industry capabilities for in-space servicing to support the agency’s Hubble Space Telescope.",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "Giant sea spiders emit eerie glow deep below the ocean waves",
-      "link": "https://www.snexplores.org/article/giant-sea-spiders-emit-eerie-glow",
-      "published": "2026-10-30T10:30:00.000Z",
-      "snippet": "Scientists captured the lanky-legged specimens during an expedition to a deep trench near Australia.",
-      "summary": null,
-      "source": "Science News"
-    },
-    {
-      "title": "November’s Night Sky Notes: Light-Day Away",
-      "link": "https://science.nasa.gov/solar-system/skywatching/night-sky-network/novembers-night-sky-notes-light-day-away/",
-      "published": "2026-10-30T10:00:00.000Z",
-      "snippet": "Twin Travelers In 1977, NASA launched twin spacecraft Voyager 1 and 2, taking advantage of a once-every-175-year planetary alignment of the four largest planets in our solar system: Jupiter, Saturn, Uranus, and Neptune. Using six gravity assists between them, this Grand Tour gave us up-close views of the gas and ice giants, including several moons. […]",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "APOD: 2026 October 30 – Haunting the Cepheus Flare",
-      "link": "https://science.nasa.gov/image-article/apod-2026-october-30-haunting-the-cepheus-flare/",
-      "published": "2026-10-30T04:05:00.000Z",
-      "snippet": "APOD Science APOD APOD: 2026 October 30 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Haunting the Cepheus […]",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "Vega Island Frozen in Fright",
-      "link": "https://science.nasa.gov/earth/earth-observatory/vega-island-frozen-in-fright/",
-      "published": "2026-10-30T04:01:00.000Z",
-      "snippet": "The sight of an icy skull-like visage on the Antarctic island could make one’s blood run cold.",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "Map Showing Potential Origins of Martian Meteorite Teghaza 001",
-      "link": "https://science.nasa.gov/photojournal/map-showing-potential-origins-of-martian-meteorite-teghaza-001/",
-      "published": "2026-10-30T00:07:39.000Z",
-      "snippet": "Description This global map of Mars shows 13 locations that match the mineralogy and chemistry of Teghaza 001, one of the most ancient Martian meteorites ever found on Earth. While scientists can never know for sure where a Martian meteorite originated, Teghaza 001 includes clues that link it to highlands in the southern hemisphere of […]",
       "summary": null,
       "source": "Space"
     }
