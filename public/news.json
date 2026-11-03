@@ -1,7 +1,47 @@
 {
   "topic": "Science News",
-  "updatedAt": "2026-11-03T06:55:21.809Z",
+  "updatedAt": "2026-11-03T17:07:26.905Z",
   "articles": [
+    {
+      "title": "Astronaut and Earth",
+      "link": "https://www.nasa.gov/image-article/astronaut-and-earth/",
+      "published": "2026-11-03T16:37:42.000Z",
+      "snippet": "CSA (Canadian Space Agency) astronaut Joshua Kutryk is pictured during the Oct. 29, 2026, spacewalk. The International Space Station was soaring 267 miles above the South Atlantic Ocean at the time of this photograph. Kutryk and NASA astronaut Anil Menon installed a new roll-out solar array on the space station and performed some get-ahead work […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "TB 26-10 Printed Circuit Board Assembly Chip Resistor Body Cracking",
+      "link": "https://www.nasa.gov/centers-and-facilities/nesc/tb-26-10-printed-circuit-board-assembly-chip-resistor-body-cracking/",
+      "published": "2026-11-03T15:35:14.000Z",
+      "snippet": "For more information, contact Joel W. Sills, Langley Research Center, joel.w.sills@nasa.gov. Download PDF here Chip resistors are widely used in NASA projects, yet cases of alumina substrate cracking during environmental testing are rare. Two instances of thick-film chip resistor cracking were observed during thermal cycling after vibration, with fractures occurring across the short axis due […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "NASA Astronaut, STEM Creator Connect with Students for STEM Day",
+      "link": "https://www.nasa.gov/learning-resources/nasa-astronaut-stem-creator-connect-with-students-for-stem-day/",
+      "published": "2026-11-03T15:15:50.000Z",
+      "snippet": "Students across the country will have the opportunity to connect directly with the International Space Station during a live, interactive in-flight call with NASA astronaut Anil Menon and Mark Rober STEM content creator and founder of ClassCrunchLabs Foundation. The event, hosted by NASA’s Office of STEM Engagement, celebrates National STEM Day by bringing real‑world science, […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "Let’s learn about how particles act like waves",
+      "link": "https://www.snexplores.org/article/lets-learn-about-how-particles-act-like-waves",
+      "published": "2026-11-03T11:30:00.000Z",
+      "snippet": "So-called “wave-particle duality” is one of the strangest parts of quantum physics.",
+      "summary": null,
+      "source": "Science"
+    },
+    {
+      "title": "Would growing a big heart make the Grinch strong?",
+      "link": "https://www.snexplores.org/article/grinch-heart-size-grow-strong",
+      "published": "2026-11-03T11:30:00.000Z",
+      "snippet": "In the classic Dr. Seuss tale, the Grinch’s heart grows in an instant. That probably wouldn’t have been good for him — unless he was a snake.",
+      "summary": null,
+      "source": "Science"
+    },
     {
       "title": "APOD: 2026 November 3 – Comet PanSTARRs and Rainbow Meteor",
       "link": "https://science.nasa.gov/image-article/apod-2026-november-3-comet-panstarrs-and-rainbow-meteor/",
@@ -55,46 +95,6 @@
       "link": "https://www.nasa.gov/news-release/nasa-invites-media-to-northrop-grumman-crs-25-station-resupply-launch/",
       "published": "2026-11-02T17:33:22.000Z",
       "snippet": "Media accreditation is open for the next launch to deliver NASA science investigations, supplies, and equipment to the International Space Station. A Northrop Grumman Cygnus XL spacecraft will launch in November to the orbital laboratory on a SpaceX Falcon 9 rocket for NASA. The mission is known as NASA’s Northrop Grumman Commercial Resupply Services 25, […]",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "NASA’s Hubble Uncovers Case of Missing Oxygen in Nearby Dwarf Galaxies",
-      "link": "https://science.nasa.gov/missions/hubble/nasas-hubble-uncovers-case-of-missing-oxygen-in-nearby-dwarf-galaxies/",
-      "published": "2026-11-02T15:00:39.000Z",
-      "snippet": "NASA’s Hubble studied 37 nearby dwarf galaxies and found that much of the oxygen they expected to see is missing.",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "Scientists Say: Fibonacci sequence",
-      "link": "https://www.snexplores.org/article/scientists-say-fibonacci-sequence-definition-pronunciation",
-      "published": "2026-11-02T11:30:00.000Z",
-      "snippet": "This elegant mathematical pattern appears in sunflower petals, pine cones and more.",
-      "summary": null,
-      "source": "Science"
-    },
-    {
-      "title": "Toys inspired this moon rover’s unique design",
-      "link": "https://www.snexplores.org/article/toy-inspired-mini-moon-rover",
-      "published": "2026-11-02T11:30:00.000Z",
-      "snippet": "After transforming from a ball into a wheeled robot, this small rover crawled along the lunar surface, taking photos.",
-      "summary": null,
-      "source": "Science"
-    },
-    {
-      "title": "APOD: 2026 November 2 – A Long Cloud on Mars",
-      "link": "https://science.nasa.gov/image-article/apod-2026-november-2-a-long-cloud-on-mars/",
-      "published": "2026-11-02T05:05:00.000Z",
-      "snippet": "APOD Science APOD APOD: 2026 November 2 – A… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. A Long […]",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "Pennsylvania’s Grand Canyon",
-      "link": "https://science.nasa.gov/earth/earth-observatory/pennsylvanias-grand-canyon/",
-      "published": "2026-11-02T05:01:00.000Z",
-      "snippet": "Amid the warm hues of fall foliage, Pine Creek Gorge forms a deep scar in the Allegheny Plateau.",
       "summary": null,
       "source": "Space"
     }
