@@ -1,7 +1,23 @@
 {
   "topic": "Science News",
-  "updatedAt": "2026-11-04T17:19:32.990Z",
+  "updatedAt": "2026-11-04T23:44:30.302Z",
   "articles": [
+    {
+      "title": "NASA Shares Plans to Accelerate Artemis, Return to Moon",
+      "link": "https://www.nasa.gov/missions/artemis/nasa-shares-plans-to-accelerate-artemis-return-to-moon/",
+      "published": "2026-11-04T21:04:10.000Z",
+      "snippet": "In an update on Oct. 23, NASA Administrator Jared Isaacman and other agency leaders shared the agency’s path to returning Americans to the lunar surface in 2028. Agency leadership provided updates on the previously announced acceleration plans for the Artemis program, advancing toward the agency’s Artemis III test flight in 2027 and Artemis IV Moon […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "NASA Announces Ka-Band Satellite Relay Awards for Space Communications",
+      "link": "https://www.nasa.gov/news-release/nasa-announces-ka-band-satellite-relay-awards-for-space-communications/",
+      "published": "2026-11-04T18:00:02.000Z",
+      "snippet": "NASA selected three companies on Wednesday to perform work to develop Ka-band space relay capability concepts that are compatible with current missions in space, ensuring service continuity for existing spacecraft without requiring modifications to their onboard systems. Through this work, NASA will aim to acquire end-to-end solutions that include space, ground, launch, operations, and...",
+      "summary": null,
+      "source": "Space"
+    },
     {
       "title": "NASA Navigation Experiment Shows Promise for Planetary Landings",
       "link": "https://www.nasa.gov/centers-and-facilities/armstrong/nasa-navigation-experiment-shows-promise-for-planetary-landings/",
@@ -81,22 +97,6 @@
       "snippet": "Students across the country will have the opportunity to connect directly with the International Space Station during a live, interactive in-flight call with NASA astronaut Anil Menon and Mark Rober STEM content creator and founder of ClassCrunchLabs Foundation. The event, hosted by NASA’s Office of STEM Engagement, celebrates National STEM Day by bringing real‑world science, […]",
       "summary": null,
       "source": "Space"
-    },
-    {
-      "title": "Let’s learn about how particles act like waves",
-      "link": "https://www.snexplores.org/article/lets-learn-about-how-particles-act-like-waves",
-      "published": "2026-11-03T11:30:00.000Z",
-      "snippet": "So-called “wave-particle duality” is one of the strangest parts of quantum physics.",
-      "summary": null,
-      "source": "Science"
-    },
-    {
-      "title": "Would growing a big heart make the Grinch strong?",
-      "link": "https://www.snexplores.org/article/grinch-heart-size-grow-strong",
-      "published": "2026-11-03T11:30:00.000Z",
-      "snippet": "In the classic Dr. Seuss tale, the Grinch’s heart grows in an instant. That probably wouldn’t have been good for him — unless he was a snake.",
-      "summary": null,
-      "source": "Science"
     }
   ]
 }
