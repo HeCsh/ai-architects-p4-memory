@@ -1,7 +1,47 @@
 {
   "topic": "Science News",
-  "updatedAt": "2026-11-04T06:34:19.580Z",
+  "updatedAt": "2026-11-04T17:19:32.990Z",
   "articles": [
+    {
+      "title": "NASA Navigation Experiment Shows Promise for Planetary Landings",
+      "link": "https://www.nasa.gov/centers-and-facilities/armstrong/nasa-navigation-experiment-shows-promise-for-planetary-landings/",
+      "published": "2026-11-04T16:52:43.000Z",
+      "snippet": "NASA successfully demonstrated technology designed to help spacecraft autonomously navigate to safe landing sites on the Moon and on other planets. An Alta-X drone equipped with the agency’s Safe and Precise Landing – Integrated Capabilities Evolution (SPLICE) guidance, navigation, and control payload completed simulated lunar descent and landing maneuvers Aug. 27. The flight took place […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "NASA Space Grant Students Fuel Agency's Inspiration Tour",
+      "link": "https://www.nasa.gov/learning-resources/nasa-space-grant-students-fuel-agencys-inspiration-tour/",
+      "published": "2026-11-04T16:16:41.000Z",
+      "snippet": "NASA’s Inspiration Tour spread the excitement of space exploration and aeronautical innovation by connecting the public, industry, and academia with the people, technologies, and organizations that drive American leadership in space. At nearly every stop across the country, NASA Space Grant has brought students into the heart of the action. In Iowa, NASA Administrator Jared […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "Hubble Reveals Cosmic Mystery",
+      "link": "https://www.nasa.gov/image-article/hubble-reveals-cosmic-mystery/",
+      "published": "2026-11-04T15:59:36.000Z",
+      "snippet": "This photo released on Nov. 2, 2026, showcases NGC 4449, a dwarf irregular. Researchers using NASA's Hubble Space Telescope studied 37 nearby dwarf galaxies — small galaxies containing a few thousand to hundreds of millions of stars — including NGC 4449 and found that much of the oxygen they expected to see is missing. Read […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "NASA, NOAA Track 2026 Antarctic Ozone Hole",
+      "link": "https://science.nasa.gov/earth/2026-ozone-hole/",
+      "published": "2026-11-04T15:00:14.000Z",
+      "snippet": "Weather provided ideal conditions for enhanced ozone depletion",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "Analyze This: Microbes can make valuable chemicals more sustainable",
+      "link": "https://www.snexplores.org/article/microbes-make-green-chemicals",
+      "published": "2026-11-04T11:30:00.000Z",
+      "snippet": "Food waste-fed bacteria may someday make chemical ingredients for medicines, cosmetics and more.",
+      "summary": null,
+      "source": "Science"
+    },
     {
       "title": "APOD: 2026 November 4 – The Not-So-Hidden Galaxy, IC 342",
       "link": "https://science.nasa.gov/image-article/apod-2026-november-4-the-not-so-hidden-galaxy-ic-342/",
@@ -57,46 +97,6 @@
       "snippet": "In the classic Dr. Seuss tale, the Grinch’s heart grows in an instant. That probably wouldn’t have been good for him — unless he was a snake.",
       "summary": null,
       "source": "Science"
-    },
-    {
-      "title": "APOD: 2026 November 3 – Comet PanSTARRs and Rainbow Meteor",
-      "link": "https://science.nasa.gov/image-article/apod-2026-november-3-comet-panstarrs-and-rainbow-meteor/",
-      "published": "2026-11-03T05:05:00.000Z",
-      "snippet": "APOD Science APOD APOD: 2026 November 3 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Comet PanSTARRs and […]",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "The Pacific’s Busy Storm Season",
-      "link": "https://science.nasa.gov/earth/earth-observatory/the-pacifics-busy-storm-season/",
-      "published": "2026-11-03T05:01:00.000Z",
-      "snippet": "Super Typhoon In-fa developed an unusually large eye, and the remnants of Typhoon Champi transitioned into an extratropical storm that targeted Alaska.",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "Happy 65 Years: NASA’s Johnson Space Center Then and Now",
-      "link": "https://www.nasa.gov/centers-and-facilities/johnson/happy-65-years-nasas-johnson-space-center-then-and-now/",
-      "published": "2026-11-02T21:35:59.000Z",
-      "snippet": "Sixty-five years ago, a bold vision took root in Houston: a NASA center dedicated to human spaceflight. Since its founding, NASA’s Johnson Space Center has helped lead the nation’s human spaceflight program, supporting missions from Project Mercury through Artemis. Today, Johnson serves as NASA’s Center of Excellence for Human Spaceflight, and its workforce is helping […]",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "TB 26-09 Measured Hammer-Tap Inputs",
-      "link": "https://www.nasa.gov/centers-and-facilities/nesc/tb-26-09-measured-hammer-tap-inputs/",
-      "published": "2026-11-02T20:47:41.000Z",
-      "snippet": "For more information, contact Joel W. Sills, Langley Research Center, joel.w.sills@nasa.gov. Download the PDF version An instrumented hammer test does not require an idealized single half-sine waveform. When the complete force and response are measured accurately, crest ripples and separated contacts remain known inputs. Force shape changes excitation, but does not inherently invalidate the...",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "NASA's CHAPEA Crew \"Returns\" to Earth",
-      "link": "https://www.nasa.gov/image-article/nasas-chapea-crew-returns-to-earth/",
-      "published": "2026-11-02T18:50:42.000Z",
-      "snippet": "The four-member Crew Health and Performance Exploration Analog (CHAPEA) crew poses outside for the first time in more than a year following the end of their simulated Mars journey on Oct. 31, 2026. Crew members Matthew Montgomery (left), James Spicer (middle left), Ross Elder (middle right), and Ellen Ellis (right) spent more than a year […]",
-      "summary": null,
-      "source": "Space"
     }
   ]
 }
