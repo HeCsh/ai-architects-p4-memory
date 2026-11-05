@@ -1,7 +1,31 @@
 {
   "topic": "Science News",
-  "updatedAt": "2026-11-04T23:44:30.302Z",
+  "updatedAt": "2026-11-05T06:56:08.389Z",
   "articles": [
+    {
+      "title": "APOD: 2026 November 5 – Enceladus in Silhouette",
+      "link": "https://science.nasa.gov/image-article/apod-2026-november-5-enceladus-in-silhouette/",
+      "published": "2026-11-05T05:05:00.000Z",
+      "snippet": "APOD Science APOD APOD: 2026 November 5 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Enceladus in Silhouette […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "Cyprus: Island of Snakes, Cats, and Ophiolites",
+      "link": "https://science.nasa.gov/earth/earth-observatory/cyprus-island-of-snakes-cats-and-ophiolites/",
+      "published": "2026-11-05T05:01:00.000Z",
+      "snippet": "The third-largest island in the Mediterranean Sea exposes an ancient piece of the ocean floor and hosts a clowder of cats.",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "NASA Announces X-70 Experimental Aircraft to Advance Flight Research",
+      "link": "https://www.nasa.gov/news-release/nasa-announces-x-70-experimental-aircraft-to-advance-flight-research/",
+      "published": "2026-11-05T01:43:21.000Z",
+      "snippet": "On Wednesday, NASA unveiled its newest experimental aircraft, the X-70 Fractal, during the UP.Summit at the agency’s Kennedy Space Center in Florida. This high-performance, highly adaptable research platform is designed to accelerate the development and testing of advanced aviation technologies. The crewed X-70 features advanced, rapidly reconfigurable flight-control technology that will allow...",
+      "summary": null,
+      "source": "Space"
+    },
     {
       "title": "NASA Shares Plans to Accelerate Artemis, Return to Moon",
       "link": "https://www.nasa.gov/missions/artemis/nasa-shares-plans-to-accelerate-artemis-return-to-moon/",
@@ -71,30 +95,6 @@
       "link": "https://science.nasa.gov/earth/earth-observatory/before-the-dawn-in-americas-heartland/",
       "published": "2026-11-04T05:01:00.000Z",
       "snippet": "With hardly a cloud in sight, astronauts had a sweeping view of nighttime lights in the U.S. Midwest.",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "Astronaut and Earth",
-      "link": "https://www.nasa.gov/image-article/astronaut-and-earth/",
-      "published": "2026-11-03T16:37:42.000Z",
-      "snippet": "CSA (Canadian Space Agency) astronaut Joshua Kutryk is pictured during the Oct. 29, 2026, spacewalk. The International Space Station was soaring 267 miles above the South Atlantic Ocean at the time of this photograph. Kutryk and NASA astronaut Anil Menon installed a new roll-out solar array on the space station and performed some get-ahead work […]",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "TB 26-10 Printed Circuit Board Assembly Chip Resistor Body Cracking",
-      "link": "https://www.nasa.gov/centers-and-facilities/nesc/tb-26-10-printed-circuit-board-assembly-chip-resistor-body-cracking/",
-      "published": "2026-11-03T15:35:14.000Z",
-      "snippet": "For more information, contact Joel W. Sills, Langley Research Center, joel.w.sills@nasa.gov. Download PDF here Chip resistors are widely used in NASA projects, yet cases of alumina substrate cracking during environmental testing are rare. Two instances of thick-film chip resistor cracking were observed during thermal cycling after vibration, with fractures occurring across the short axis due […]",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "NASA Astronaut, STEM Creator Connect with Students for STEM Day",
-      "link": "https://www.nasa.gov/learning-resources/nasa-astronaut-stem-creator-connect-with-students-for-stem-day/",
-      "published": "2026-11-03T15:15:50.000Z",
-      "snippet": "Students across the country will have the opportunity to connect directly with the International Space Station during a live, interactive in-flight call with NASA astronaut Anil Menon and Mark Rober STEM content creator and founder of ClassCrunchLabs Foundation. The event, hosted by NASA’s Office of STEM Engagement, celebrates National STEM Day by bringing real‑world science, […]",
       "summary": null,
       "source": "Space"
     }
