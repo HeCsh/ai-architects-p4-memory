@@ -1,7 +1,23 @@
 {
   "topic": "Science News",
-  "updatedAt": "2026-11-05T23:41:14.599Z",
+  "updatedAt": "2026-11-06T06:55:43.421Z",
   "articles": [
+    {
+      "title": "APOD: 2026 November 6 – A Farewell to Swift",
+      "link": "https://science.nasa.gov/image-article/apod-2026-november-6-a-farewell-to-swift/",
+      "published": "2026-11-06T05:05:00.000Z",
+      "snippet": "APOD Science APOD APOD: 2026 November 6 – A… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. A Farewell […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "Taking a Gander at Utah’s Goosenecks",
+      "link": "https://science.nasa.gov/earth/earth-observatory/taking-a-gander-at-utahs-goosenecks/",
+      "published": "2026-11-06T05:01:00.000Z",
+      "snippet": "The San Juan River has carved deep, improbably curvy meanders into the desert landscape.",
+      "summary": null,
+      "source": "Space"
+    },
     {
       "title": "Midwestern City Lights",
       "link": "https://www.nasa.gov/image-article/midwestern-city-lights/",
@@ -79,22 +95,6 @@
       "link": "https://www.nasa.gov/centers-and-facilities/armstrong/nasa-navigation-experiment-shows-promise-for-planetary-landings/",
       "published": "2026-11-04T16:52:43.000Z",
       "snippet": "NASA successfully demonstrated technology designed to help spacecraft autonomously navigate to safe landing sites on the Moon and on other planets. An Alta-X drone equipped with the agency’s Safe and Precise Landing – Integrated Capabilities Evolution (SPLICE) guidance, navigation, and control payload completed simulated lunar descent and landing maneuvers Aug. 27. The flight took place […]",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "NASA Space Grant Students Fuel Agency's Inspiration Tour",
-      "link": "https://www.nasa.gov/learning-resources/nasa-space-grant-students-fuel-agencys-inspiration-tour/",
-      "published": "2026-11-04T16:16:41.000Z",
-      "snippet": "NASA’s Inspiration Tour spread the excitement of space exploration and aeronautical innovation by connecting the public, industry, and academia with the people, technologies, and organizations that drive American leadership in space. At nearly every stop across the country, NASA Space Grant has brought students into the heart of the action. In Iowa, NASA Administrator Jared […]",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "Hubble Reveals Cosmic Mystery",
-      "link": "https://www.nasa.gov/image-article/hubble-reveals-cosmic-mystery/",
-      "published": "2026-11-04T15:59:36.000Z",
-      "snippet": "This photo released on Nov. 2, 2026, showcases NGC 4449, a dwarf irregular. Researchers using NASA's Hubble Space Telescope studied 37 nearby dwarf galaxies — small galaxies containing a few thousand to hundreds of millions of stars — including NGC 4449 and found that much of the oxygen they expected to see is missing. Read […]",
       "summary": null,
       "source": "Space"
     }
