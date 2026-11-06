@@ -1,7 +1,23 @@
 {
   "topic": "Science News",
-  "updatedAt": "2026-11-06T06:55:43.421Z",
+  "updatedAt": "2026-11-06T16:48:11.910Z",
   "articles": [
+    {
+      "title": "M30's Sparkling Stars",
+      "link": "https://www.nasa.gov/image-article/m30s-sparkling-stars/",
+      "published": "2026-11-06T16:23:41.000Z",
+      "snippet": "This NASA/ESA Hubble Space Telescope image released Nov. 5, 2026, provides a lesson in galactic history. The sparkling collection of stars is named Messier 30 (M30) after the French astronomer, Charles Messier, who cataloged M30 and other diffuse objects that might be mistaken for comets in the early telescopes of Messier’s time. M30 lies about […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "Mystery solved? Why ‘sleeping’ ants suddenly explode with activity",
+      "link": "https://www.snexplores.org/article/ants-sudden-activity-bursts",
+      "published": "2026-11-06T11:30:00.000Z",
+      "snippet": "For decades, scientists have puzzled over what triggers some colonies of ants to burst from rest into community-wide action. Math may now explain this.",
+      "summary": null,
+      "source": "Science"
+    },
     {
       "title": "APOD: 2026 November 6 – A Farewell to Swift",
       "link": "https://science.nasa.gov/image-article/apod-2026-november-6-a-farewell-to-swift/",
@@ -79,22 +95,6 @@
       "link": "https://www.nasa.gov/missions/artemis/nasa-shares-plans-to-accelerate-artemis-return-to-moon/",
       "published": "2026-11-04T21:04:10.000Z",
       "snippet": "In an update on Oct. 23, NASA Administrator Jared Isaacman and other agency leaders shared the agency’s path to returning Americans to the lunar surface in 2028. Agency leadership provided updates on the previously announced acceleration plans for the Artemis program, advancing toward the agency’s Artemis III test flight in 2027 and Artemis IV Moon […]",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "NASA Announces Ka-Band Satellite Relay Awards for Space Communications",
-      "link": "https://www.nasa.gov/news-release/nasa-announces-ka-band-satellite-relay-awards-for-space-communications/",
-      "published": "2026-11-04T18:00:02.000Z",
-      "snippet": "NASA selected three companies on Wednesday to perform work to develop Ka-band space relay capability concepts that are compatible with current missions in space, ensuring service continuity for existing spacecraft without requiring modifications to their onboard systems. Through this work, NASA will aim to acquire end-to-end solutions that include space, ground, launch, operations, and...",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "NASA Navigation Experiment Shows Promise for Planetary Landings",
-      "link": "https://www.nasa.gov/centers-and-facilities/armstrong/nasa-navigation-experiment-shows-promise-for-planetary-landings/",
-      "published": "2026-11-04T16:52:43.000Z",
-      "snippet": "NASA successfully demonstrated technology designed to help spacecraft autonomously navigate to safe landing sites on the Moon and on other planets. An Alta-X drone equipped with the agency’s Safe and Precise Landing – Integrated Capabilities Evolution (SPLICE) guidance, navigation, and control payload completed simulated lunar descent and landing maneuvers Aug. 27. The flight took place […]",
       "summary": null,
       "source": "Space"
     }
