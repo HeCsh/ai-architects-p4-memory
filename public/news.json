@@ -1,7 +1,15 @@
 {
   "topic": "Science News",
-  "updatedAt": "2026-11-08T10:29:23.697Z",
+  "updatedAt": "2026-11-08T17:57:24.785Z",
   "articles": [
+    {
+      "title": "NASA Announces $1 Million to Students for Moon Base Challenge",
+      "link": "https://www.nasa.gov/news-release/nasa-announces-1-million-to-students-for-moon-base-challenge/",
+      "published": "2026-11-08T15:26:38.000Z",
+      "snippet": "On Sunday, NASA announced the opening of its $1 million Moon Base Student Challenge during a MAX POWER event at Kennedy Space Center Visitor Complex in Florida. As part of a Golden Age of Science, the competition invites student teams at U.S. high schools and post-secondary schools to contribute designs for the Moon Base. “We’re […]",
+      "summary": null,
+      "source": "Space"
+    },
     {
       "title": "APOD: 2026 November 8 – Major Fireball Meteor",
       "link": "https://science.nasa.gov/image-article/apod-2026-november-8-major-fireball-meteor/",
@@ -87,14 +95,6 @@
       "link": "https://www.nasa.gov/learning-resources/nasa-astronauts-to-answer-questions-from-florida-students-2/",
       "published": "2026-11-05T15:11:25.000Z",
       "snippet": "Students in Florida will hear from NASA astronauts Jessica Watkins and Luke Delaney as they answer prerecorded STEM questions while aboard the International Space Station. The Earth-to-space call will begin at 10:40 a.m. EST Tuesday, Nov. 10, and will stream live on the agency’s Learn With NASA YouTube channel. This event is hosted by Freedom Crossing Academy in […]",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "Hubble Learns Galactic History From Stars",
-      "link": "https://science.nasa.gov/missions/hubble/hubble-learns-galactic-history-from-stars/",
-      "published": "2026-11-05T12:56:21.000Z",
-      "snippet": "This Hubble image features the sparkling collection of stars named Messier 30 (M30), also called NGC 7099.",
       "summary": null,
       "source": "Space"
     }
