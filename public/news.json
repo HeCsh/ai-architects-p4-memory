@@ -1,7 +1,79 @@
 {
   "topic": "Science News",
-  "updatedAt": "2026-11-09T06:44:58.501Z",
+  "updatedAt": "2026-11-09T19:52:30.098Z",
   "articles": [
+    {
+      "title": "La NASA busca a la próxima generación de astronautas",
+      "link": "https://www.nasa.gov/news-release/la-nasa-busca-a-la-proxima-generacion-de-astronautas/",
+      "published": "2026-11-09T19:27:20.000Z",
+      "snippet": "Read this release in English here.La NASA busca a los exploradores que ayudarán a escribir el próximo capítulo de los vuelos espaciales tripulados. Ya está abierto el plazo de inscripción para la próxima promoción de astronautas de la agencia, que se incorporarán a la NASA en un momento en el que Estados Unidos regresa a […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "NASA Advanced Mid-Power Electric Rocket Challenge",
+      "link": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/nasa-advanced-mid-power-electric-rocket-challenge/",
+      "published": "2026-11-09T17:42:42.000Z",
+      "snippet": "Mid-power (3-7 kW) Hall effect thruster systems have been identified by government and industry stakeholders as critical capabilities for satellite, defense, and exploration missions. Given the need for this capability, NASA is launching the Advanced Mid-Power Electric Rocket (AMPERE) Challenge. The NASA AMPERE Challenge invites U.S. commercial companies to develop and demonstrate mid-power...",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "La NASA destina un millón de dólares al reto estudiantil Base Lunar",
+      "link": "https://www.nasa.gov/news-release/la-nasa-destina-un-millon-de-dolares-al-reto-estudiantil-base-lunar/",
+      "published": "2026-11-09T17:36:33.000Z",
+      "snippet": "Read this release in English here.El domingo 8 de noviembre de 2026, la NASA anunció la convocatoria del reto estudiantil Base Lunar, dotado con un millón de dólares, durante un acto de MAX POWER celebrado en el Complejo de Visitantes del Centro Espacial Kennedy, en Florida. En el marco de una edad de oro de […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "Astronauts Across Generations Share the Stage",
+      "link": "https://www.nasa.gov/image-article/astronauts-across-generations-share-the-stage/",
+      "published": "2026-11-09T16:56:29.000Z",
+      "snippet": "On Nov. 6, 2026, Purpose Entertainment hosted the Artemis Celebration Gala at NASA's Kennedy Space Center Visitor Complex in Merritt Island, Florida. Held on the eve of NASA's MAX POWER event, the gala celebrated the explorers, innovators, and visionaries advancing the next era of human spaceflight. The event honored the successful completion of the agency's […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "MAX POWER: NASA’s Inaugural Aerospace Expo Ignites America’s Future",
+      "link": "https://www.nasa.gov/general/max-power-nasas-inaugural-aerospace-expo-ignites-americas-future/",
+      "published": "2026-11-09T16:07:10.000Z",
+      "snippet": "Thousands gathered over several days in early November to experience MAX POWER – NASA’s first exhibition of America’s superiority in space, aeronautics, and technology on and around the agency’s Kennedy Space Center in Florida. The multi-day, family-friendly event honored the nation’s 250th anniversary and served as a culmination of the agency’s Inspiration Tour. Among the […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "NASA’s ESCAPADE Completes Powered Earth Flybys, Now En Route to Mars",
+      "link": "https://science.nasa.gov/science-research/heliophysics/nasas-escapade-completes-powered-earth-flybys-now-en-route-to-mars/",
+      "published": "2026-11-09T16:01:47.000Z",
+      "snippet": "NASA’s two ESCAPADE (Escape and Plasma Acceleration and Dynamics Explorers) spacecraft have each successfully completed a powered Earth flyby, using Earth’s gravity in combination with a sustained engine burn to slingshot themselves toward Mars. With these successful maneuvers complete, the twin spacecraft are on target to reach the Red Planet in September 2027. “This is […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "Scientists Say: Occultation",
+      "link": "https://www.snexplores.org/article/scientists-say-occultation-definition-pronunciation",
+      "published": "2026-11-09T11:30:00.000Z",
+      "snippet": "Thanks to one of these events in 1977, astronomers discovered Uranus's rings.",
+      "summary": null,
+      "source": "Science"
+    },
+    {
+      "title": "Seals long ago evolved to hear above the water — and below",
+      "link": "https://www.snexplores.org/article/seal-ears-hearing-air-underwater",
+      "published": "2026-11-09T11:30:00.000Z",
+      "snippet": "Spongy tissue that fills with blood makes this possible, show X-ray scans of hundreds of ears from seals and other animals.",
+      "summary": null,
+      "source": "Science"
+    },
+    {
+      "title": "CHAPEA Mission 2 Crew Reflects After 378 Days on Simulated Mars",
+      "link": "https://www.nasa.gov/centers-and-facilities/johnson/chapea-mission-2-crew-reflects-after-378-days-on-simulated-mars/",
+      "published": "2026-11-09T11:00:00.000Z",
+      "snippet": "After 378 days without windows, the sounds of the outside world, or real-time calls with family and friends, four research volunteers stepped out of NASA’s Mars Dune Alpha habitat on Oct. 31, completing the agency’s second yearlong Mars surface simulation. Ross Elder, Ellen Ellis, James Spicer, and Matthew Montgomery entered the roughly 1,700-square-foot, 3D-printed habitat at […]",
+      "summary": null,
+      "source": "Space"
+    },
     {
       "title": "APOD: 2026 November 9 – Rigel and the Witch Head Nebula",
       "link": "https://science.nasa.gov/image-article/apod-2026-november-9-rigel-and-the-witch-head-nebula/",
@@ -23,78 +95,6 @@
       "link": "https://www.nasa.gov/news-release/nasa-announces-1-million-to-students-for-moon-base-challenge/",
       "published": "2026-11-08T15:26:38.000Z",
       "snippet": "On Sunday, NASA announced the opening of its $1 million Moon Base Student Challenge during a MAX POWER event at Kennedy Space Center Visitor Complex in Florida. As part of a Golden Age of Science, the competition invites student teams at U.S. high schools and post-secondary schools to contribute designs for the Moon Base. “We’re […]",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "APOD: 2026 November 8 – Major Fireball Meteor",
-      "link": "https://science.nasa.gov/image-article/apod-2026-november-8-major-fireball-meteor/",
-      "published": "2026-11-08T05:05:00.000Z",
-      "snippet": "APOD Science APOD APOD: 2026 November 8 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Major Fireball Meteor […]",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "NASA Awards Moon Base Transportation, Technology, Science Projects",
-      "link": "https://www.nasa.gov/news-release/nasa-awards-moon-base-transportation-technology-science-projects/",
-      "published": "2026-11-07T22:47:03.000Z",
-      "snippet": "NASA announced a suite of awards and mission updates on Saturday to expand the agency's Moon Base exploration, science, and infrastructure capabilities. The investments will advance commercial robotic deliveries, a nuclear-powered rover named PROMISE, launch and orbital transfer services, and surface infrastructure as the agency works with American industry to establish a sustained presence on […]",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "NASA Seeks Next Generation of Explorers to Join Astronaut Corps",
-      "link": "https://www.nasa.gov/news-release/nasa-seeks-next-generation-of-explorers-to-join-astronaut-corps/",
-      "published": "2026-11-07T18:11:57.000Z",
-      "snippet": "NASA is looking for the explorers who will help write the next chapter of human spaceflight. Applications are now open for the agency’s next class of astronauts, who will join NASA as America returns to the Moon, builds the Moon Base, and lays the groundwork for the first crewed missions to Mars. The next generation […]",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "APOD: 2026 November 7 – De Gerlache-Kocher Massif",
-      "link": "https://science.nasa.gov/image-article/apod-2026-november-7-de-gerlache-kocher-massif/",
-      "published": "2026-11-07T05:05:00.000Z",
-      "snippet": "APOD Science APOD APOD: 2026 November 7 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. De Gerlache-Kocher Massif […]",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "M30's Sparkling Stars",
-      "link": "https://www.nasa.gov/image-article/m30s-sparkling-stars/",
-      "published": "2026-11-06T16:23:41.000Z",
-      "snippet": "This NASA/ESA Hubble Space Telescope image released Nov. 5, 2026, provides a lesson in galactic history. The sparkling collection of stars is named Messier 30 (M30) after the French astronomer, Charles Messier, who cataloged M30 and other diffuse objects that might be mistaken for comets in the early telescopes of Messier’s time. M30 lies about […]",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "Supercomputing Tech Demo Schedule",
-      "link": "https://science.nasa.gov/earth/supercomputing-tech-demo-schedule/",
-      "published": "2026-11-06T16:03:52.000Z",
-      "snippet": "Supercomputing 2026 Join NASA in the Exhibit Hall (Booth #4038) for presentations by NASA experts. Full Tech Demo schedule below. TUESDAY, NOVEMBER 17 10:00 AMType-safe Templates in Fortran 2028Tom Clune10:30 AMType-safe Templates in Fortran 2028Tom Clune11:00 AM Type-safe Templates in Fortran 2028Tom Clune1:00PM Mixing and Matching and Multiple Versions, Oh My!Brad Richardson1:30 PMMixing and...",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "Mystery solved? Why ‘sleeping’ ants suddenly explode with activity",
-      "link": "https://www.snexplores.org/article/ants-sudden-activity-bursts",
-      "published": "2026-11-06T11:30:00.000Z",
-      "snippet": "For decades, scientists have puzzled over what triggers some colonies of ants to burst from rest into community-wide action. Math may now explain this.",
-      "summary": null,
-      "source": "Science"
-    },
-    {
-      "title": "APOD: 2026 November 6 – A Farewell to Swift",
-      "link": "https://science.nasa.gov/image-article/apod-2026-november-6-a-farewell-to-swift/",
-      "published": "2026-11-06T05:05:00.000Z",
-      "snippet": "APOD Science APOD APOD: 2026 November 6 – A… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. A Farewell […]",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "Taking a Gander at Utah’s Goosenecks",
-      "link": "https://science.nasa.gov/earth/earth-observatory/taking-a-gander-at-utahs-goosenecks/",
-      "published": "2026-11-06T05:01:00.000Z",
-      "snippet": "The San Juan River has carved deep, improbably curvy meanders into the desert landscape.",
       "summary": null,
       "source": "Space"
     }
