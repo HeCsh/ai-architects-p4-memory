@@ -1,7 +1,23 @@
 {
   "topic": "Science News",
-  "updatedAt": "2026-11-08T22:12:34.687Z",
+  "updatedAt": "2026-11-09T06:44:58.501Z",
   "articles": [
+    {
+      "title": "APOD: 2026 November 9 – Rigel and the Witch Head Nebula",
+      "link": "https://science.nasa.gov/image-article/apod-2026-november-9-rigel-and-the-witch-head-nebula/",
+      "published": "2026-11-09T05:05:00.000Z",
+      "snippet": "APOD Science APOD APOD: 2026 November 9 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Rigel and the […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "Ozone Hole Reaches Its 2026 Maximum",
+      "link": "https://science.nasa.gov/earth/earth-observatory/ozone-hole-reaches-its-2026-maximum/",
+      "published": "2026-11-09T05:00:00.000Z",
+      "snippet": "The ozone hole ranked seventh largest by area in 48 years of monitoring, but it was not as deep as other large holes on record.",
+      "summary": null,
+      "source": "Space"
+    },
     {
       "title": "NASA Announces $1 Million to Students for Moon Base Challenge",
       "link": "https://www.nasa.gov/news-release/nasa-announces-1-million-to-students-for-moon-base-challenge/",
@@ -79,22 +95,6 @@
       "link": "https://science.nasa.gov/earth/earth-observatory/taking-a-gander-at-utahs-goosenecks/",
       "published": "2026-11-06T05:01:00.000Z",
       "snippet": "The San Juan River has carved deep, improbably curvy meanders into the desert landscape.",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "Midwestern City Lights",
-      "link": "https://www.nasa.gov/image-article/midwestern-city-lights/",
-      "published": "2026-11-05T15:17:19.000Z",
-      "snippet": "City lights from the Midwestern United States to the East Coast sparkle across the landscape a couple of hours before sunrise on Oct. 18, 2026. Major urban areas visible in the photograph include Chicago, Illinois; Detroit, Michigan; and the New York metropolitan region. The International Space Station was orbiting 259 miles above Earth when this […]",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "NASA Astronauts to Answer Questions from Florida Students",
-      "link": "https://www.nasa.gov/learning-resources/nasa-astronauts-to-answer-questions-from-florida-students-2/",
-      "published": "2026-11-05T15:11:25.000Z",
-      "snippet": "Students in Florida will hear from NASA astronauts Jessica Watkins and Luke Delaney as they answer prerecorded STEM questions while aboard the International Space Station. The Earth-to-space call will begin at 10:40 a.m. EST Tuesday, Nov. 10, and will stream live on the agency’s Learn With NASA YouTube channel. This event is hosted by Freedom Crossing Academy in […]",
       "summary": null,
       "source": "Space"
     }
