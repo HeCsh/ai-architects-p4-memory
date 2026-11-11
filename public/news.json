@@ -1,7 +1,15 @@
 {
   "topic": "Science News",
-  "updatedAt": "2026-11-11T06:36:02.716Z",
+  "updatedAt": "2026-11-11T17:13:31.869Z",
   "articles": [
+    {
+      "title": "Some video games offer mental-health benefits",
+      "link": "https://www.snexplores.org/article/video-games-help-mental-health",
+      "published": "2026-11-11T11:30:00.000Z",
+      "snippet": "The PlaySmart video game lowered teens’ symptoms of depression. This benefit was still there a year after they stopped playing the game.",
+      "summary": null,
+      "source": "Science"
+    },
     {
       "title": "APOD: 2026 November 11 – NGC 4449: Small Galaxy, Big Impact",
       "link": "https://science.nasa.gov/image-article/apod-2026-november-11-ngc-4449-small-galaxy-big-impact/",
@@ -87,14 +95,6 @@
       "link": "https://science.nasa.gov/blog/curiosity-blog-sols-5056-5062-charging-back-up/",
       "published": "2026-11-10T01:07:45.000Z",
       "snippet": "By Remington Free, Operations Systems Engineer, NASA-JPL Earth planning date: Friday, Oct. 30, 2026 Today’s plan covered 3 sols, 5060, 5061, and 5062, as we take a few recharging sols before getting back to our normal drilling activities. As you may know if you have been following the blog closely, we are in the middle […]",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "Curiosity Blog, Sols 5050-5055: It’s Nazca, Our 49th Drill Hole",
-      "link": "https://science.nasa.gov/blog/curiosity-blog-sols-5050-5055-its-nazca-our-49th-drill-hole/",
-      "published": "2026-11-10T01:05:48.000Z",
-      "snippet": "Written by Susanne P. Schwenzer, Professor of Planetary Mineralogy at The Open University, UK Earth planning date: Friday, Oct. 23, 2026 As regular readers of this blog will know, we returned to the area where we found disc shaped inclusions in the rocks, which we interpreted as potential crystals. If they are indeed crystals, and […]",
       "summary": null,
       "source": "Space"
     }
