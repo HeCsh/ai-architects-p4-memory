@@ -1,7 +1,47 @@
 {
   "topic": "Science News",
-  "updatedAt": "2026-11-12T11:24:42.906Z",
+  "updatedAt": "2026-11-12T20:00:04.237Z",
   "articles": [
+    {
+      "title": "Heart in the Sky at NASA Kennedy",
+      "link": "https://www.nasa.gov/image-article/heart-in-the-sky-at-nasa-kennedy/",
+      "published": "2026-11-12T19:12:49.000Z",
+      "snippet": "The U.S. Air Force Thunderbirds create a heart-shaped smoke trail during a flight maneuver near NASA’s Vehicle Assembly Building during the agency’s MAX POWER expo and air show on Sunday, Nov. 8, 2026, at NASA’s Kennedy Space Center in Florida. NASA’s MAX POWER is an aerospace festival celebrating the past, present, and future of flight […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "NASA Ames Stars of the Month: November 2026",
+      "link": "https://www.nasa.gov/general/nasa-ames-stars-of-the-month-november-2026/",
+      "published": "2026-11-12T17:54:32.000Z",
+      "snippet": "The NASA Ames Science Directorate recognizes the outstanding contributions of (pictured left to right) Alyssa Villanueva, Steve Howell, and Samuel LeBlanc. Their commitment to the NASA mission represents the entrepreneurial spirit, technical expertise, and collaborative disposition needed to explore this world and beyond. Space Biosciences Star: Alyssa Villanueva Alyssa Villaneuva is an...",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "NASA’s Hubble Offers Cosmic Sampler of Targets for Roman",
+      "link": "https://science.nasa.gov/missions/hubble/nasas-hubble-offers-cosmic-sampler-of-targets-for-roman/",
+      "published": "2026-11-12T13:18:40.000Z",
+      "snippet": "A gallery of gravitational lenses captured by NASA’s Hubble Space Telescope showcases the diversity of this cosmic phenomenon and lays the groundwork for follow-up observations by the Nancy Grace Roman Space Telescope.",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "Through NASA’s Lens: Capturing Space Shuttle Endeavour’s Move to LA",
+      "link": "https://www.nasa.gov/centers-and-facilities/armstrong/through-nasas-lens-capturing-space-shuttle-endeavours-move-to-la/",
+      "published": "2026-11-12T13:00:00.000Z",
+      "snippet": "As a new exhibit opens showcasing NASA’s space shuttle Endeavour, NASA photographers look back at the final mission. These photographers documented the iconic images shared around the world on Sept. 21, 2012, while millions watched space shuttle Endeavour fly on top of the agency’s 747 Shuttle Carrier Aircraft for the last time. Endeavour’s new home […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "Ocean cold snaps can imperil sea turtles. Rescuers can help",
+      "link": "https://www.snexplores.org/article/cold-sea-turtles-rescue",
+      "published": "2026-11-12T11:30:00.000Z",
+      "snippet": "Climate-driven ocean changes are stranding thousands of sea turtles on beaches, too cold to swim or eat. Special hospitals give some a fighting chance.",
+      "summary": null,
+      "source": "Science"
+    },
     {
       "title": "APOD: 2026 November 12 – Moon, Venus and Spica Meet",
       "link": "https://science.nasa.gov/image-article/apod-2026-november-12-moon-venus-and-spica-meet/",
@@ -57,46 +97,6 @@
       "snippet": "Launched nearly 50 years ago in 1977, NASA’s Voyager 1 on Wednesday, Nov. 18 will have traveled one light-day from Earth, which is more than 16 billion miles (25.9 billion kilometers). Voyager 1 is the most distant human-made object, and any light from Earth would take 24 hours to reach the spacecraft. NASA will highlight […]",
       "summary": null,
       "source": "Space"
-    },
-    {
-      "title": "NASA to Welcome Expedition 74 Astronauts Home at Space Center Houston",
-      "link": "https://www.nasa.gov/news-release/nasa-to-welcome-expedition-74-astronauts-home-at-space-center-houston/",
-      "published": "2026-11-10T18:06:33.000Z",
-      "snippet": "NASA will welcome home the Expedition 74 crew during a public event at Space Center Houston following their return from a long-duration mission aboard the International Space Station. NASA astronauts Jessica Meir, Jack Hathaway, and Chris Williams; ESA (European Space Agency) astronaut Sophie Adenot; and Roscosmos cosmonauts Sergey Kud‑Sverchkov and Sergei Mikaev will share mission […]",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "NASA Scientists Show How Gravitational Waves Can Reveal New Worlds",
-      "link": "https://science.nasa.gov/missions/lisa/gravitational-waves-can-reveal-new-worlds/",
-      "published": "2026-11-10T16:00:26.000Z",
-      "snippet": "The LISA (Laser Interferometer Space Antenna) observatory, now in development, will detect gravitational waves, the tiny ripples in space-time caused by orbiting masses. Now two studies led by NASA astrophysicists show in new detail how LISA could reveal a new and unique population of exoplanets — worlds beyond our solar system — throughout our galaxy. […]",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "CHAPEA Crew Leaves a Mark",
-      "link": "https://www.nasa.gov/image-article/chapea-crew-leaves-a-mark/",
-      "published": "2026-11-10T14:57:55.000Z",
-      "snippet": "The Crew Health and Performance Exploration Analog (CHAPEA) Mission 2 crew arranged photos around a boot print in the simulated Martian sand outside their habitat on Aug. 31, 2026. The crew recently exited their habitat on Saturday, Oct. 31, after 378 days of isolation in a facility at the agency’s Johnson Space Center in Houston. Health […]",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "Four T. rex footprints hint at how fast it traveled",
-      "link": "https://www.snexplores.org/article/footprints-how-fast-t-rex-walked",
-      "published": "2026-11-10T11:30:00.000Z",
-      "snippet": "Though poorly preserved, the prints suggest the dino ambled at 1.6 meters per second, roughly the speed of a human walking briskly.",
-      "summary": null,
-      "source": "Science"
-    },
-    {
-      "title": "This teen piloted an underwater robot to study kelp forests",
-      "link": "https://www.snexplores.org/article/underwater-robot-kelp-forests-jic",
-      "published": "2026-11-10T11:30:00.000Z",
-      "snippet": "His observations offer new insight into why some kelp beds are thriving as others are declining.",
-      "summary": null,
-      "source": "Science"
     }
   ]
 }
