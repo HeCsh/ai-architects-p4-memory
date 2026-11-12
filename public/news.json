@@ -1,7 +1,31 @@
 {
   "topic": "Science News",
-  "updatedAt": "2026-11-12T00:47:45.544Z",
+  "updatedAt": "2026-11-12T11:24:42.906Z",
   "articles": [
+    {
+      "title": "APOD: 2026 November 12 – Moon, Venus and Spica Meet",
+      "link": "https://science.nasa.gov/image-article/apod-2026-november-12-moon-venus-and-spica-meet/",
+      "published": "2026-11-12T05:05:00.000Z",
+      "snippet": "APOD Science APOD APOD: 2026 November 12 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Moon, Venus and […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "Scotland’s Flow Country",
+      "link": "https://science.nasa.gov/earth/earth-observatory/scotlands-flow-country/",
+      "published": "2026-11-12T05:01:00.000Z",
+      "snippet": "Blanket bogs in the Scottish Highlands store vast amounts of carbon.",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "Curiosity Blog, Sols 5063-5069 Rocks and Chips",
+      "link": "https://science.nasa.gov/blog/curiosity-blog-sols-5063-5069-rocks-and-chips/",
+      "published": "2026-11-12T00:41:35.000Z",
+      "snippet": "Written by William Farrand, Senior Research Scientist, Space Science Institute Earth planning date: Friday, Nov. 6, 2026 This week Curiosity has been completing its drill campaign at the “Nazca” drill hole. This is an area characterized by bedrock containing disk-shaped (or in a liberal interpretation, potato chip shaped … see linked image) crystal forms. A […]",
+      "summary": null,
+      "source": "Space"
+    },
     {
       "title": "Some video games offer mental-health benefits",
       "link": "https://www.snexplores.org/article/video-games-help-mental-health",
@@ -73,30 +97,6 @@
       "snippet": "His observations offer new insight into why some kelp beds are thriving as others are declining.",
       "summary": null,
       "source": "Science"
-    },
-    {
-      "title": "APOD: 2026 November 10 – Saturn Behind the Moon",
-      "link": "https://science.nasa.gov/image-article/apod-2026-november-10-saturn-behind-the-moon/",
-      "published": "2026-11-10T05:05:00.000Z",
-      "snippet": "APOD Science APOD APOD: 2026 November 10 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Saturn Behind the […]",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "Autumn Mornings Bring Valley Fog",
-      "link": "https://science.nasa.gov/earth/earth-observatory/autumn-mornings-bring-valley-fog/",
-      "published": "2026-11-10T05:00:00.000Z",
-      "snippet": "Low clouds trace the branching valleys of the Appalachian Plateau and the Cumberland River, then burn off by afternoon.",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "Curiosity Blog, Sols 5056-5062: Charging Back Up!",
-      "link": "https://science.nasa.gov/blog/curiosity-blog-sols-5056-5062-charging-back-up/",
-      "published": "2026-11-10T01:07:45.000Z",
-      "snippet": "By Remington Free, Operations Systems Engineer, NASA-JPL Earth planning date: Friday, Oct. 30, 2026 Today’s plan covered 3 sols, 5060, 5061, and 5062, as we take a few recharging sols before getting back to our normal drilling activities. As you may know if you have been following the blog closely, we are in the middle […]",
-      "summary": null,
-      "source": "Space"
     }
   ]
 }
