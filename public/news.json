@@ -1,7 +1,31 @@
 {
   "topic": "Science News",
-  "updatedAt": "2026-11-13T11:08:03.719Z",
+  "updatedAt": "2026-11-13T19:47:50.227Z",
   "articles": [
+    {
+      "title": "Outbursts from a Massive Star",
+      "link": "https://www.nasa.gov/image-article/outbursts-from-a-massive-star/",
+      "published": "2026-11-13T16:39:33.000Z",
+      "snippet": "Using NASA’s Chandra X-ray Observatory, astronomers have discovered what is triggering repeated outbursts from a giant, unstable star located in the galaxy shown in this image released on Nov. 9, 2026. The volatile star, known as AT 2016blu, is in the spiral galaxy NGC 4559, located about 30 million light-years from Earth. Astronomers estimate the […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "Gemini Astronaut Photos Inspired Early Earth Observation Program",
+      "link": "https://www.nasa.gov/image-article/gemini-astronaut-photos-inspired-early-earth-observation-program/",
+      "published": "2026-11-13T16:05:54.000Z",
+      "snippet": "Astronauts James A. Lovell Jr. and Edwin E. \"Buzz\" Aldrin Jr. orbited Earth from November 11 to 15, 1966, on Gemini XII, the final mission of NASA's Gemini program. In addition to successfully completing rendezvous maneuvers and spacewalks, procedures vital to sending American astronauts to the Moon, the crew was also spurring the development of […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "How brain-eating amoebas may wriggle into someone’s brain",
+      "link": "https://www.snexplores.org/article/how-brain-eating-amoebas-infect",
+      "published": "2026-11-13T11:30:00.000Z",
+      "snippet": "Naegleria amoebas are dogged explorers, especially in tight spaces. These behaviors might help these brain-eating microbes crawl into our heads.",
+      "summary": null,
+      "source": "Science"
+    },
     {
       "title": "APOD: 2026 November 13 – NGC 206 and the Star Clouds of Andromeda",
       "link": "https://science.nasa.gov/image-article/apod-2026-november-13-ngc-206-and-the-star-clouds-of-andromeda/",
@@ -73,30 +97,6 @@
       "snippet": "APOD Science APOD APOD: 2026 November 12 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Moon, Venus and […]",
       "summary": null,
       "source": "Space"
-    },
-    {
-      "title": "Scotland’s Flow Country",
-      "link": "https://science.nasa.gov/earth/earth-observatory/scotlands-flow-country/",
-      "published": "2026-11-12T05:01:00.000Z",
-      "snippet": "Blanket bogs in the Scottish Highlands store vast amounts of carbon.",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "Curiosity Blog, Sols 5063-5069 Rocks and Chips",
-      "link": "https://science.nasa.gov/blog/curiosity-blog-sols-5063-5069-rocks-and-chips/",
-      "published": "2026-11-12T00:41:35.000Z",
-      "snippet": "Written by William Farrand, Senior Research Scientist, Space Science Institute Earth planning date: Friday, Nov. 6, 2026 This week Curiosity has been completing its drill campaign at the “Nazca” drill hole. This is an area characterized by bedrock containing disk-shaped (or in a liberal interpretation, potato chip shaped … see linked image) crystal forms. A […]",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "Some video games offer mental-health benefits",
-      "link": "https://www.snexplores.org/article/video-games-help-mental-health",
-      "published": "2026-11-11T11:30:00.000Z",
-      "snippet": "The PlaySmart video game lowered teens’ symptoms of depression. This benefit was still there a year after they stopped playing the game.",
-      "summary": null,
-      "source": "Science"
     }
   ]
 }
