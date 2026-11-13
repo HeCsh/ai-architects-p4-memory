@@ -1,7 +1,15 @@
 {
   "topic": "Science News",
-  "updatedAt": "2026-11-12T20:00:04.237Z",
+  "updatedAt": "2026-11-13T01:53:31.203Z",
   "articles": [
+    {
+      "title": "I Am Artemis Katie Spicer",
+      "link": "https://www.nasa.gov/missions/artemis/i-am-artemis-katie-spicer/",
+      "published": "2026-11-12T20:10:02.000Z",
+      "snippet": "For Katie Spicer, embracing opportunity and challenge has led to giant leaps during her time at NASA. Now as the NASA lander integration lead for Blue Origin’s Blue Moon Mark 2 lander, one of the commercially provided human landing systems for NASA’s Artemis program, Spicer will have her handprint on history. Spicer works in the […]",
+      "summary": null,
+      "source": "Space"
+    },
     {
       "title": "Heart in the Sky at NASA Kennedy",
       "link": "https://www.nasa.gov/image-article/heart-in-the-sky-at-nasa-kennedy/",
@@ -87,14 +95,6 @@
       "link": "https://science.nasa.gov/earth/earth-observatory/water-surges-into-navajo-reservoir/",
       "published": "2026-11-11T05:01:00.000Z",
       "snippet": "Rounds of heavy rain in the U.S. Southwest flooded rivers and rapidly raised New Mexico’s second-largest reservoir.",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "NASA Invites Media, Public to Join Voyager 1 One-Light Day Activities",
-      "link": "https://www.nasa.gov/news-release/nasa-invites-media-public-to-join-voyager-1-one-light-day-activities/",
-      "published": "2026-11-10T19:22:45.000Z",
-      "snippet": "Launched nearly 50 years ago in 1977, NASA’s Voyager 1 on Wednesday, Nov. 18 will have traveled one light-day from Earth, which is more than 16 billion miles (25.9 billion kilometers). Voyager 1 is the most distant human-made object, and any light from Earth would take 24 hours to reach the spacecraft. NASA will highlight […]",
       "summary": null,
       "source": "Space"
     }
