@@ -1,7 +1,39 @@
 {
   "topic": "Science News",
-  "updatedAt": "2026-11-16T06:40:44.014Z",
+  "updatedAt": "2026-11-16T19:39:52.555Z",
   "articles": [
+    {
+      "title": "Thunderbirds in Formation",
+      "link": "https://www.nasa.gov/image-article/thunderbirds-in-formation/",
+      "published": "2026-11-16T18:34:47.000Z",
+      "snippet": "U.S. Air Force Thunderbirds fighter jets pass overhead during the agency’s MAX POWER expo and air show on Saturday, Nov. 7, 2026, at NASA’s Kennedy Space Center in Florida. NASA’s inaugural MAX POWER was an aerospace festival celebrating the past, present, and future of flight and space exploration in honor of America's 250th anniversary. Image […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "Contractor to Civil Servant: NASA Welcomes Jim Mirandy",
+      "link": "https://www.nasa.gov/centers-and-facilities/stennis/contractor-to-civil-servant-jim-mirandy/",
+      "published": "2026-11-16T15:22:09.000Z",
+      "snippet": "The rumble of a rocket engine might be considered a soundtrack for Jim Mirandy’s life. Mirandy has grown up with NASA as a constant presence, and his path to becoming a civil servant at NASA’s Stennis Space Center near Bay St. Louis, Mississippi, has been decades in the making. Hired under the agency’s workforce directive […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "Scientists Say: Abyssal Zone",
+      "link": "https://www.snexplores.org/article/scientists-say-abyssal-zone-definition-pronunciation",
+      "published": "2026-11-16T14:04:15.000Z",
+      "snippet": "This layer of the ocean lies far out of reach of sunlight. Yet, life still thrives.",
+      "summary": null,
+      "source": "Science"
+    },
+    {
+      "title": "Several types of black holes exist. Here’s how they differ",
+      "link": "https://www.snexplores.org/article/types-of-black-holes",
+      "published": "2026-11-16T11:30:00.000Z",
+      "snippet": "These mysterious objects, which scientists have sorted into four different varieties, continue to challenge our understanding of the universe.",
+      "summary": null,
+      "source": "Science"
+    },
     {
       "title": "APOD: 2026 November 16 – NGC 7129: Star Formation with Jets from Webb",
       "link": "https://science.nasa.gov/image-article/apod-2026-november-16-ngc-7129-star-formation-with-jets-from-webb/",
@@ -63,38 +95,6 @@
       "link": "https://www.nasa.gov/missions/artemis/i-am-artemis-katie-spicer/",
       "published": "2026-11-12T20:10:02.000Z",
       "snippet": "For Katie Spicer, embracing opportunity and challenge has led to giant leaps during her time at NASA. Now as the NASA lander integration lead for Blue Origin’s Blue Moon Mark 2 lander, one of the commercially provided human landing systems for NASA’s Artemis program, Spicer will have her handprint on history. Spicer works in the […]",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "Heart in the Sky at NASA Kennedy",
-      "link": "https://www.nasa.gov/image-article/heart-in-the-sky-at-nasa-kennedy/",
-      "published": "2026-11-12T19:12:49.000Z",
-      "snippet": "The U.S. Air Force Thunderbirds create a heart-shaped smoke trail during a flight maneuver near NASA’s Vehicle Assembly Building during the agency’s MAX POWER expo and air show on Sunday, Nov. 8, 2026, at NASA’s Kennedy Space Center in Florida. NASA’s MAX POWER is an aerospace festival celebrating the past, present, and future of flight […]",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "NASA Ames Stars of the Month: November 2026",
-      "link": "https://www.nasa.gov/general/nasa-ames-stars-of-the-month-november-2026/",
-      "published": "2026-11-12T17:54:32.000Z",
-      "snippet": "The NASA Ames Science Directorate recognizes the outstanding contributions of (pictured left to right) Alyssa Villanueva, Steve Howell, and Samuel LeBlanc. Their commitment to the NASA mission represents the entrepreneurial spirit, technical expertise, and collaborative disposition needed to explore this world and beyond. Space Biosciences Star: Alyssa Villanueva Alyssa Villaneuva is an...",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "NASA’s Hubble Offers Cosmic Sampler of Targets for Roman",
-      "link": "https://science.nasa.gov/missions/hubble/nasas-hubble-offers-cosmic-sampler-of-targets-for-roman/",
-      "published": "2026-11-12T13:18:40.000Z",
-      "snippet": "A gallery of gravitational lenses captured by NASA’s Hubble Space Telescope showcases the diversity of this cosmic phenomenon and lays the groundwork for follow-up observations by the Nancy Grace Roman Space Telescope.",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "Through NASA’s Lens: Capturing Space Shuttle Endeavour’s Move to LA",
-      "link": "https://www.nasa.gov/centers-and-facilities/armstrong/through-nasas-lens-capturing-space-shuttle-endeavours-move-to-la/",
-      "published": "2026-11-12T13:00:00.000Z",
-      "snippet": "As a new exhibit opens showcasing NASA’s space shuttle Endeavour, NASA photographers look back at the final mission. These photographers documented the iconic images shared around the world on Sept. 21, 2012, while millions watched space shuttle Endeavour fly on top of the agency’s 747 Shuttle Carrier Aircraft for the last time. Endeavour’s new home […]",
       "summary": null,
       "source": "Space"
     }
