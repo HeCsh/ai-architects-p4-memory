@@ -1,7 +1,39 @@
 {
   "topic": "Science News",
-  "updatedAt": "2026-11-16T19:39:52.555Z",
+  "updatedAt": "2026-11-17T03:57:06.538Z",
   "articles": [
+    {
+      "title": "Perseverance Update: The Ghostly Rocks of ‘Idubi’ — Bright Remnants of Aqueous Systems from Long Ago",
+      "link": "https://science.nasa.gov/blog/perseverance-update-the-ghostly-rocks-of-idubi-bright-remnants-of-aqueous-systems-from-long-ago/",
+      "published": "2026-11-16T23:12:45.000Z",
+      "snippet": "Written by Candice Bedford, Research Scientist at Purdue University Date: Nov. 16, 2026 During the Perseverance rover’s investigation of “Idubi” — an area of ancient Martian crust exposed in the “Lac de Charmes” region, outside of Jezero crater — the Perseverance rover team has been captivated by a cluster of eerily bright, light-toned rocks in […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "A Collage Showing 49 Drill Holes Made by NASA’s Curiosity Mars Rover",
+      "link": "https://science.nasa.gov/photojournal/a-collage-showing-49-drill-holes-made-by-nasas-curiosity-mars-rover/",
+      "published": "2026-11-16T22:05:23.000Z",
+      "snippet": "Description This collage shows 49 drill holes captured by NASA’s Curiosity Mars rover as of November 2026. Each hole represents a sample collected from rocks on the Martian surface; Curiosity’s drill, located on the end of its robotic arm, drops pulverized rock samples into instruments in its belly that analyze their composition. These images were […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "NASA Receives 16th Consecutive ‘Clean’ Financial Audit Opinion",
+      "link": "https://www.nasa.gov/news-release/nasa-receives-16th-consecutive-clean-financial-audit-opinion/",
+      "published": "2026-11-16T20:30:40.000Z",
+      "snippet": "For the 16th consecutive year, NASA has received an unmodified, or “clean,” opinion from an external auditor on its fiscal year 2026 financial statements. The rating is the best possible audit opinion, certifying that NASA’s financial statements conform with Generally Accepted Accounting Principles for federal agencies and accurately present the agency’s financial position. “Our responsibility […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "Sentinel-6B in Orbit Around Earth",
+      "link": "https://science.nasa.gov/photojournal/sentinel-6b-in-orbit-around-earth/",
+      "published": "2026-11-16T18:52:32.000Z",
+      "snippet": "Description This artist’s concept shows the Sentinel-6B satellite, which will become the reference satellite for other missions studying sea surface height.",
+      "summary": null,
+      "source": "Space"
+    },
     {
       "title": "Thunderbirds in Formation",
       "link": "https://www.nasa.gov/image-article/thunderbirds-in-formation/",
@@ -63,38 +95,6 @@
       "link": "https://www.nasa.gov/image-article/gemini-astronaut-photos-inspired-early-earth-observation-program/",
       "published": "2026-11-13T16:05:54.000Z",
       "snippet": "Astronauts James A. Lovell Jr. and Edwin E. \"Buzz\" Aldrin Jr. orbited Earth from November 11 to 15, 1966, on Gemini XII, the final mission of NASA's Gemini program. In addition to successfully completing rendezvous maneuvers and spacewalks, procedures vital to sending American astronauts to the Moon, the crew was also spurring the development of […]",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "How brain-eating amoebas may wriggle into someone’s brain",
-      "link": "https://www.snexplores.org/article/how-brain-eating-amoebas-infect",
-      "published": "2026-11-13T11:30:00.000Z",
-      "snippet": "Naegleria amoebas are dogged explorers, especially in tight spaces. These behaviors might help these brain-eating microbes crawl into our heads.",
-      "summary": null,
-      "source": "Science"
-    },
-    {
-      "title": "APOD: 2026 November 13 – NGC 206 and the Star Clouds of Andromeda",
-      "link": "https://science.nasa.gov/image-article/apod-2026-november-13-ngc-206-and-the-star-clouds-of-andromeda/",
-      "published": "2026-11-13T05:05:00.000Z",
-      "snippet": "APOD Science APOD APOD: 2026 November 13 – NGC… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. NGC 206 […]",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "A Global Rebound for Mangroves",
-      "link": "https://science.nasa.gov/earth/earth-observatory/a-global-rebound-for-mangroves/",
-      "published": "2026-11-13T05:01:00.000Z",
-      "snippet": "After decades of decline, this ecologically significant type of forest is making a comeback.",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "I Am Artemis Katie Spicer",
-      "link": "https://www.nasa.gov/missions/artemis/i-am-artemis-katie-spicer/",
-      "published": "2026-11-12T20:10:02.000Z",
-      "snippet": "For Katie Spicer, embracing opportunity and challenge has led to giant leaps during her time at NASA. Now as the NASA lander integration lead for Blue Origin’s Blue Moon Mark 2 lander, one of the commercially provided human landing systems for NASA’s Artemis program, Spicer will have her handprint on history. Spicer works in the […]",
       "summary": null,
       "source": "Space"
     }
