@@ -1,7 +1,87 @@
 {
   "topic": "Science News",
-  "updatedAt": "2026-11-17T16:08:38.247Z",
+  "updatedAt": "2026-11-18T00:59:39.453Z",
   "articles": [
+    {
+      "title": "NASA Launches Nuclear Power Systems Student Contest",
+      "link": "https://science.nasa.gov/centers-and-facilities/glenn/nasa-launches-nuclear-power-systems-student-contest/",
+      "published": "2026-11-17T22:02:48.000Z",
+      "snippet": "NASA’s Power to Explore Student Challenge kicked off Tuesday, Nov. 17. The science, engineering, technology, and mathematics (STEM) challenge invites kindergarten through 12th grade students in the United States to learn about space nuclear power systems and illustrate how these nuclear “batteries” could help power their lunar exploration vision. Students are also invited to write […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "NASA Space Apps Challenge Breaks Global Hackathon Records",
+      "link": "https://science.nasa.gov/open-science/nasa-space-apps-challenge-breaks-global-hackathon-records/",
+      "published": "2026-11-17T21:50:34.000Z",
+      "snippet": "On Nov. 14 and 15, NASA held the annual Space Apps Challenge with a record-breaking 181,835 registered participants taking part in 593 events around the world. The annual hackathon invites participants to use NASA’s open data to address one of 14 challenges focused on space exploration or Earth science. This year, the hackathon drew 59% […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "BPS Digital AVATAR Challenge",
+      "link": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/bps-digital-avatar-challenge/",
+      "published": "2026-11-17T20:39:38.000Z",
+      "snippet": "The NASA Space Biology Program within the Biological and Physical Sciences (BPS) Division investigates how living systems respond across the full spectrum of biological organization to advance understanding of how living systems respond to the unique stressors of space exploration—including microgravity, ionizing radiation, low magnetic fields, and elevated CO₂. As NASA prepares for...",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "New Album of Baby Star Sounds Shared by NASA’s Chandra",
+      "link": "https://science.nasa.gov/missions/chandra/new-album-of-baby-star-sounds-shared-by-nasas-chandra/",
+      "published": "2026-11-17T20:26:17.000Z",
+      "snippet": "A new album from NASA’s Chandra X-ray Observatory collects snapshots of baby stars across the galaxy and beyond and transforms that data into sound. Four new sonifications use data of stars that are actively forming, captured by Chandra and other NASA telescopes By studying places in the universe where stars are currently being born and […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "NASA to Cover 35th SpaceX Resupply Mission Space Station Departure",
+      "link": "https://www.nasa.gov/news-release/nasa-to-cover-35th-spacex-resupply-mission-space-station-departure/",
+      "published": "2026-11-17T19:16:22.000Z",
+      "snippet": "NASA and its international partners are set to receive scientific research samples and hardware as a SpaceX Dragon spacecraft departs the International Space Station no earlier than Wednesday, Nov. 18, for its return to Earth. Pending weather conditions, the Dragon spacecraft will undock from the Harmony module’s space-facing port at 11:05 a.m. EST, following a […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "NICER Status Updates",
+      "link": "https://www.nasa.gov/missions/station/nicer-status-updates/",
+      "published": "2026-11-17T18:18:16.000Z",
+      "snippet": "November 17, 2026 NASA’s NICER Telescope Ends Science Operations After studying the universe for six and a half years beyond its initial mission, NASA's NICER (Neutron star Interior Composition Explorer) telescope on the International Space Station has ended science operations. The mission and space station teams are now focused on plans to finalize NICER’s 8-year […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "NASA to Conduct Low-Altitude Flights Over Texas Farmland",
+      "link": "https://www.nasa.gov/general/nasa-to-conduct-low-altitude-flights-over-texas-farmland/",
+      "published": "2026-11-17T17:12:20.000Z",
+      "snippet": "Editor’s Note: This article was originally published on Oct. 15, 2026, and has been updated to correct the location and update the duration of the flight deployment. A NASA Dynamic Aviation A200 aircraft will conduct low-flying research flights over farmland near Amarillo, Texas, from Thursday, Oct. 22, through Monday, Nov. 2. These flights will measure […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "Curiosity Blog, Sols 5072-5076: The Return of the Polygons",
+      "link": "https://science.nasa.gov/blog/curiosity-blog-sols-5072-5076-the-return-of-the-polygons/",
+      "published": "2026-11-17T17:06:07.000Z",
+      "snippet": "Written by Abigail Fraeman, Deputy Project Scientist, Jet Propulsion Laboratory, California Institute of Technology Earth planning date: Friday, Nov. 13, 2026 Curiosity’s past several weeks have been very focused on drilling and analysis of the “Basque Lakes” and “Nazca” samples. We learned a lot from those drilled samples, but it’s time to hit the Martian […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "NASA Invites Media, Public to View Roman Telescope’s First Images",
+      "link": "https://www.nasa.gov/news-release/nasa-invites-media-public-to-view-roman-telescopes-first-images/",
+      "published": "2026-11-17T17:00:29.000Z",
+      "snippet": "NASA will release the first images from its Nancy Grace Roman Space Telescope during a live stream from the American Geophysical Union (AGU) Annual Meeting in San Francisco at 3:30 p.m. EST (12:30 p.m. PST) Monday, Dec. 7. The images will showcase the unique scientific capabilities of Roman, which will soon capture deep, panoramic, never-before-seen […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "Space Selfie",
+      "link": "https://www.nasa.gov/image-article/space-selfie-2/",
+      "published": "2026-11-17T16:51:14.000Z",
+      "snippet": "NASA astronaut Anil Menon took this selfie during a spacewalk on Oct. 29, 2026. He and CSA (Canadian Space Agency) astronaut Joshua Kutryk installed a new roll-out solar array on the International Space Station. Get daily updates from the space station. Image credit: NASA/Anil Menon",
+      "summary": null,
+      "source": "Space"
+    },
     {
       "title": "Experiment: Construct and test paper rockets",
       "link": "https://www.snexplores.org/article/paper-rocket-experiment-build-test",
@@ -15,86 +95,6 @@
       "link": "https://science.nasa.gov/image-article/apod-2026-november-17-milky-way-versus-aurora/",
       "published": "2026-11-17T05:05:00.000Z",
       "snippet": "APOD Science APOD APOD: 2026 November 17 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. OriginalAnnotated Milky Way […]",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "Tossing Fireworks from Cloud to Cloud",
-      "link": "https://science.nasa.gov/earth/earth-observatory/tossing-fireworks-from-cloud-to-cloud/",
-      "published": "2026-11-17T05:01:00.000Z",
-      "snippet": "For many astronauts, the spectacular sight of lightning stands out when looking back at Earth from the International Space Station.",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "Perseverance Update: The Ghostly Rocks of ‘Idubi’ — Bright Remnants of Aqueous Systems from Long Ago",
-      "link": "https://science.nasa.gov/blog/perseverance-update-the-ghostly-rocks-of-idubi-bright-remnants-of-aqueous-systems-from-long-ago/",
-      "published": "2026-11-16T23:12:45.000Z",
-      "snippet": "Written by Candice Bedford, Research Scientist at Purdue University Date: Nov. 16, 2026 During the Perseverance rover’s investigation of “Idubi” — an area of ancient Martian crust exposed in the “Lac de Charmes” region, outside of Jezero crater — the Perseverance rover team has been captivated by a cluster of eerily bright, light-toned rocks in […]",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "A Collage Showing 49 Drill Holes Made by NASA’s Curiosity Mars Rover",
-      "link": "https://science.nasa.gov/photojournal/a-collage-showing-49-drill-holes-made-by-nasas-curiosity-mars-rover/",
-      "published": "2026-11-16T22:05:23.000Z",
-      "snippet": "Description This collage shows 49 drill holes captured by NASA’s Curiosity Mars rover as of November 2026. Each hole represents a sample collected from rocks on the Martian surface; Curiosity’s drill, located on the end of its robotic arm, drops pulverized rock samples into instruments in its belly that analyze their composition. These images were […]",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "NASA Receives 16th Consecutive ‘Clean’ Financial Audit Opinion",
-      "link": "https://www.nasa.gov/news-release/nasa-receives-16th-consecutive-clean-financial-audit-opinion/",
-      "published": "2026-11-16T20:30:40.000Z",
-      "snippet": "For the 16th consecutive year, NASA has received an unmodified, or “clean,” opinion from an external auditor on its fiscal year 2026 financial statements. The rating is the best possible audit opinion, certifying that NASA’s financial statements conform with Generally Accepted Accounting Principles for federal agencies and accurately present the agency’s financial position. “Our responsibility […]",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "Sentinel-6B in Orbit Around Earth",
-      "link": "https://science.nasa.gov/photojournal/sentinel-6b-in-orbit-around-earth/",
-      "published": "2026-11-16T18:52:32.000Z",
-      "snippet": "Description This artist’s concept shows the Sentinel-6B satellite, which will become the reference satellite for other missions studying sea surface height.",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "Thunderbirds in Formation",
-      "link": "https://www.nasa.gov/image-article/thunderbirds-in-formation/",
-      "published": "2026-11-16T18:34:47.000Z",
-      "snippet": "U.S. Air Force Thunderbirds fighter jets pass overhead during the agency’s MAX POWER expo and air show on Saturday, Nov. 7, 2026, at NASA’s Kennedy Space Center in Florida. NASA’s inaugural MAX POWER was an aerospace festival celebrating the past, present, and future of flight and space exploration in honor of America's 250th anniversary. Image […]",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "Contractor to Civil Servant: NASA Welcomes Jim Mirandy",
-      "link": "https://www.nasa.gov/centers-and-facilities/stennis/contractor-to-civil-servant-jim-mirandy/",
-      "published": "2026-11-16T15:22:09.000Z",
-      "snippet": "The rumble of a rocket engine might be considered a soundtrack for Jim Mirandy’s life. Mirandy has grown up with NASA as a constant presence, and his path to becoming a civil servant at NASA’s Stennis Space Center near Bay St. Louis, Mississippi, has been decades in the making. Hired under the agency’s workforce directive […]",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "Scientists Say: Abyssal Zone",
-      "link": "https://www.snexplores.org/article/scientists-say-abyssal-zone-definition-pronunciation",
-      "published": "2026-11-16T14:04:15.000Z",
-      "snippet": "This layer of the ocean lies far out of reach of sunlight. Yet, life still thrives.",
-      "summary": null,
-      "source": "Science"
-    },
-    {
-      "title": "Several types of black holes exist. Here’s how they differ",
-      "link": "https://www.snexplores.org/article/types-of-black-holes",
-      "published": "2026-11-16T11:30:00.000Z",
-      "snippet": "These mysterious objects, which scientists have sorted into four different varieties, continue to challenge our understanding of the universe.",
-      "summary": null,
-      "source": "Science"
-    },
-    {
-      "title": "APOD: 2026 November 16 – NGC 7129: Star Formation with Jets from Webb",
-      "link": "https://science.nasa.gov/image-article/apod-2026-november-16-ngc-7129-star-formation-with-jets-from-webb/",
-      "published": "2026-11-16T05:05:00.000Z",
-      "snippet": "APOD Science APOD APOD: 2026 November 16 – NGC… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. NGC 7129: […]",
       "summary": null,
       "source": "Space"
     }
