@@ -1,7 +1,31 @@
 {
   "topic": "Science News",
-  "updatedAt": "2026-11-18T00:59:39.453Z",
+  "updatedAt": "2026-11-18T11:51:00.189Z",
   "articles": [
+    {
+      "title": "A new flying drone uses touch to perch like a bird",
+      "link": "https://www.snexplores.org/article/flying-drone-perch-like-bird",
+      "published": "2026-11-18T11:30:00.000Z",
+      "snippet": "The drone's human-inspired fingers use touch to get a grip. This avoids some obstacles that come with relying on vision to perch.",
+      "summary": null,
+      "source": "Science"
+    },
+    {
+      "title": "APOD: 2026 November 18 – An M-class Solar Flare",
+      "link": "https://science.nasa.gov/image-article/apod-2026-november-18-an-m-class-solar-flare/",
+      "published": "2026-11-18T05:05:00.000Z",
+      "snippet": "APOD Science APOD APOD: 2026 November 18 – An… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. A Medium-Sized […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "Sierra Snow Season Spins Up",
+      "link": "https://science.nasa.gov/earth/earth-observatory/sierra-snow-season-spins-up/",
+      "published": "2026-11-18T05:01:00.000Z",
+      "snippet": "A widespread, early-season snowstorm blanketed California’s mountains in white in mid-November 2026.",
+      "summary": null,
+      "source": "Space"
+    },
     {
       "title": "NASA Launches Nuclear Power Systems Student Contest",
       "link": "https://science.nasa.gov/centers-and-facilities/glenn/nasa-launches-nuclear-power-systems-student-contest/",
@@ -71,30 +95,6 @@
       "link": "https://www.nasa.gov/news-release/nasa-invites-media-public-to-view-roman-telescopes-first-images/",
       "published": "2026-11-17T17:00:29.000Z",
       "snippet": "NASA will release the first images from its Nancy Grace Roman Space Telescope during a live stream from the American Geophysical Union (AGU) Annual Meeting in San Francisco at 3:30 p.m. EST (12:30 p.m. PST) Monday, Dec. 7. The images will showcase the unique scientific capabilities of Roman, which will soon capture deep, panoramic, never-before-seen […]",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "Space Selfie",
-      "link": "https://www.nasa.gov/image-article/space-selfie-2/",
-      "published": "2026-11-17T16:51:14.000Z",
-      "snippet": "NASA astronaut Anil Menon took this selfie during a spacewalk on Oct. 29, 2026. He and CSA (Canadian Space Agency) astronaut Joshua Kutryk installed a new roll-out solar array on the International Space Station. Get daily updates from the space station. Image credit: NASA/Anil Menon",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "Experiment: Construct and test paper rockets",
-      "link": "https://www.snexplores.org/article/paper-rocket-experiment-build-test",
-      "published": "2026-11-17T11:30:00.000Z",
-      "snippet": "Ready for take-off? Build your own rockets with paper, tape and straws. Then, take a deep breath and launch them with your lungs!",
-      "summary": null,
-      "source": "Science"
-    },
-    {
-      "title": "APOD: 2026 November 17 – Milky Way versus Aurora",
-      "link": "https://science.nasa.gov/image-article/apod-2026-november-17-milky-way-versus-aurora/",
-      "published": "2026-11-17T05:05:00.000Z",
-      "snippet": "APOD Science APOD APOD: 2026 November 17 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. OriginalAnnotated Milky Way […]",
       "summary": null,
       "source": "Space"
     }
