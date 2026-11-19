@@ -1,7 +1,15 @@
 {
   "topic": "Science News",
-  "updatedAt": "2026-11-18T20:38:01.003Z",
+  "updatedAt": "2026-11-19T02:37:31.771Z",
   "articles": [
+    {
+      "title": "NASA Sets Coverage for Northrop Grumman CRS-25 Launch, Prelaunch",
+      "link": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-northrop-grumman-crs-25-launch-prelaunch/",
+      "published": "2026-11-18T22:19:17.000Z",
+      "snippet": "NASA, Northrop Grumman, and SpaceX are targeting no earlier than 10:47 a.m. EST, Sunday, Nov. 29, for the next launch delivering science investigations, supplies, and equipment to the International Space Station. The agency also will hold a prelaunch media teleconference on Monday, Nov. 23. Filled with approximately 11,000 pounds of cargo, the Northrop Grumman Cygnus […]",
+      "summary": null,
+      "source": "Space"
+    },
     {
       "title": "MAF EAP - Holidays – How to manage the BAH HUMBUG that tries to sneak in",
       "link": "https://www.nasa.gov/centers-and-facilities/michoud/maf-eap/maf-eap-holidays-how-to-manage-the-bah-humbug-that-tries-to-sneak-in/",
@@ -87,14 +95,6 @@
       "link": "https://science.nasa.gov/open-science/nasa-space-apps-challenge-breaks-global-hackathon-records/",
       "published": "2026-11-17T21:50:34.000Z",
       "snippet": "On Nov. 14 and 15, NASA held the annual Space Apps Challenge with a record-breaking 181,835 registered participants taking part in 593 events around the world. The annual hackathon invites participants to use NASA’s open data to address one of 14 challenges focused on space exploration or Earth science. This year, the hackathon drew 59% […]",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "BPS Digital AVATAR Challenge",
-      "link": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/bps-digital-avatar-challenge/",
-      "published": "2026-11-17T20:39:38.000Z",
-      "snippet": "The NASA Space Biology Program within the Biological and Physical Sciences (BPS) Division investigates how living systems respond across the full spectrum of biological organization to advance understanding of how living systems respond to the unique stressors of space exploration—including microgravity, ionizing radiation, low magnetic fields, and elevated CO₂. As NASA prepares for...",
       "summary": null,
       "source": "Space"
     }
