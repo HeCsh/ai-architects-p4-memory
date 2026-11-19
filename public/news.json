@@ -1,7 +1,31 @@
 {
   "topic": "Science News",
-  "updatedAt": "2026-11-19T02:37:31.771Z",
+  "updatedAt": "2026-11-19T11:48:18.493Z",
   "articles": [
+    {
+      "title": "Peru’s penguins are in trouble. A super El Niño could worsen things",
+      "link": "https://www.snexplores.org/article/peru-penguins-el-nino-trouble",
+      "published": "2026-11-19T11:30:00.000Z",
+      "snippet": "Bird flu, overfishing and warming seas have crashed the world’s largest colony of Humboldt penguins. Scientists are working to help them bounce back.",
+      "summary": null,
+      "source": "Science"
+    },
+    {
+      "title": "APOD: 2026 November 19 – The Horsehead and Flame Nebulas",
+      "link": "https://science.nasa.gov/image-article/apod-2026-november-19-the-horsehead-and-flame-nebulas/",
+      "published": "2026-11-19T05:05:00.000Z",
+      "snippet": "APOD Science APOD APOD: 2026 November 19 – The… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. OriginalAnnotated The […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "El Niño Rains Paint the Atacama",
+      "link": "https://science.nasa.gov/earth/earth-observatory/el-nino-rains-paint-the-atacama/",
+      "published": "2026-11-19T05:00:00.000Z",
+      "snippet": "Winter precipitation helped wake dormant seeds in northern Chile, carpeting the desert with what may be the region’s most extensive flowering of the satellite era.",
+      "summary": null,
+      "source": "Space"
+    },
     {
       "title": "NASA Sets Coverage for Northrop Grumman CRS-25 Launch, Prelaunch",
       "link": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-northrop-grumman-crs-25-launch-prelaunch/",
@@ -71,30 +95,6 @@
       "link": "https://science.nasa.gov/image-article/apod-2026-november-18-an-m-class-solar-flare/",
       "published": "2026-11-18T05:05:00.000Z",
       "snippet": "APOD Science APOD APOD: 2026 November 18 – An… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. A Medium-Sized […]",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "Sierra Snow Season Spins Up",
-      "link": "https://science.nasa.gov/earth/earth-observatory/sierra-snow-season-spins-up/",
-      "published": "2026-11-18T05:01:00.000Z",
-      "snippet": "A widespread, early-season snowstorm blanketed California’s mountains in white in mid-November 2026.",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "NASA Launches Nuclear Power Systems Student Contest",
-      "link": "https://science.nasa.gov/centers-and-facilities/glenn/nasa-launches-nuclear-power-systems-student-contest/",
-      "published": "2026-11-17T22:02:48.000Z",
-      "snippet": "NASA’s Power to Explore Student Challenge kicked off Tuesday, Nov. 17. The science, engineering, technology, and mathematics (STEM) challenge invites kindergarten through 12th grade students in the United States to learn about space nuclear power systems and illustrate how these nuclear “batteries” could help power their lunar exploration vision. Students are also invited to write […]",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "NASA Space Apps Challenge Breaks Global Hackathon Records",
-      "link": "https://science.nasa.gov/open-science/nasa-space-apps-challenge-breaks-global-hackathon-records/",
-      "published": "2026-11-17T21:50:34.000Z",
-      "snippet": "On Nov. 14 and 15, NASA held the annual Space Apps Challenge with a record-breaking 181,835 registered participants taking part in 593 events around the world. The annual hackathon invites participants to use NASA’s open data to address one of 14 challenges focused on space exploration or Earth science. This year, the hackathon drew 59% […]",
       "summary": null,
       "source": "Space"
     }
