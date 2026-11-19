@@ -1,7 +1,47 @@
 {
   "topic": "Science News",
-  "updatedAt": "2026-11-19T11:48:18.493Z",
+  "updatedAt": "2026-11-19T20:43:42.223Z",
   "articles": [
+    {
+      "title": "Challenge: Public Input on Life and the World in 2075",
+      "link": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/challenge-public-input-on-life-and-the-world-in-2075/",
+      "published": "2026-11-19T19:34:20.000Z",
+      "snippet": "NASA’s Transformational Tools and Technologies (TTT) is gathering public perspectives on life today and how the world may change by 2075. This challenge asks for conceptual ideas about life in 2075 across four challenge topics. Ideas should explore how future aviation or aerospace systems could: Ideas should be conceptual rather than technical. Award: $20,000 in […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "NASA Science Data Powers New Method to Discover Hard-to-Find Pulsars",
+      "link": "https://science.nasa.gov/open-science/fermi-data-pulsar-discovery/",
+      "published": "2026-11-19T15:33:55.000Z",
+      "snippet": "Open data from NASA’s Fermi mission helped an international team of scientists develop a method for finding pulsars about a million times faster than before.",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "Lake Pelku",
+      "link": "https://www.nasa.gov/image-article/lake-pelku/",
+      "published": "2026-11-19T15:32:39.000Z",
+      "snippet": "An astronaut on the International Space Station captured this photograph of Lake Pelku (near center) as the station orbited above Asia. The International Space Station serves as a unique platform for observing Earth with both hands-on and automated equipment. Station crew members have produced hundreds of thousands of images. These images record phenomena in real […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "NASA Conducts Latest RS-25 Engine Test in Support of Future Artemis Missions",
+      "link": "https://www.nasa.gov/image-article/latest-rs-25-engine-test-in-support-of-future-artemis-missions/",
+      "published": "2026-11-19T14:44:39.000Z",
+      "snippet": "NASA tested RS-25 engine No. 10001 on Nov. 18 on the Fred Haise Test Stand at NASA’s Stennis Space Center near Bay St. Louis, Mississippi. Test teams fired the developmental engine for the planned duration of three minutes and 20 seconds (200 seconds). While this developmental engine will not be used in flight, the hot […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "NASA’s Voyager 1 Makes History Reaching One Light-Day From Earth",
+      "link": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/",
+      "published": "2026-11-19T14:31:15.000Z",
+      "snippet": "NASA’s Voyager 1 probe, humanity’s farthest-flying spacecraft, has reached one light-day from Earth, after more than 49 years of constant travel. A light-day is the distance light travels in 24 hours, equaling about 16.1 billion miles (25.9 billion kilometers). The spacecraft achieved the milestone at 2:16 a.m. PST (5:16 a.m. EST) Nov. 18. Voyager team […]",
+      "summary": null,
+      "source": "Space"
+    },
     {
       "title": "Peru’s penguins are in trouble. A super El Niño could worsen things",
       "link": "https://www.snexplores.org/article/peru-penguins-el-nino-trouble",
@@ -55,46 +95,6 @@
       "link": "https://www.nasa.gov/image-article/empire-state-building-goes-gold-for-voyager/",
       "published": "2026-11-18T17:50:26.000Z",
       "snippet": "The Empire State Building is seen illuminated in gold to celebrate NASA's Voyager 1 spacecraft as it was about to pass one light-day away from Earth, a distance reached by no other human-made object, Nov. 17, 2026. The color gold represents the gold-plated copper phonograph record that is flying on Voyager; the Golden Record contains […]",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "What Is the Moon Base?",
-      "link": "https://www.nasa.gov/learning-resources/for-kids-and-students/what-is-the-moon-base/",
-      "published": "2026-11-18T17:36:03.000Z",
-      "snippet": "This article is for students. NASA is returning astronauts to the Moon – and this time they will spend more time on the lunar surface. The Moon Base is humanity’s first lunar outpost. It will be a place where astronauts live, work, and explore. ______________________________________________________________________ Words to Know outpost: a station or base located in […]",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "Thank You for Doing NASA Science!",
-      "link": "https://science.nasa.gov/get-involved/citizen-science/thank-you-for-doing-nasa-science/",
-      "published": "2026-11-18T17:32:52.000Z",
-      "snippet": "It’s Thanksgiving time, and we’re giving thanks to you for doing NASA Science with us! You and NASA’s other volunteers have enabled an incredible banquet of discoveries—by taking data, analyzing data, writing code, writing papers, and even inventing your own science projects. Whether you’re an expert participant or someone who’s just started your science journey, […]",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "NASA Data Clinches First-of-Its-Kind Stellar Merger",
-      "link": "https://science.nasa.gov/missions/webb/nasa-data-clinches-first-of-its-kind-stellar-merger/",
-      "published": "2026-11-18T16:00:00.000Z",
-      "snippet": "Researchers recently identified a first of its kind: A star slightly less massive than the Sun spiraled into and merged with a puffy supergiant star at the outskirts of our neighboring Andromeda galaxy. They nicknamed the newly single, potentially “rejuvenated” star Bao. Their NASA-funded discovery was then bolstered by quick-turn observations from NASA’s James Webb […]",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "A new flying drone uses touch to perch like a bird",
-      "link": "https://www.snexplores.org/article/flying-drone-perch-like-bird",
-      "published": "2026-11-18T11:30:00.000Z",
-      "snippet": "The drone's human-inspired fingers use touch to get a grip. This avoids some obstacles that come with relying on vision to perch.",
-      "summary": null,
-      "source": "Science"
-    },
-    {
-      "title": "APOD: 2026 November 18 – An M-class Solar Flare",
-      "link": "https://science.nasa.gov/image-article/apod-2026-november-18-an-m-class-solar-flare/",
-      "published": "2026-11-18T05:05:00.000Z",
-      "snippet": "APOD Science APOD APOD: 2026 November 18 – An… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. A Medium-Sized […]",
       "summary": null,
       "source": "Space"
     }
