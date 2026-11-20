@@ -1,7 +1,31 @@
 {
   "topic": "Science News",
-  "updatedAt": "2026-11-20T02:22:17.887Z",
+  "updatedAt": "2026-11-20T11:49:04.707Z",
   "articles": [
+    {
+      "title": "Meet Swiftiephylus, a group of insects named after Taylor Swift",
+      "link": "https://www.snexplores.org/article/new-taylor-swift-insects",
+      "published": "2026-11-20T11:30:00.000Z",
+      "snippet": "Four newly described species of Australian plant bug have been named in honor of world-famous pop star Taylor Swift.",
+      "summary": null,
+      "source": "Science"
+    },
+    {
+      "title": "APOD: 2026 November 20 – V-G-R",
+      "link": "https://science.nasa.gov/image-article/apod-2026-november-20-v-g-r/",
+      "published": "2026-11-20T05:05:00.000Z",
+      "snippet": "APOD Science APOD APOD: 2026 November… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. V-G-R Explanation: On November 17, […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "The Stormy Southwest Pacific",
+      "link": "https://science.nasa.gov/earth/earth-observatory/the-stormy-southwest-pacific/",
+      "published": "2026-11-20T05:01:00.000Z",
+      "snippet": "Tropical Cyclone Xavier launched the basin’s storm season with a bang.",
+      "summary": null,
+      "source": "Space"
+    },
     {
       "title": "Challenge: Public Input on Life and the World in 2075",
       "link": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/challenge-public-input-on-life-and-the-world-in-2075/",
@@ -71,30 +95,6 @@
       "link": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-northrop-grumman-crs-25-launch-prelaunch/",
       "published": "2026-11-18T22:19:17.000Z",
       "snippet": "NASA, Northrop Grumman, and SpaceX are targeting no earlier than 10:47 a.m. EST, Sunday, Nov. 29, for the next launch delivering science investigations, supplies, and equipment to the International Space Station. The agency also will hold a prelaunch media teleconference on Monday, Nov. 23. Filled with approximately 11,000 pounds of cargo, the Northrop Grumman Cygnus […]",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "MAF EAP - Holidays – How to manage the BAH HUMBUG that tries to sneak in",
-      "link": "https://www.nasa.gov/centers-and-facilities/michoud/maf-eap/maf-eap-holidays-how-to-manage-the-bah-humbug-that-tries-to-sneak-in/",
-      "published": "2026-11-18T18:58:27.000Z",
-      "snippet": "Holidays are often a fun break during a busy year – a long weekend here and there is an event many of us can get behind. However, when a short holiday break turns into a full holiday season, we know that this is a different “ball game”. Everyone has stress about something – some people […]",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "NASA Announces Mid-Power Electric Rocket Challenge for US Companies",
-      "link": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/nasa-announces-mid-power-electric-rocket-challenge-for-us-companies/",
-      "published": "2026-11-18T18:12:32.000Z",
-      "snippet": "NASA launched a new competition inviting U.S. companies to produce prototypes of mid-power Hall effect thrusters – a type of electric propulsion system considered crucial for future space operations and exploration. Hall effect thrusters use an electric field to accelerate a propellant gas, producing efficient thrust for long-duration missions. Used for propelling satellites and deep […]",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "Empire State Building Goes Gold for Voyager",
-      "link": "https://www.nasa.gov/image-article/empire-state-building-goes-gold-for-voyager/",
-      "published": "2026-11-18T17:50:26.000Z",
-      "snippet": "The Empire State Building is seen illuminated in gold to celebrate NASA's Voyager 1 spacecraft as it was about to pass one light-day away from Earth, a distance reached by no other human-made object, Nov. 17, 2026. The color gold represents the gold-plated copper phonograph record that is flying on Voyager; the Golden Record contains […]",
       "summary": null,
       "source": "Space"
     }
