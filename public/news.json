@@ -1,7 +1,23 @@
 {
   "topic": "Science News",
-  "updatedAt": "2026-11-20T20:28:25.661Z",
+  "updatedAt": "2026-11-21T02:23:58.843Z",
   "articles": [
+    {
+      "title": "Curiosity Spots Drifting Twilight Clouds",
+      "link": "https://science.nasa.gov/photojournal/curiosity-spots-drifting-twilight-clouds/",
+      "published": "2026-11-20T22:27:05.000Z",
+      "snippet": "Description NASA’s Curiosity Mars rover captured these drifting clouds on Oct. 31, 2026, the 5,061st Martian day, or sol, of the mission. The rover uses its navigation cameras to capture post-sunset clouds, called twilight clouds, which appear for only a short time each fall over Gale Crater, which it has been exploring for more than […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "New NASA Seed Funding Primes Small Businesses for Innovation",
+      "link": "https://www.nasa.gov/directorates/rtmd/new-nasa-seed-funding-primes-small-businesses-for-innovation/",
+      "published": "2026-11-20T20:46:14.000Z",
+      "snippet": "Awards to small businesses around the country are addressing some of NASA’s most crucial technology needs for exploration of the Moon and Mars while fueling the U.S. space economy. NASA’s Small Business Innovation Research/Small Business Technology Transfer (SBIR/STTR) program recently selected 302 innovative projects, for a total investment of up to $171 million in seed […]",
+      "summary": null,
+      "source": "Space"
+    },
     {
       "title": "NASA Honor Awards Ceremony Recognizes Employees at Stennis Space Center",
       "link": "https://www.nasa.gov/centers-and-facilities/stennis/honor-awards-ceremony-at-stennis/",
@@ -79,22 +95,6 @@
       "link": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/",
       "published": "2026-11-19T14:31:15.000Z",
       "snippet": "NASA’s Voyager 1 probe, humanity’s farthest-flying spacecraft, has reached one light-day from Earth, after more than 49 years of constant travel. A light-day is the distance light travels in 24 hours, equaling about 16.1 billion miles (25.9 billion kilometers). The spacecraft achieved the milestone at 2:16 a.m. PST (5:16 a.m. EST) Nov. 18. Voyager team […]",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "Peru’s penguins are in trouble. A super El Niño could worsen things",
-      "link": "https://www.snexplores.org/article/peru-penguins-el-nino-trouble",
-      "published": "2026-11-19T11:30:00.000Z",
-      "snippet": "Bird flu, overfishing and warming seas have crashed the world’s largest colony of Humboldt penguins. Scientists are working to help them bounce back.",
-      "summary": null,
-      "source": "Science"
-    },
-    {
-      "title": "APOD: 2026 November 19 – The Horsehead and Flame Nebulas",
-      "link": "https://science.nasa.gov/image-article/apod-2026-november-19-the-horsehead-and-flame-nebulas/",
-      "published": "2026-11-19T05:05:00.000Z",
-      "snippet": "APOD Science APOD APOD: 2026 November 19 – The… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. OriginalAnnotated The […]",
       "summary": null,
       "source": "Space"
     }
