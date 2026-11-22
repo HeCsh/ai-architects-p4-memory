@@ -1,7 +1,15 @@
 {
   "topic": "Science News",
-  "updatedAt": "2026-11-22T01:23:18.716Z",
+  "updatedAt": "2026-11-22T11:34:44.730Z",
   "articles": [
+    {
+      "title": "APOD: 2026 November 22 – Swirls and Colors on Jupiter from Juno",
+      "link": "https://science.nasa.gov/image-article/apod-2026-november-22-swirls-and-colors-on-jupiter-from-juno/",
+      "published": "2026-11-22T05:05:00.000Z",
+      "snippet": "APOD Science APOD APOD: 2026 November 22 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Swirls and Colors […]",
+      "summary": null,
+      "source": "Space"
+    },
     {
       "title": "APOD: 2026 November 21 – Voyager’s Neptune",
       "link": "https://science.nasa.gov/image-article/apod-2026-november-21-voyagers-neptune/",
@@ -87,14 +95,6 @@
       "link": "https://www.nasa.gov/image-article/lake-pelku/",
       "published": "2026-11-19T15:32:39.000Z",
       "snippet": "An astronaut on the International Space Station captured this photograph of Lake Pelku (near center) as the station orbited above Asia. The International Space Station serves as a unique platform for observing Earth with both hands-on and automated equipment. Station crew members have produced hundreds of thousands of images. These images record phenomena in real […]",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "NASA Conducts Latest RS-25 Engine Test in Support of Future Artemis Missions",
-      "link": "https://www.nasa.gov/image-article/latest-rs-25-engine-test-in-support-of-future-artemis-missions/",
-      "published": "2026-11-19T14:44:39.000Z",
-      "snippet": "NASA tested RS-25 engine No. 10001 on Nov. 18 on the Fred Haise Test Stand at NASA’s Stennis Space Center near Bay St. Louis, Mississippi. Test teams fired the developmental engine for the planned duration of three minutes and 20 seconds (200 seconds). While this developmental engine will not be used in flight, the hot […]",
       "summary": null,
       "source": "Space"
     }
