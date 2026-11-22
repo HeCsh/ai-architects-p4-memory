@@ -1,7 +1,15 @@
 {
   "topic": "Science News",
-  "updatedAt": "2026-11-22T11:34:44.730Z",
+  "updatedAt": "2026-11-22T19:46:22.465Z",
   "articles": [
+    {
+      "title": "65 Years of Human Spaceflight at NASA Johnson",
+      "link": "https://www.nasa.gov/centers-and-facilities/johnson/65-years-of-human-spaceflight-at-nasa-johnson/",
+      "published": "2026-11-22T19:13:25.000Z",
+      "snippet": "For 65 years, NASA’s Johnson Space Center in Houston has helped shape human spaceflight, from the Gemini missions that demonstrated rendezvous and docking techniques needed for Apollo to the research conducted aboard the International Space Station, which has supported a continuous human presence for more than 26 years. Today, Johnson teams are preparing crews and […]",
+      "summary": null,
+      "source": "Space"
+    },
     {
       "title": "APOD: 2026 November 22 – Swirls and Colors on Jupiter from Juno",
       "link": "https://science.nasa.gov/image-article/apod-2026-november-22-swirls-and-colors-on-jupiter-from-juno/",
@@ -87,14 +95,6 @@
       "link": "https://science.nasa.gov/open-science/fermi-data-pulsar-discovery/",
       "published": "2026-11-19T15:33:55.000Z",
       "snippet": "Open data from NASA’s Fermi mission helped an international team of scientists develop a method for finding pulsars about a million times faster than before.",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "Lake Pelku",
-      "link": "https://www.nasa.gov/image-article/lake-pelku/",
-      "published": "2026-11-19T15:32:39.000Z",
-      "snippet": "An astronaut on the International Space Station captured this photograph of Lake Pelku (near center) as the station orbited above Asia. The International Space Station serves as a unique platform for observing Earth with both hands-on and automated equipment. Station crew members have produced hundreds of thousands of images. These images record phenomena in real […]",
       "summary": null,
       "source": "Space"
     }
