@@ -1,7 +1,39 @@
 {
   "topic": "Science News",
-  "updatedAt": "2026-11-23T03:15:33.841Z",
+  "updatedAt": "2026-11-23T12:59:25.837Z",
   "articles": [
+    {
+      "title": "Scientists Say: Noise",
+      "link": "https://www.snexplores.org/article/scientists-say-noise-definition-pronunciation",
+      "published": "2026-11-23T11:30:00.000Z",
+      "snippet": "To analyze a messy set of data, scientists must distinguish real information from background “noise.”",
+      "summary": null,
+      "source": "Science"
+    },
+    {
+      "title": "Analyze This: Color might explain baboon’s link to Egyptian god",
+      "link": "https://www.snexplores.org/article/baboon-color-egyptian-moon-god",
+      "published": "2026-11-23T11:30:00.000Z",
+      "snippet": "Ancient Egyptians might have linked hamadryas baboons with the moon god Thoth due to their silvery fur.",
+      "summary": null,
+      "source": "Science"
+    },
+    {
+      "title": "APOD: 2026 November 23 – The Emergence of Dark Nebula Lynds 1251",
+      "link": "https://science.nasa.gov/image-article/apod-2026-november-23-the-emergence-of-dark-nebula-lynds-1251/",
+      "published": "2026-11-23T05:05:00.000Z",
+      "snippet": "APOD Science APOD APOD: 2026 November 23 – The… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. The Emergence […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "Laser Focus at the Top of the World",
+      "link": "https://science.nasa.gov/earth/earth-observatory/laser-focus-at-the-top-of-the-world/",
+      "published": "2026-11-23T05:01:00.000Z",
+      "snippet": "A next-generation geodetic instrument developed by NASA, part of a network that helps measure satellites’ orbits and the planet’s shape, has debuted in Svalbard, Norway.",
+      "summary": null,
+      "source": "Space"
+    },
     {
       "title": "65 Years of Human Spaceflight at NASA Johnson",
       "link": "https://www.nasa.gov/centers-and-facilities/johnson/65-years-of-human-spaceflight-at-nasa-johnson/",
@@ -65,38 +97,6 @@
       "snippet": "Four newly described species of Australian plant bug have been named in honor of world-famous pop star Taylor Swift.",
       "summary": null,
       "source": "Science"
-    },
-    {
-      "title": "APOD: 2026 November 20 – V-G-R",
-      "link": "https://science.nasa.gov/image-article/apod-2026-november-20-v-g-r/",
-      "published": "2026-11-20T05:05:00.000Z",
-      "snippet": "APOD Science APOD APOD: 2026 November… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. V-G-R Explanation: On November 17, […]",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "The Stormy Southwest Pacific",
-      "link": "https://science.nasa.gov/earth/earth-observatory/the-stormy-southwest-pacific/",
-      "published": "2026-11-20T05:01:00.000Z",
-      "snippet": "Tropical Cyclone Xavier launched the basin’s storm season with a bang.",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "Challenge: Public Input on Life and the World in 2075",
-      "link": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/challenge-public-input-on-life-and-the-world-in-2075/",
-      "published": "2026-11-19T19:34:20.000Z",
-      "snippet": "NASA’s Transformational Tools and Technologies (TTT) is gathering public perspectives on life today and how the world may change by 2075. This challenge asks for conceptual ideas about life in 2075 across four challenge topics. Ideas should explore how future aviation or aerospace systems could: Ideas should be conceptual rather than technical. Award: $20,000 in […]",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "NASA Science Data Powers New Method to Discover Hard-to-Find Pulsars",
-      "link": "https://science.nasa.gov/open-science/fermi-data-pulsar-discovery/",
-      "published": "2026-11-19T15:33:55.000Z",
-      "snippet": "Open data from NASA’s Fermi mission helped an international team of scientists develop a method for finding pulsars about a million times faster than before.",
-      "summary": null,
-      "source": "Space"
     }
   ]
 }
