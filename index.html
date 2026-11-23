@@ -176,8 +176,12 @@
       </div>
 
       <!-- Paste a web address here and the news bot starts reading it.
-           Nothing is typed into a code file: the address is sent to the robot,
-           which finds the feed, checks it works, and adds it to config.json. -->
+           It takes two steps, and the panel says so before you press anything.
+           A page like this one is only files, so it cannot save anything by
+           itself. Step two is where the owner's own GitHub login does the
+           saving. The "Why two steps" line below is part of the lesson, not an
+           apology: it is the reason the next project moves to a platform that
+           can run code and keep a secret. -->
       <div id="add-source-panel" class="hidden mt-3 p-4 rounded-xl border border-slate-200 bg-slate-50">
         <label for="add-source-input" class="block text-xs font-bold text-slate-700 mb-2">
           Paste a news website address
@@ -192,8 +196,22 @@
           </button>
         </div>
         <p id="add-source-note" class="mt-2 text-xs text-slate-500 leading-relaxed">
-          Paste the ordinary address of a news website. The robot works out the rest.
+          This takes two steps. Press <span class="font-semibold text-slate-700">Add it</span>,
+          then press the green button on the page that opens.
         </p>
+
+        <details class="mt-3 group">
+          <summary class="text-xs text-slate-400 hover:text-slate-600 cursor-pointer select-none">
+            Why two steps?
+          </summary>
+          <p class="mt-1.5 text-xs text-slate-500 leading-relaxed">
+            This website is only files sitting on a server. Files cannot change themselves,
+            so this page has no way to save your new website on its own. The page that opens
+            is where your own login does the saving, and a robot takes it from there.
+            Letting a page save things by itself needs somewhere that can run code and keep
+            a secret, which is what the next project is built on.
+          </p>
+        </details>
       </div>
 
     </div>
@@ -472,16 +490,34 @@
         return;
       }
 
+      // The line under the box changes as things happen: the two step
+      // instructions to start with, then red if something is wrong, then green
+      // once it has been sent. Keep the original so it can come back.
+      const noteDefault = { html: note.innerHTML, className: note.className };
+      const setNote = (html, colour) => {
+        note.innerHTML = html;
+        note.className = 'mt-2 text-xs leading-relaxed ' + colour;
+      };
+      const resetNote = () => {
+        note.innerHTML = noteDefault.html;
+        note.className = noteDefault.className;
+      };
+
       toggle.addEventListener('click', () => {
         panel.classList.toggle('hidden');
-        if (!panel.classList.contains('hidden')) input.focus();
+        if (!panel.classList.contains('hidden')) {
+          resetNote();
+          input.focus();
+        }
       });
+
+      // Typing again means they are having another go, so clear the last message.
+      input.addEventListener('input', resetNote);
 
       const submit = () => {
         let address = input.value.trim();
         if (!address) {
-          note.textContent = 'Type a web address first.';
-          note.className = 'mt-2 text-xs text-rose-600 font-semibold leading-relaxed';
+          setNote('Type a web address first.', 'text-rose-600 font-semibold');
           return;
         }
         if (!/^https?:\/\//i.test(address)) address = 'https://' + address;
@@ -496,8 +532,8 @@
         } catch { /* handled just below */ }
         const looksReal = /^[a-z0-9]([a-z0-9-]*[a-z0-9])?(\.[a-z0-9]([a-z0-9-]*[a-z0-9])?)+$/i.test(host);
         if (!looksReal) {
-          note.textContent = 'That does not look like a web address. It should look like www.nasa.gov';
-          note.className = 'mt-2 text-xs text-rose-600 font-semibold leading-relaxed';
+          setNote('That does not look like a web address. It should look like www.nasa.gov',
+                  'text-rose-600 font-semibold');
           return;
         }
 
@@ -513,9 +549,12 @@
         );
 
         input.value = '';
-        note.textContent = 'Sent. Press the green button on the page that just opened, '
-          + 'and the website appears here within a few minutes.';
-        note.className = 'mt-2 text-xs text-emerald-700 font-semibold leading-relaxed';
+        setNote(
+          '<span class="font-bold">Step 2 of 2, in the new tab.</span> '
+          + 'Press the green button to confirm. Then you can close it: a robot picks it up, '
+          + 'checks the website really has a news feed, and adds it here within a few minutes.',
+          'text-emerald-700'
+        );
       };
 
       send.addEventListener('click', submit);

@@ -30,7 +30,19 @@ Use this repo as the catch-up checkpoint for anyone who fell behind.
 
 ## Choose which websites to pull from
 
-**The easy way, from your own site.** Press **Add a news website** next to the filter buttons, paste the ordinary address of a news site, and press **Add it**. A page opens asking you to confirm; press the green button on it. Within a few minutes the website appears on your site as a new filter button.
+**The easy way, from your own site.** Press **Add a news website** next to the filter buttons, paste the ordinary address of a news site, and press **Add it**. This takes two steps: a page opens asking you to confirm, and you press the green button on it. Within a few minutes the website appears on your site as a new filter button.
+
+### Why it takes two steps
+
+This is worth understanding, because it explains something about every website you have ever used.
+
+Your site is only files sitting on a server. Files cannot change themselves. So when you type a new website into that box, the page has no way to save it, because saving means changing a file in your project and nothing on the page is allowed to do that.
+
+It could not be allowed to, either. Changing your project needs a password, and anything the page knows is something every visitor can read. A page that could save things by itself would be a page handing out your password.
+
+So the second step is where your own login does the saving. After that a robot takes over: it finds the news feed, checks it really works, and writes it into `config.json` for you.
+
+To let a page save things without that second step, you need somewhere that can run code and keep a secret. That is what the next project is built on.
 
 You do not need the feed address. Paste `www.nasa.gov` and the robot finds the feed behind it, checks it works, and names the button from the feed itself. If a site has no feed, it says so and nothing changes.
 
