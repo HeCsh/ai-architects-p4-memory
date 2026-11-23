@@ -44,6 +44,8 @@ So the second step is where your own login does the saving. After that a robot t
 
 To let a page save things without that second step, you need somewhere that can run code and keep a secret. That is what the next project is built on.
 
+**You can have that here too, if you want it.** `worker/` holds a small helper you can put up in about fifteen minutes, for free. It holds the password, so the box does the whole job on the page and the second step disappears. `worker/README.md` explains what it is and how to set it up. Without it everything still works, just with the confirm step.
+
 You do not need the feed address. Paste `www.nasa.gov` and the robot finds the feed behind it, checks it works, and names the button from the feed itself. If a site has no feed, it says so and nothing changes.
 
 Only the owner of a copy can add websites to it. A visitor pressing the button cannot change your site.

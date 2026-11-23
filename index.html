@@ -514,6 +514,23 @@
       // Typing again means they are having another go, so clear the last message.
       input.addEventListener('input', resetNote);
 
+      // Is there a helper set up? config.json says. With one, the whole job
+      // happens here and nobody leaves the page. Without one, the box falls
+      // back to asking the owner to confirm on GitHub, which still works.
+      // See worker/README.md for what the helper is and how to put one up.
+      let helperUrl = '';
+      fetch('./config.json', { cache: 'no-store' })
+        .then((r) => r.ok ? r.json() : null)
+        .then((cfg) => {
+          helperUrl = (cfg && cfg.addSourceHelper) || '';
+          if (helperUrl) {
+            noteDefault.html = 'Paste the ordinary address of a news website. '
+              + 'The robot works out the rest.';
+            resetNote();
+          }
+        })
+        .catch(() => { /* no helper, keep the two step wording */ });
+
       const submit = () => {
         let address = input.value.trim();
         if (!address) {
@@ -537,7 +554,10 @@
           return;
         }
 
-        // The request carries the address. A robot reads it within a minute.
+        if (helperUrl) { askHelper(address); return; }
+
+        // No helper set up, so fall back to asking the owner to confirm on
+        // GitHub. Slower, but it needs nothing to be running anywhere.
         const title = encodeURIComponent('Add news website: ' + address);
         const body = encodeURIComponent(
           'Sent from the Add a news website box.\n\n' +
@@ -556,6 +576,46 @@
           'text-emerald-700'
         );
       };
+
+      // With a helper, the page does the whole thing itself. It asks the
+      // helper, the helper finds the feed and saves it, and the answer comes
+      // straight back here.
+      async function askHelper(address) {
+        send.disabled = true;
+        send.textContent = 'Checking...';
+        setNote('Looking for a news feed at that address.', 'text-slate-500');
+
+        try {
+          const res = await fetch(helperUrl, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ owner, repo, address }),
+          });
+          const result = await res.json();
+          if (!res.ok || result.error) throw new Error(result.error || 'That did not work.');
+
+          input.value = '';
+          setNote(
+            `<span class="font-bold">Added ${escapeHtml(result.name)}.</span> `
+            + `Found ${result.stories} stories. Its button appears here after the next run, `
+            + 'or straight away if you press Run workflow on the Actions tab.',
+            'text-emerald-700'
+          );
+        } catch (err) {
+          setNote(escapeHtml(err.message || 'That did not work.'), 'text-rose-600 font-semibold');
+        } finally {
+          send.disabled = false;
+          send.textContent = 'Add it';
+        }
+      }
+
+      // The helper's reply is text from somewhere else, so never drop it
+      // straight into the page as it is.
+      function escapeHtml(s) {
+        const d = document.createElement('div');
+        d.textContent = String(s);
+        return d.innerHTML;
+      }
 
       send.addEventListener('click', submit);
       input.addEventListener('keydown', (e) => { if (e.key === 'Enter') submit(); });
