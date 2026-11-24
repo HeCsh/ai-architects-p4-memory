@@ -1,7 +1,71 @@
 {
   "topic": "Science News",
-  "updatedAt": "2026-11-24T13:51:23.741Z",
+  "updatedAt": "2026-11-24T23:55:54.529Z",
   "articles": [
+    {
+      "title": "NASA+ Content Coming to Big Screen at Greenbelt, Maryland Cinema",
+      "link": "https://www.nasa.gov/nasa/nasa-content-coming-to-big-screen-at-greenbelt-maryland-cinema/",
+      "published": "2026-11-24T21:14:36.000Z",
+      "snippet": "NASA announced Monday that NASA+ content has found its first theatrical home at The Greenbelt Cinema in Greenbelt, Maryland, expanding the agency’s reach across major viewing platforms and bringing space even closer to home. “The National Aeronautics and Space Act of 1958 calls us to share our story of space exploration with the broadest possible […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "Teams Lock in Mission Architecture for NASA’s SR-1 Freedom",
+      "link": "https://www.nasa.gov/general/nasa-locks-in-sr1-freedom-mission-architecture/",
+      "published": "2026-11-24T21:04:32.000Z",
+      "snippet": "NASA completed a major review for Space Reactor-1 (SR-1) Freedom and locked in key elements of the spacecraft, which is targeted to launch in 2028 and demonstrate nuclear electric propulsion in deep space for the first time. Experts from across the agency, the U.S. Department of Energy (DOE), and industry met at NASA’s Glenn Research […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "Amateur Astronomer? Be a Kilonova Catcher!",
+      "link": "https://science.nasa.gov/get-involved/citizen-science/amateur-astronomer-be-a-kilonova-catcher/",
+      "published": "2026-11-24T19:19:52.000Z",
+      "snippet": "Neutron stars are the ultra-dense, city-sized leftovers of dead stars. When they collide, they can release a brief flash of light called a kilonova. These immensely powerful events forge much of the universe’s gold, platinum and other heavy elements. Since a kilonova fades within days, astronomers have to find it fast, and no single observatory […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "NASA’s Northrop Grumman CRS-25 Mission Overview",
+      "link": "https://www.nasa.gov/missions/station/nasas-northrop-grumman-crs-25-mission-overview/",
+      "published": "2026-11-24T19:09:16.000Z",
+      "snippet": "NASA’s Northrop Grumman Commercial Resupply Services 25 mission, or Northrop Grumman CRS-25, will deliver about 11,000 pounds of science and supplies to the International Space Station. The mission will be the third flight of the company’s Cygnus XL, the larger, more cargo-capable version of the company’s solar-powered spacecraft. The Cygnus XL will launch aboard a […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "AGU Hyperwall Schedule",
+      "link": "https://science.nasa.gov/earth/agu-hyperwall-schedule/",
+      "published": "2026-11-24T18:55:42.000Z",
+      "snippet": "American Geophysical Union (AGU) 2026 Join NASA in the Exhibit Hall (Booth #525) for Hyperwall Storytelling by NASA experts. Full Hyperwall Agenda below. TUESDAY, NOVEMBER 17 10:30 AMHigh Resolution Hydrology Simulations and Agentic Super Intelligence Interfaces for Mapping Water Availability and ExtremesSujay Kumar11:00 AMScale-Resolving CFD Methods for Predicting Aircraft “Edge of the Flight...",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "Webb Reveals New Details in Supernova Remnant",
+      "link": "https://www.nasa.gov/image-article/webb-reveals-new-details-in-supernova-remnant/",
+      "published": "2026-11-24T16:51:27.000Z",
+      "snippet": "NASA’s James Webb Space Telescope reveals the hot dust that makes up Cassiopeia A (Cas A) in this high-resolution, mid-infrared image released on Nov. 23, 2026. Remnants like these are the clouds of gas and dust that remain following the explosion of a massive star and will eventually seed a new generation of stars and […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "NASA’s Titan-Bound Dragonfly Rotorcraft Gets Its Eyes",
+      "link": "https://science.nasa.gov/missions/dragonfly/nasas-titan-bound-dragonfly-rotorcraft-gets-its-eyes/",
+      "published": "2026-11-24T15:44:38.000Z",
+      "snippet": "Science instruments for NASA’s Dragonfly are starting to arrive at the Johns Hopkins Applied Physics Laboratory (APL) in Laurel, Maryland, where the car-sized rotorcraft is coming together for its mission to explore Saturn’s largest moon, Titan. First to check in: DragonCam, which consists of seven cameras designed to characterize Titan’s surface at multiple scales during […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "NASA Hubble’s New View of NGC 4394 Raises the Bar",
+      "link": "https://science.nasa.gov/missions/hubble/nasa-hubbles-new-view-of-ngc-4394-raises-the-bar/",
+      "published": "2026-11-24T13:58:28.000Z",
+      "snippet": "The brilliant galaxy NGC 4394 with its distinct galactic bar takes center stage in this Hubble Space Telescope image",
+      "summary": null,
+      "source": "Space"
+    },
     {
       "title": "Meet the first new living cat species described in more than a century",
       "link": "https://www.snexplores.org/article/new-living-cat-species",
@@ -31,70 +95,6 @@
       "link": "https://science.nasa.gov/earth/earth-observatory/eruption-extends-iwo-jimas-beach/",
       "published": "2026-11-24T05:01:00.000Z",
       "snippet": "A volcanic eruption just off the southeast shore of the Pacific island has reshaped the coast, but it’s unclear how long the new land will survive.",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "NASA Awards Contract for NOAA’s Near Earth Orbit Network Program",
-      "link": "https://www.nasa.gov/news-release/nasa-awards-contract-for-noaas-near-earth-orbit-network-program/",
-      "published": "2026-11-23T21:10:03.000Z",
-      "snippet": "NASA, on behalf of the National Oceanic and Atmospheric Administration (NOAA), has awarded a contract to Northrop Grumman Systems Corporation for the Sounder for Microwave-Based Applications (SMBA) instruments on NOAA’s Near Earth Orbit Network (NEON) satellites. The cost-plus-fixed-fee, firm-fixed-price, and time-and-materials hybrid contract has a value of $290.6 million. The period of...",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "Studying Cancer Cells in Microgravity",
-      "link": "https://www.nasa.gov/image-article/studying-cancer-cells-in-microgravity/",
-      "published": "2026-11-23T17:28:37.000Z",
-      "snippet": "This Nov. 19, 2026, image shows gastric microtumors grown within an Encapsulates biochip. The Encapsulate-1 investigation studies patient-derived tumor samples aboard the International Space Station to better understand how cancer cells move and interact in microgravity. The results could help researchers develop further testing to predict a patient's risk of metastasis and support more...",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "NASA Seeks Partners to Design First Nuclear Reactor for the Moon",
-      "link": "https://www.nasa.gov/directorates/rtmd/nasa-seeks-partners-to-design-first-nuclear-reactor-for-the-moon/",
-      "published": "2026-11-23T17:23:50.000Z",
-      "snippet": "NASA is seeking industry partners to develop and test the first nuclear reactor designed to provide electricity on the Moon, a major step toward establishing a sustained human presence on the lunar surface. Lunar Reactor-1 (LR-1) will be a small fission power system that will generate 20 kilowatts of electricity, enough to power approximately 16 […]",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "NASA+ Documentary Captures Europa Clipper’s Journey Into Deep Space",
-      "link": "https://www.nasa.gov/missions/europa-clipper/nasa-documentary-captures-europa-clippers-journey-into-deep-space/",
-      "published": "2026-11-23T16:08:23.000Z",
-      "snippet": "NASA invites the world behind the scenes to witness the story of Europa Clipper’s journey from a far-off vision to a cutting-edge deep space exploration mission with the release of the agency’s newest documentary, “The Europa Concept.” The documentary will air on NASA+, the NASA app, and the agency’s website starting Monday, Nov. 23, and […]",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "NASA’s Webb Shows How Supernova Dust Chronicles Star Evolution",
-      "link": "https://science.nasa.gov/missions/webb/nasas-webb-shows-how-supernova-dust-chronicles-star-evolution/",
-      "published": "2026-11-23T15:00:00.000Z",
-      "snippet": "NASA’s James Webb Space Telescope has painted a vibrant tapestry of the legendary supernova remnant Cassiopeia A (Cas A). Remnants like these are the clouds of gas and dust that remain following the explosion of a massive star and will eventually seed a new generation of stars and planets. This high-resolution, mid-infrared observation from Webb […]",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "Scientists Say: Noise",
-      "link": "https://www.snexplores.org/article/scientists-say-noise-definition-pronunciation",
-      "published": "2026-11-23T11:30:00.000Z",
-      "snippet": "To analyze a messy set of data, scientists must distinguish real information from background “noise.”",
-      "summary": null,
-      "source": "Science"
-    },
-    {
-      "title": "Analyze This: Color might explain baboon’s link to Egyptian god",
-      "link": "https://www.snexplores.org/article/baboon-color-egyptian-moon-god",
-      "published": "2026-11-23T11:30:00.000Z",
-      "snippet": "Ancient Egyptians might have linked hamadryas baboons with the moon god Thoth due to their silvery fur.",
-      "summary": null,
-      "source": "Science"
-    },
-    {
-      "title": "APOD: 2026 November 23 – The Emergence of Dark Nebula Lynds 1251",
-      "link": "https://science.nasa.gov/image-article/apod-2026-november-23-the-emergence-of-dark-nebula-lynds-1251/",
-      "published": "2026-11-23T05:05:00.000Z",
-      "snippet": "APOD Science APOD APOD: 2026 November 23 – The… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. The Emergence […]",
       "summary": null,
       "source": "Space"
     }
