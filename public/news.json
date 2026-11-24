@@ -1,7 +1,47 @@
 {
   "topic": "Science News",
-  "updatedAt": "2026-11-23T12:59:25.837Z",
+  "updatedAt": "2026-11-24T02:16:08.574Z",
   "articles": [
+    {
+      "title": "NASA Awards Contract for NOAA’s Near Earth Orbit Network Program",
+      "link": "https://www.nasa.gov/news-release/nasa-awards-contract-for-noaas-near-earth-orbit-network-program/",
+      "published": "2026-11-23T21:10:03.000Z",
+      "snippet": "NASA, on behalf of the National Oceanic and Atmospheric Administration (NOAA), has awarded a contract to Northrop Grumman Systems Corporation for the Sounder for Microwave-Based Applications (SMBA) instruments on NOAA’s Near Earth Orbit Network (NEON) satellites. The cost-plus-fixed-fee, firm-fixed-price, and time-and-materials hybrid contract has a value of $290.6 million. The period of...",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "Studying Cancer Cells in Microgravity",
+      "link": "https://www.nasa.gov/image-article/studying-cancer-cells-in-microgravity/",
+      "published": "2026-11-23T17:28:37.000Z",
+      "snippet": "This Nov. 19, 2026, image shows gastric microtumors grown within an Encapsulates biochip. The Encapsulate-1 investigation studies patient-derived tumor samples aboard the International Space Station to better understand how cancer cells move and interact in microgravity. The results could help researchers develop further testing to predict a patient's risk of metastasis and support more...",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "NASA Seeks Partners to Design First Nuclear Reactor for the Moon",
+      "link": "https://www.nasa.gov/directorates/rtmd/nasa-seeks-partners-to-design-first-nuclear-reactor-for-the-moon/",
+      "published": "2026-11-23T17:23:50.000Z",
+      "snippet": "NASA is seeking industry partners to develop and test the first nuclear reactor designed to provide electricity on the Moon, a major step toward establishing a sustained human presence on the lunar surface. Lunar Reactor-1 (LR-1) will be a small fission power system that will generate 20 kilowatts of electricity, enough to power approximately 16 […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "NASA+ Documentary Captures Europa Clipper’s Journey Into Deep Space",
+      "link": "https://www.nasa.gov/missions/europa-clipper/nasa-documentary-captures-europa-clippers-journey-into-deep-space/",
+      "published": "2026-11-23T16:08:23.000Z",
+      "snippet": "NASA invites the world behind the scenes to witness the story of Europa Clipper’s journey from a far-off vision to a cutting-edge deep space exploration mission with the release of the agency’s newest documentary, “The Europa Concept.” The documentary will air on NASA+, the NASA app, and the agency’s website starting Monday, Nov. 23, and […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "NASA’s Webb Shows How Supernova Dust Chronicles Star Evolution",
+      "link": "https://science.nasa.gov/missions/webb/nasas-webb-shows-how-supernova-dust-chronicles-star-evolution/",
+      "published": "2026-11-23T15:00:00.000Z",
+      "snippet": "NASA’s James Webb Space Telescope has painted a vibrant tapestry of the legendary supernova remnant Cassiopeia A (Cas A). Remnants like these are the clouds of gas and dust that remain following the explosion of a massive star and will eventually seed a new generation of stars and planets. This high-resolution, mid-infrared observation from Webb […]",
+      "summary": null,
+      "source": "Space"
+    },
     {
       "title": "Scientists Say: Noise",
       "link": "https://www.snexplores.org/article/scientists-say-noise-definition-pronunciation",
@@ -57,46 +97,6 @@
       "snippet": "APOD Science APOD APOD: 2026 November 21 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Voyager's Neptune Explanation: […]",
       "summary": null,
       "source": "Space"
-    },
-    {
-      "title": "Curiosity Spots Drifting Twilight Clouds",
-      "link": "https://science.nasa.gov/photojournal/curiosity-spots-drifting-twilight-clouds/",
-      "published": "2026-11-20T22:27:05.000Z",
-      "snippet": "Description NASA’s Curiosity Mars rover captured these drifting clouds on Oct. 31, 2026, the 5,061st Martian day, or sol, of the mission. The rover uses its navigation cameras to capture post-sunset clouds, called twilight clouds, which appear for only a short time each fall over Gale Crater, which it has been exploring for more than […]",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "New NASA Seed Funding Primes Small Businesses for Innovation",
-      "link": "https://www.nasa.gov/directorates/rtmd/new-nasa-seed-funding-primes-small-businesses-for-innovation/",
-      "published": "2026-11-20T20:46:14.000Z",
-      "snippet": "Awards to small businesses around the country are addressing some of NASA’s most crucial technology needs for exploration of the Moon and Mars while fueling the U.S. space economy. NASA’s Small Business Innovation Research/Small Business Technology Transfer (SBIR/STTR) program recently selected 302 innovative projects, for a total investment of up to $171 million in seed […]",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "NASA Honor Awards Ceremony Recognizes Employees at Stennis Space Center",
-      "link": "https://www.nasa.gov/centers-and-facilities/stennis/honor-awards-ceremony-at-stennis/",
-      "published": "2026-11-20T16:27:46.000Z",
-      "snippet": "Employees contributing to NASA’s mission at the agency’s Stennis Space Center near Bay St. Louis, Mississippi, were recognized during the center’s Honor Awards ceremony on Nov. 18. Presenting the awards were Christine Powell, NASA Stennis center director, and Jeremy Parsons, the agency’s Artemis program manager responsible for management and oversight of NASA’s initiative to return […]",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "NASA's Curiosity Mars Rover Collects Samples",
-      "link": "https://www.nasa.gov/image-article/nasas-curiosity-mars-rover-collects-samples/",
-      "published": "2026-11-20T15:53:24.000Z",
-      "snippet": "This Nov. 16 collage shows 49 drill holes captured by NASA’s Curiosity Mars rover as of November 2026. Each hole represents a sample collected from rocks on the Martian surface; Curiosity’s drill, located on the end of its robotic arm, drops pulverized rock samples into instruments in its belly that analyze their composition. Learn more […]",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "Meet Swiftiephylus, a group of insects named after Taylor Swift",
-      "link": "https://www.snexplores.org/article/new-taylor-swift-insects",
-      "published": "2026-11-20T11:30:00.000Z",
-      "snippet": "Four newly described species of Australian plant bug have been named in honor of world-famous pop star Taylor Swift.",
-      "summary": null,
-      "source": "Science"
     }
   ]
 }
