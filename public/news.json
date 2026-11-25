@@ -1,7 +1,55 @@
 {
   "topic": "Science News",
-  "updatedAt": "2026-11-25T08:43:58.384Z",
+  "updatedAt": "2026-11-25T19:22:11.525Z",
   "articles": [
+    {
+      "title": "NASA Enhances Supplier Program, Announces Mentor-Protégé Agreement",
+      "link": "https://www.nasa.gov/organizations/osbp/nasa-enhances-supplier-program-announces-mentor-protege-agreement/",
+      "published": "2026-11-25T19:06:56.000Z",
+      "snippet": "How NASA works with small businesses is evolving, and as a result, the agency is strengthening the domestic aerospace industrial base to support future exploration missions through its recently renamed Small Business Supplier Development Program. As part of the program, NASA announced its latest Mentor-Protégé Agreement, this one signed between The Boeing Company and GRACE […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "NASA Eyes Crop Candidates for Future Menus",
+      "link": "https://science.nasa.gov/directorates/smd/nasa-eyes-crop-candidates-for-future-menus/",
+      "published": "2026-11-25T17:53:42.000Z",
+      "snippet": "As NASA prepares for future missions to the Moon and Mars, researchers are studying crops that could provide astronauts with fresh food, nutrition, and variety far from Earth. Such crop variety can help with menus in deep space, something top of mind this week as the nation celebrates Thanksgiving. Recent testing points to strawberries, […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "Childhood, Career Come Full Circle for Budget Analyst at NASA Goddard",
+      "link": "https://www.nasa.gov/centers-and-facilities/goddard/childhood-career-come-full-circle-for-budget-analyst-at-nasa-goddard/",
+      "published": "2026-11-25T16:47:29.000Z",
+      "snippet": "Conversations about NASA were the norm around the dinner table during Ashley Knight’s childhood. Her parents worked at NASA’s Goddard Space Flight Center in Greenbelt, Maryland, and discussions about happenings at the agency continued even when they came home from the office. “I remember a poignant dialogue we had after the space shuttle Challenger disaster,” […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "Eye of the Sahara",
+      "link": "https://www.nasa.gov/image-article/eye-of-the-sahara/",
+      "published": "2026-11-25T16:21:04.000Z",
+      "snippet": "The Richat Structure, also known as the \"Eye of the Sahara,\" is seen from the International Space Station as it orbited above on Nov. 14, 2026. It is an eroded geological dome about 100 million years old created by igneous activity and uplift in the nation of Mauritania. In this type of geologic structure, rocks […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "NASA’s Hubble Views Ocean of Stars in Groundwork for Roman",
+      "link": "https://science.nasa.gov/missions/hubble/nasas-hubble-views-ocean-of-stars-in-groundwork-for-roman/",
+      "published": "2026-11-25T14:56:54.000Z",
+      "snippet": "These Hubble observations are part of a survey that will help researchers better interpret upcoming Nancy Grace Roman Space Telescope observations as they seek to characterize the stars and search for exoplanets in this busy region of our galaxy.",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "Insects once had 24 legs",
+      "link": "https://www.snexplores.org/article/insects-had-24-legs",
+      "published": "2026-11-25T11:30:00.000Z",
+      "snippet": "A many-legged creature from long ago helps fill a major gap in the fossil record — and hints at how today’s insects ended up with just six legs.",
+      "summary": null,
+      "source": "Science"
+    },
     {
       "title": "APOD: 2026 November 25 – SPHEREx Seeing Through Dust",
       "link": "https://science.nasa.gov/image-article/apod-2026-november-25-spherex-seeing-through-dust/",
@@ -49,54 +97,6 @@
       "snippet": "NASA’s Northrop Grumman Commercial Resupply Services 25 mission, or Northrop Grumman CRS-25, will deliver about 11,000 pounds of science and supplies to the International Space Station. The mission will be the third flight of the company’s Cygnus XL, the larger, more cargo-capable version of the company’s solar-powered spacecraft. The Cygnus XL will launch aboard a […]",
       "summary": null,
       "source": "Space"
-    },
-    {
-      "title": "AGU Hyperwall Schedule",
-      "link": "https://science.nasa.gov/earth/agu-hyperwall-schedule/",
-      "published": "2026-11-24T18:55:42.000Z",
-      "snippet": "American Geophysical Union (AGU) 2026 Join NASA in the Exhibit Hall (Booth #525) for Hyperwall Storytelling by NASA experts. Full Hyperwall Agenda below. TUESDAY, NOVEMBER 17 10:30 AMHigh Resolution Hydrology Simulations and Agentic Super Intelligence Interfaces for Mapping Water Availability and ExtremesSujay Kumar11:00 AMScale-Resolving CFD Methods for Predicting Aircraft “Edge of the Flight...",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "Webb Reveals New Details in Supernova Remnant",
-      "link": "https://www.nasa.gov/image-article/webb-reveals-new-details-in-supernova-remnant/",
-      "published": "2026-11-24T16:51:27.000Z",
-      "snippet": "NASA’s James Webb Space Telescope reveals the hot dust that makes up Cassiopeia A (Cas A) in this high-resolution, mid-infrared image released on Nov. 23, 2026. Remnants like these are the clouds of gas and dust that remain following the explosion of a massive star and will eventually seed a new generation of stars and […]",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "NASA’s Titan-Bound Dragonfly Rotorcraft Gets Its Eyes",
-      "link": "https://science.nasa.gov/missions/dragonfly/nasas-titan-bound-dragonfly-rotorcraft-gets-its-eyes/",
-      "published": "2026-11-24T15:44:38.000Z",
-      "snippet": "Science instruments for NASA’s Dragonfly are starting to arrive at the Johns Hopkins Applied Physics Laboratory (APL) in Laurel, Maryland, where the car-sized rotorcraft is coming together for its mission to explore Saturn’s largest moon, Titan. First to check in: DragonCam, which consists of seven cameras designed to characterize Titan’s surface at multiple scales during […]",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "NASA Hubble’s New View of NGC 4394 Raises the Bar",
-      "link": "https://science.nasa.gov/missions/hubble/nasa-hubbles-new-view-of-ngc-4394-raises-the-bar/",
-      "published": "2026-11-24T13:58:28.000Z",
-      "snippet": "The brilliant galaxy NGC 4394 with its distinct galactic bar takes center stage in this Hubble Space Telescope image",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "Meet the first new living cat species described in more than a century",
-      "link": "https://www.snexplores.org/article/new-living-cat-species",
-      "published": "2026-11-24T11:30:00.000Z",
-      "snippet": "Genetic tests on two of these teeny tiger cats, found in Bolivia, show they constitute a new species. They add a new branch to the feline family tree.",
-      "summary": null,
-      "source": "Science"
-    },
-    {
-      "title": "Hydrogels could help stop wildfires from reigniting, teens find",
-      "link": "https://www.snexplores.org/article/hydrogels-stop-wildfire-reigniting-jic",
-      "published": "2026-11-24T11:30:00.000Z",
-      "snippet": "The brothers custom built a nozzle to spray their fire-retardant hydrogels up to 60 feet.",
-      "summary": null,
-      "source": "Science"
     }
   ]
 }
