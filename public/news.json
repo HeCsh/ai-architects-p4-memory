@@ -1,7 +1,23 @@
 {
   "topic": "Science News",
-  "updatedAt": "2026-11-26T03:37:02.172Z",
+  "updatedAt": "2026-11-26T16:59:38.432Z",
   "articles": [
+    {
+      "title": "APOD: 2026 November 26 – Eye in the Sky: The Milky Way over Lençóis",
+      "link": "https://science.nasa.gov/image-article/apod-2026-november-26-eye-in-the-sky-the-milky-way-over-lencois/",
+      "published": "2026-11-26T05:05:00.000Z",
+      "snippet": "APOD Science APOD APOD: 2026 November 26 – Eye… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Eye in […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "Seeking Refuge on Resolution Island",
+      "link": "https://science.nasa.gov/earth/earth-observatory/seeking-refuge-on-resolution-island/",
+      "published": "2026-11-26T05:01:00.000Z",
+      "snippet": "New Zealanders have long envisioned the island as a predator-free zone for native birds, but swimming stoats have shown a resolve of their own.",
+      "summary": null,
+      "source": "Space"
+    },
     {
       "title": "NASA Enhances Supplier Program, Announces Mentor-Protégé Agreement",
       "link": "https://www.nasa.gov/organizations/osbp/nasa-enhances-supplier-program-announces-mentor-protege-agreement/",
@@ -79,22 +95,6 @@
       "link": "https://www.nasa.gov/general/nasa-locks-in-sr1-freedom-mission-architecture/",
       "published": "2026-11-24T21:04:32.000Z",
       "snippet": "NASA completed a major review for Space Reactor-1 (SR-1) Freedom and locked in key elements of the spacecraft, which is targeted to launch in 2028 and demonstrate nuclear electric propulsion in deep space for the first time. Experts from across the agency, the U.S. Department of Energy (DOE), and industry met at NASA’s Glenn Research […]",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "Amateur Astronomer? Be a Kilonova Catcher!",
-      "link": "https://science.nasa.gov/get-involved/citizen-science/amateur-astronomer-be-a-kilonova-catcher/",
-      "published": "2026-11-24T19:19:52.000Z",
-      "snippet": "Neutron stars are the ultra-dense, city-sized leftovers of dead stars. When they collide, they can release a brief flash of light called a kilonova. These immensely powerful events forge much of the universe’s gold, platinum and other heavy elements. Since a kilonova fades within days, astronomers have to find it fast, and no single observatory […]",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "NASA’s Northrop Grumman CRS-25 Mission Overview",
-      "link": "https://www.nasa.gov/missions/station/nasas-northrop-grumman-crs-25-mission-overview/",
-      "published": "2026-11-24T19:09:16.000Z",
-      "snippet": "NASA’s Northrop Grumman Commercial Resupply Services 25 mission, or Northrop Grumman CRS-25, will deliver about 11,000 pounds of science and supplies to the International Space Station. The mission will be the third flight of the company’s Cygnus XL, the larger, more cargo-capable version of the company’s solar-powered spacecraft. The Cygnus XL will launch aboard a […]",
       "summary": null,
       "source": "Space"
     }
