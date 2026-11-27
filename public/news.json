@@ -1,7 +1,23 @@
 {
   "topic": "Science News",
-  "updatedAt": "2026-11-27T01:45:57.120Z",
+  "updatedAt": "2026-11-27T12:36:09.756Z",
   "articles": [
+    {
+      "title": "APOD: 2026 November 27 – The Moon Watchers",
+      "link": "https://science.nasa.gov/image-article/apod-2026-november-27-the-moon-watchers/",
+      "published": "2026-11-27T05:05:00.000Z",
+      "snippet": "APOD Science APOD APOD: 2026 November 27 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. The Moon Watchers […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "Shivelyuch Socked In",
+      "link": "https://science.nasa.gov/earth/earth-observatory/shivelyuch-socked-in/",
+      "published": "2026-11-27T05:01:00.000Z",
+      "snippet": "A cloud layer encircled the flanks of the volcano on the Kamchatka Peninsula but left its restless summit caldera in view.",
+      "summary": null,
+      "source": "Space"
+    },
     {
       "title": "APOD: 2026 November 26 – Eye in the Sky: The Milky Way over Lençóis",
       "link": "https://science.nasa.gov/image-article/apod-2026-november-26-eye-in-the-sky-the-milky-way-over-lencois/",
@@ -79,22 +95,6 @@
       "link": "https://science.nasa.gov/earth/earth-observatory/georgias-pecan-belt/",
       "published": "2026-11-25T05:00:00.000Z",
       "snippet": "Since an early-1900s planting boom, orchards along the Flint River in southwest Georgia have become a center of U.S. pecan production.",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "NASA+ Content Coming to Big Screen at Greenbelt, Maryland Cinema",
-      "link": "https://www.nasa.gov/nasa/nasa-content-coming-to-big-screen-at-greenbelt-maryland-cinema/",
-      "published": "2026-11-24T21:14:36.000Z",
-      "snippet": "NASA announced Monday that NASA+ content has found its first theatrical home at The Greenbelt Cinema in Greenbelt, Maryland, expanding the agency’s reach across major viewing platforms and bringing space even closer to home. “The National Aeronautics and Space Act of 1958 calls us to share our story of space exploration with the broadest possible […]",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "Teams Lock in Mission Architecture for NASA’s SR-1 Freedom",
-      "link": "https://www.nasa.gov/general/nasa-locks-in-sr1-freedom-mission-architecture/",
-      "published": "2026-11-24T21:04:32.000Z",
-      "snippet": "NASA completed a major review for Space Reactor-1 (SR-1) Freedom and locked in key elements of the spacecraft, which is targeted to launch in 2028 and demonstrate nuclear electric propulsion in deep space for the first time. Experts from across the agency, the U.S. Department of Energy (DOE), and industry met at NASA’s Glenn Research […]",
       "summary": null,
       "source": "Space"
     }
