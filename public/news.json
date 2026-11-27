@@ -1,7 +1,23 @@
 {
   "topic": "Science News",
-  "updatedAt": "2026-11-27T12:36:09.756Z",
+  "updatedAt": "2026-11-27T23:29:59.074Z",
   "articles": [
+    {
+      "title": "Artemis III Astronaut Andre Douglas Visits VAB",
+      "link": "https://www.nasa.gov/image-article/artemis-iii-astronaut-andre-douglas-visits-vab/",
+      "published": "2026-11-27T15:01:00.000Z",
+      "snippet": "NASA astronaut Andre Douglas, Artemis III mission specialist, stands inside an RS-25 engine test article during a visit to the Vehicle Assembly Building at NASA’s Kennedy Space Center in Florida on Tuesday, Nov. 17, 2026. During Artemis III, four RS-25 engines will power the SLS (Space Launch System) rocket core stage to send the Orion […]",
+      "summary": null,
+      "source": "Space"
+    },
+    {
+      "title": "NASA’s NG-25 Mission to Launch Pioneering Space Crops Research",
+      "link": "https://science.nasa.gov/science-research/biological-physical-sciences/nasas-ng-25-mission-to-launch-pioneering-space-crops-research/",
+      "published": "2026-11-27T14:22:00.000Z",
+      "snippet": "NASA experiments, including a first-of-its-kind space crop production system, will travel to the International Space Station aboard Northrop Grumman’s 25th Commercial Resupply Services mission for the agency. Investigations from NASA’s Biological and Physical Sciences Division will advance research that benefits life on Earth and future exploration, expanding knowledge of space crops and human...",
+      "summary": null,
+      "source": "Space"
+    },
     {
       "title": "APOD: 2026 November 27 – The Moon Watchers",
       "link": "https://science.nasa.gov/image-article/apod-2026-november-27-the-moon-watchers/",
@@ -81,22 +97,6 @@
       "snippet": "A many-legged creature from long ago helps fill a major gap in the fossil record — and hints at how today’s insects ended up with just six legs.",
       "summary": null,
       "source": "Science"
-    },
-    {
-      "title": "APOD: 2026 November 25 – SPHEREx Seeing Through Dust",
-      "link": "https://science.nasa.gov/image-article/apod-2026-november-25-spherex-seeing-through-dust/",
-      "published": "2026-11-25T05:05:00.000Z",
-      "snippet": "APOD Science APOD APOD: 2026 November 25 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. To view this […]",
-      "summary": null,
-      "source": "Space"
-    },
-    {
-      "title": "Georgia’s Pecan Belt",
-      "link": "https://science.nasa.gov/earth/earth-observatory/georgias-pecan-belt/",
-      "published": "2026-11-25T05:00:00.000Z",
-      "snippet": "Since an early-1900s planting boom, orchards along the Flint River in southwest Georgia have become a center of U.S. pecan production.",
-      "summary": null,
-      "source": "Space"
     }
   ]
 }
