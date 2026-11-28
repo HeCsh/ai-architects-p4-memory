@@ -1,7 +1,15 @@
 {
   "topic": "Science News",
-  "updatedAt": "2026-11-27T23:29:59.074Z",
+  "updatedAt": "2026-11-28T07:56:48.709Z",
   "articles": [
+    {
+      "title": "APOD: 2026 November 28 – Apollo 17 VIP Site Anaglyph",
+      "link": "https://science.nasa.gov/image-article/apod-2026-november-28-apollo-17-vip-site-anaglyph/",
+      "published": "2026-11-28T05:05:00.000Z",
+      "snippet": "APOD Science APOD APOD: 2026 November 28 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Apollo 17 VIP […]",
+      "summary": null,
+      "source": "Space"
+    },
     {
       "title": "Artemis III Astronaut Andre Douglas Visits VAB",
       "link": "https://www.nasa.gov/image-article/artemis-iii-astronaut-andre-douglas-visits-vab/",
@@ -89,14 +97,6 @@
       "snippet": "These Hubble observations are part of a survey that will help researchers better interpret upcoming Nancy Grace Roman Space Telescope observations as they seek to characterize the stars and search for exoplanets in this busy region of our galaxy.",
       "summary": null,
       "source": "Space"
-    },
-    {
-      "title": "Insects once had 24 legs",
-      "link": "https://www.snexplores.org/article/insects-had-24-legs",
-      "published": "2026-11-25T11:30:00.000Z",
-      "snippet": "A many-legged creature from long ago helps fill a major gap in the fossil record — and hints at how today’s insects ended up with just six legs.",
-      "summary": null,
-      "source": "Science"
     }
   ]
 }
